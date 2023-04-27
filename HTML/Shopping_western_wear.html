@@ -1,0 +1,312 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-----Favicon----->
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
+
+    <!-----Google Fonts----->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;900&display=swap" rel="stylesheet">
+
+    <!-----Font Awesome----->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!-----Glidejs----->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/css/glide.core.css">
+
+    <!-----Animate Css----->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+    <!-----Custom Css----->
+    <link rel="stylesheet" href="HOME.css">
+
+    <title>SuvidhaKart</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        .row {
+            display: block;
+            margin: 20px 0;
+            display: flex;
+        }
+
+        .column {
+            background-color: white;
+            float: left;
+            margin: 0 10px 10px 0;
+            width: 205px;
+            padding: 10px;
+        }
+
+        h3 {
+            font-size: 1.8rem;
+            font-weight: 900;
+            display: block;
+            border: 1p solid #ccc;
+        }
+  
+        button {
+            padding: 4px 14px;
+            background-color: #f60091;
+            color: rgb(255, 255, 255);
+            text-transform: uppercase;
+            flex: right;
+            margin: 5px 0;
+            font-weight: 400;
+            cursor: pointer;
+            font-family: Tahoma;
+            border-radius: 50px;
+        }
+        .column img{
+        height: 25rem;
+        width: 100%;
+        transition: all 500ms linear;
+        }
+
+        .column:hover img{
+        transform: scale(1.1);
+        }
+        /* Create three equal columns that sits next to each other */
+        .column {
+            flex: 33.33%;
+            padding: 5px;
+        }
+        .color {
+            color: white;
+        }
+    </style>
+</head>
+<body class="">
+    <!-----Header----->
+    <header class="header" id="header">
+        <nav class="navigation">
+            <div class="nav-center container">
+                <a href="#home" class="logo">
+                    <h1>SUVIDHA<span>K</span>ART</h1>
+                </a>
+
+                <div class="nav-menu-show">
+                    <div class="nav-top">
+                        <div class="logo">
+                            <h1>SUVIDHA<span>K</span>ART</h1>
+                        </div>
+                        <div class="close">
+                            <i class="fas fa-times"></i>
+
+                        </div>
+                    </div>
+
+                    <ul class="nav-list">
+                        <li class="nav-item">
+                            <a href="#home" class="nav-link scroll-link">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#shop" class="nav-link scroll-link">Products</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#new" class="nav-link scroll-link">New</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#recent" class="nav-link scroll-link">Recent</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#blog" class="nav-link scroll-link">Blog</a>
+                        </li>
+
+                    </ul>
+                </div>
+                <div class="nav-icons">
+                    <a style="color: #f60091;" href="login.html"><span><i class="fas fa-user"></i></span></a>
+                    <span  style="color: #f60091;"><i class="fas fa-search"></i></span>
+                    <span  style="color: #f60091;"><i class="fas fa-shopping-cart"></i></span>    
+                </div>
+                <div class="hamburger">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="column">
+                    <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/2525392/2019/5/2/f9f13ec3-c11a-460a-b35a-9f6ec31590871556781497682-RARE-Women-Blue-Printed-Maxi-Dress-3951556781495634-1.jpg" style="width:60%">
+                    <br>
+                    <h3>RARE</h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;"> Silk Solid Wear</p>
+                    <p>
+                        Rs. 889
+                    </p>
+                    <button class="add-to-cart" type="button">
+                        <a class="color" href="page1ww.html">  ADD TO CART </a>
+                      </button>
+
+
+                </div>
+                <div class="column">
+                    <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/12133332/2020/7/29/37e7ca57-71b2-44eb-a1bd-70f2a4d7c7521596018924513KSUTfuchsiaabstractprintedflaredfulllengthplacketkurtawithro1.jpg" style="width:60%">
+                    <br>
+                    <h3>Libas</h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;"> Silk Solid Wear</p>
+                    <p>
+                        Rs. 645
+                    </p>
+                    <button class="add-to-cart" type="button">
+                        <a class="color" href="page2ww.html">  ADD TO CART </a>
+                      </button>
+                </div>
+                <div class="column">
+                    <img src="https://assets.myntassets.com/f_webp,dpr_1.8,q_60,w_210,c_limit,fl_progressive/assets/images/productimage/2021/5/6/eea51067-b0b9-4247-be7b-dcbf0886b1331620289603445-1.jpg" style="width:60%">
+                    <br>
+                    <h3>Aawari</h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;"> Silk Solid Wear</p>
+                    <p>
+                        Rs. 705
+                    </p>
+                    <button class="add-to-cart" type="button">
+                        <a class="color" href="page3ww.html">  ADD TO CART </a>
+                      </button>
+                </div>
+                <div class="column">
+                    <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/13719124/2021/3/4/83636603-be5e-46a7-8071-58b828b858ef1614838465712-Athena-Purple-dress-with-Power-shoulderS--Tulip-Bottom-89016-1.jpg" style="width:60%">
+                    <br>
+                    <h3>Athena</h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;"> Silk Solid Wear</p>
+                    <p>
+                        Rs. 1079
+                    </p>
+                    <button class="add-to-cart" type="button">
+                        <a class="color" href="page4ww.html">  ADD TO CART </a>
+                      </button>
+                </div>
+            </div>
+            <div class="row">
+                <div class="column">
+                    <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/10308653/2019/7/29/4b4374d2-0067-40c3-bc30-7a6f2d228df71564401122087-SASSAFRAS-Women-Pink-Maxi-Dress-4111564401120260-1.jpg" style="width:60%">
+                    <br>
+                    <h3>SASSAFRAS</h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;"> Silk Solid Wear</p>
+                    <p>
+                        Rs. 849
+                    </p>
+                    <button class="add-to-cart" type="button">
+                        <a class="color" href="page5ww.html">  ADD TO CART </a>
+                      </button>
+                </div>
+                <div class="column">
+                    <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/productimage/2021/5/19/58357f89-b594-4028-a050-64dcf35648cb1621398135902-1.jpg" style="width:60%">
+                    <br>
+                    <h3>H&M</h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;"> Silk Solid Wear</p>
+                    <p>
+                        Rs. 1724 
+                    </p>
+                    <button class="add-to-cart" type="button">
+                        <a class="color" href="page6ww.html">  ADD TO CART </a>
+                      </button>
+                </div>
+                <div class="column">
+                    <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/4924933/2018/4/16/11523866683964-Tokyo-Talkies-Women-Grey-Printed-Fit-and-Flare-Dress-8361523866683651-1.jpg" style="width:60%">
+                    <br>
+                    <h3>Tokyo Talkies</h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;"> Silk Solid Wear</p>
+                    <p>
+                        Rs. 730
+                    </p>
+                    <button class="add-to-cart" type="button">
+                        <a class="color" href="page7ww.html">  ADD TO CART </a>
+                      </button>
+                </div>
+                <div class="column">
+                    <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/productimage/2020/7/3/8a89c0f5-8cdc-4389-b6c0-eef78ea7367d1593726806405-1.jpg" style="width:60%">
+                    <br>
+                    <h3>Berrylush</h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;"> Silk Solid Wear</p>
+                    <p>
+                        Rs. 321
+                    </p>
+                    <button class="add-to-cart" type="button">
+                        <a class="color" href="page8ww.html">  ADD TO CART </a>
+                      </button>
+                </div>
+
+            </div>
+            <div class="row">
+                <div class="column">
+                    <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/14210744/2021/5/24/ba7669b6-7e50-40a8-9925-d3087e56f0331621832465372MANGOWomenWhiteSolidOrganicCottonBoxyApronTopTopsMANGOWomenD1.jpg" style="width:60%">
+                    <br>
+                    <h3>MANGO</h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;"> Silk Solid Wear</p>
+                    <p>
+                        Rs. 3354
+                    </p>
+                    <button class="add-to-cart" type="button">
+                        <a class="color" href="page9ww.html">  ADD TO CART </a>
+                      </button>
+                </div>
+                <div class="column">
+                    <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/productimage/2021/6/2/03d66c28-720d-4234-85f2-4bd8fcbf4c811622624392685-1.jpg" style="width:60%">
+                    <br>
+                    <h3>LY2</h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;"> Silk Solid Wear</p>
+                    <p>
+                        Rs. 1919
+                    </p>
+                    <button class="add-to-cart" type="button">
+                        <a class="color" href="page10ww.html">  ADD TO CART </a>
+                      </button>
+                </div>
+                <div class="column">
+                    <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/11549520/2020/2/27/0fb753b1-dd14-45cc-bf36-453770785bc91582785683941-SASSAFRAS-Women-Sea-Green-Dobby-Weave-A-Line-Dress-660158278-1.jpg" style="width:60%">
+                    <br>
+                    <h3>SASSAFRAS</h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;"> Silk Solid Wear</p>
+                    <p>
+                        Rs. 628
+                    </p>
+                    <button class="add-to-cart" type="button">
+                        <a class="color" href="page11ww.html">  ADD TO CART </a>
+                      </button>
+                </div>
+                <div class="column">
+                    <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/8841663/2019/3/5/0c938c9e-2195-4d63-9314-56b1669d8fe71551771994609-La-Zoire-Band-Collar-Layered-Dress-1621551771993563-1.jpg" style="width:60%">
+                    <br>
+                    <h3>La Zoire</h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;"> Silk Solid Wear</p>
+                    <p>
+                        Rs. 799 
+                    </p>
+                    <button class="add-to-cart" type="button">
+                        <a class="color" href="page12ww.html">  ADD TO CART </a>
+                      </button>
+                </div>
+
+            
+                
+            </div>
+
+
+        </nav>
+    </header>
+
+    <!-----End Header----->
+    <!-----Main----->
+    <!-----End Main----->
+    <!-----Footer----->
+    <!-----End Footer----->
+    <!-----Glidejs----->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/glide.min.js"></script>
+
+    <!-----Scripts----->
+    <script src="./js/index.js"></script>
+    <script src="./js/product.js"></script>
+    <script src="./js/slider.js"></script>
+</body>
+</html>

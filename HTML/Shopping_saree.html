@@ -1,0 +1,363 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-----Favicon----->
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
+
+    <!-----Google Fonts----->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;900&display=swap" rel="stylesheet">
+
+    <!-----Font Awesome----->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!-----Glidejs----->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/css/glide.core.css">
+
+    <!-----Animate Css----->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+    <!-----Custom Css----->
+    <link rel="stylesheet" href="styles.css">
+
+    <title>SuvidhaKart</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        .row {
+            display: block;
+            margin: 20px 0;
+            display: flex;
+        }
+
+        .column {
+            background-color: white;
+            float: left;
+            margin: 0 10px 10px 0;
+            width: 205px;
+            padding: 10px;
+        }
+
+        h3 {
+            font-size: 1.8rem;
+            font-weight: 900;
+            display: block;
+            border: 1p solid #ccc;
+        }
+  
+        button {
+            padding: 4px 14px;
+            background-color: #f60091;
+            color: rgb(255, 255, 255);
+            text-transform: uppercase;
+            flex: right;
+            margin: 5px 0;
+            font-weight: 400;
+            cursor: pointer;
+            font-family: Tahoma;
+            border-radius: 50px;
+        }
+        .column img{
+        height: 25rem;
+        width: 100%;
+        transition: all 500ms linear;
+        }
+
+        .column:hover img{
+        transform: scale(1.1);
+        }
+        /* Create three equal columns that sits next to each other */
+        .column {
+            flex: 33.33%;
+            padding: 5px;
+        }
+        .color {
+            color: white;
+        }
+
+
+    </style>
+</head>
+<body class="">
+    <!-----Header----->
+    <header class="header" id="header">
+        <nav class="navigation">
+            <div class="nav-center container">
+                <a href="#home" class="logo">
+                    <h1>SUVIDHA<span>K</span>ART</h1>
+                </a>
+
+                <div class="nav-menu-show">
+                    <div class="nav-top">
+                        <div class="logo">
+                            <h1>SUVIDHA<span>K</span>ART</h1>
+                        </div>
+                        <div class="close">
+                            <i class="fas fa-times"></i>
+
+                        </div>
+                    </div>
+
+                    <ul class="nav-list">
+                        <li class="nav-item">
+                            <a href="#home" class="nav-link scroll-link">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#new" class="nav-link scroll-link">New</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#recent" class="nav-link scroll-link">Recent</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#blog" class="nav-link scroll-link">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link scroll-link">Contact Us</a>
+                        </li>
+
+                    </ul>
+                </div>
+                <div class="nav-icons">
+                    <a style="color: #f60091;" href="login.html"><span><i class="fas fa-user"></i></span></a>
+                    <span  style="color: #f60091;"><i class="fas fa-search"></i></span>
+                    <span  style="color: #f60091;"><i class="fas fa-shopping-cart"></i></span>
+                </div>
+                <div class="hamburger">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="column">
+                    <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/12564560/2020/10/11/982b4a0a-96f7-4871-8fce-1f2b83c350261602402688515SareemallSeaGreenPolyChiffonSolidEthnicPartywearSareewithMat1.jpg" style="width:60%">
+                    <br>
+                    <h3>Saree Mall</h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;">Blue & Golden Quirky Print Saree</p>
+                    <p>
+                        Rs. 599
+                    </p>
+                    <button class="add-to-cart" type="button">
+                      <a class="color" href="page1saree.html">  ADD TO CART </a>
+                    </button>
+
+
+                </div>
+                <div class="column">
+                    <img src="https://assets.myntassets.com/f_webp,dpr_1.8,q_60,w_210,c_limit,fl_progressive/assets/images/10684980/2019/10/15/78d83031-09e1-4c04-b3c1-40c190d452281571121382484-Inddus-Purple-Solid-Silk-Blend-Saree-6951571121380989-1.jpg" style="width:60%">
+                    <br>
+                    <h3>Inddus</h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;"> Silk Solid Saree</p>
+                    <p>
+                        Rs. 1879
+                    </p>
+                    <button class="add-to-cart" type="button">
+                      <a class="color" href="page2saree.html" > ADD TO CART </a>
+                    </button>
+                </div>
+                <div class="column">
+                    <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/productimage/2021/3/23/af73f916-06e0-4a66-a9f4-6093e343bafa1616501567030-1.jpg" style="width:60%">
+                    <br>
+                    <h3>Chennai silk</h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;">Design Jute Silk Saree</p>
+                    <p>
+                        Rs. 2024
+                    </p>
+                    <button class="add-to-cart" type="button">
+                      <a class="color" href="page3saree.html">  ADD TO CART </a>
+                    </button>
+                </div>
+                <div class="column">
+                    <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/10483960/2019/9/18/11cd5bc1-b228-43ce-a3be-d5da08ffc89e1568805705129-Tikhi-Imli-Women-Sarees-6091568805703619-1.jpg" style="width:60%">
+                    <br>
+                    <h3>Tikhi imli</h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;">Heavy Work Saree</p>
+                    <p>
+                        Rs. 999
+                    </p>
+                    <button class="add-to-cart" type="button">
+                      <a class="color" href="page4saree.html">  ADD TO CART </a>
+                    </button>
+                </div>
+            </div>
+            <div class="row">
+                <div class="column">
+                    <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/productimage/2019/12/14/8251f9a2-101f-4a4d-bc9c-73a36570573f1576285313782-1.jpg" style="width:60%">
+                    <br>
+                    <h3>Mitera</h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;">Blue Embroidered Saree</p>
+                    <p>
+                        Rs. 989
+                    </p>
+                    <button class="add-to-cart" type="button">
+                      <a class="color" href="page5saree.html"> ADD TO CART </a>
+                    </button>
+                </div>
+                <div class="column">
+                    <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/productimage/2021/6/4/9f53684f-a9f9-4084-9d36-c351d0d70bec1622827071120-1.jpg" style="width:60%">
+                    <br>
+                    <h3>Sangria</h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;">Light Designer Saree</p>
+                    <p>
+                        Rs. 1343
+                    </p>
+                    <button class="add-to-cart" type="button">
+                      <a class="color" href="page6saree.html"> ADD TO CART </a>
+                    </button>
+                </div>
+                <div class="column">
+                    <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/11473172/2020/2/24/807e629f-be87-4e98-aab3-fa6a96156afb1582536688909-Lycra-Ready-to-Drape-Black-Sequin-Saree-with-cold-shoulder-n-1.jpg" style="width:60%">
+                    <br>
+                    <h3>Mitera</h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;">Blend Woven Kanjeevaram Saree</p>
+                    <p>
+                        Rs. 1662
+                    </p>
+                    <button class="add-to-cart" type="button">
+                      <a class="color" href="page7saree.html"> ADD TO CART </a>
+                    </button>
+                </div>
+                <div class="column">
+                    <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/productimage/2021/5/25/a2c32671-3cb9-46cc-81c1-a722ddbf4c1e1621929685104-1.jpg" style="width:60%">
+                    <br>
+                    <h3>Sangria</h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;"> Embroidered Saree</p>
+                    <p>
+                        Rs. 1484
+                    </p>
+                    <button class="add-to-cart" type="button">
+                      <a class="color" href="page8saree.html" > ADD TO CART </a>
+                    </button>
+                </div>
+
+            </div>
+            <div class="row">
+                <div class="column">
+                    <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/11165184/2020/1/13/7021b9f0-1111-4c3f-874a-24be2dd68ff71578914561894-Rajnandini-Beige-Cotton-Woven-Traditional-Saree-With-Tassel--1.jpg" style="width:60%">
+                    <br>
+                    <h3>Rajnandini</h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;">Cotton Blend Solid Banarasi Saree</p>
+                    <p>
+                        Rs. 673
+                    </p>
+                    <button class="add-to-cart" type="button">
+                      <a class="color" href="page9saree.html"> ADD TO CART </a>
+                    </button>
+                </div>
+                <div class="column">
+                    <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/12631360/2020/10/23/44388258-c3f6-4df6-a5e0-df33748d16fd1603429416560-Inddus-Women-Sarees-6001603429414383-1.jpg" style="width:60%">
+                    <br>
+                    <h3>Inddus</h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;">Heavy Partywear Saree</p>
+                    <p>
+                        Rs. 2474
+                    </p>
+                    <button class="add-to-cart" type="button">
+                      <a class="color" href="page10saree.html"> ADD TO CART </a>
+                    </button>
+                </div>
+                <div class="column">
+                    <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/productimage/2021/5/25/4882b723-f258-4a50-9fc1-796b373e94a01621941759664-1.jpg" style="width:60%">
+                    <br>
+                    <h3>Pothys</h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;">Hand Dyed Bandhani Printed Saree</p>
+                    <p>
+                        Rs. 1296
+                    </p>
+                    <button class="add-to-cart" type="button">
+                      <a class="color" href="page11saree.html"> ADD TO CART </a>
+                    </button>
+                </div>
+                <div class="column">
+                    <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/10853060/2019/12/3/7b50510f-319f-4ebd-baca-da0f31b570f91575364939365-GoSriki-Black-Art-Silk-Blend-Solid-Plain-Saree-1901575364937-1.jpg" style="width:60%">
+                    <br>
+                    <h3>GoSriKi</h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;">Printed Poly Crepe Saree</p>
+                    <p>
+                        Rs. 653
+                    </p>
+                    <button class="add-to-cart" type="button">
+                     <a class="color" href="page12saree.html">  ADD TO CART </a>
+                    </button>
+                </div>
+
+            </div>
+            <div class="row">
+                <div class="column">
+                    <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/productimage/2020/7/4/5acffc84-5947-485e-9000-7d2c012be8bf1593812892226-1.jpg" style="width:60%">
+                    <br>
+                    <h3>Unnati Silk</h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;">Banarasi Silk Saree</p>
+                    <p>
+                        Rs. 5927
+                    </p>
+                    <button class="add-to-cart" type="button">
+                       <a class="color" href="page13saree.html"> ADD TO CART </a>
+                    </button>
+                </div>
+                <div class="column">
+                    <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/productimage/2019/9/11/0a5023de-f0ea-4a6c-86fb-6a85177094321568152145484-1.jpg" style="width:60%">
+                    <br>
+                    <h3>Mitera</h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;">Pink Print Saree</p>
+                    <p>
+                        Rs. 1599
+                    </p>
+                    <button class="add-to-cart" type="button">
+                      <a class="color" href="page14saree.html"> ADD TO CART </a>
+                    </button>
+                </div>
+                <div class="column">
+                    <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/12748270/2020/11/11/b7bd3227-129a-41d3-bfdf-c55c341512d21605090388240-Light-Green-Polyster-Chiffon-Emblished-Solid-Saree---VDXMAIT-1.jpg" style="width:60%">
+                    <br>
+                    <h3>Mitera</h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;">Embellished Saree</p>
+                    <p>
+                        Rs. 1134
+                    </p>
+                    <button class="add-to-cart" type="button">
+                      <a class="color" href="page15saree.html" > ADD TO CART </a>
+                    </button>
+                </div>
+                <div class="column">
+                    <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/12511490/2020/11/10/3706d2ae-8214-46d3-93c1-071495c7b4381604983147783-Pothys-Women-Sarees-3721604983145555-1.jpg" style="width:60%">
+                    <br>
+                    <h3>Pothy</h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;">Green & Red Floral Saree</p>
+                    <p>
+                        Rs. 2260 
+                    </p>
+                    <button class="add-to-cart" type="button">
+                     <a class="color" href="page16saree.html">  ADD TO CART </a>
+                    </button>
+                </div>
+
+            </div>
+
+
+        </nav>
+    </header>
+
+    <!-----End Header----->
+    <!-----Main----->
+    <!-----End Main----->
+    <!-----Footer----->
+    <!-----End Footer----->
+    <!-----Glidejs----->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/glide.min.js"></script>
+
+    <!-----Scripts----->
+    <script src="./js/index.js"></script>
+    <script src="./js/product.js"></script>
+    <script src="./js/slider.js"></script>
+</body>
+</html>

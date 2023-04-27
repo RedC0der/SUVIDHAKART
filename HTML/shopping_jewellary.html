@@ -1,0 +1,315 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-----Favicon----->
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
+
+    <!-----Google Fonts----->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;900&display=swap" rel="stylesheet">
+
+    <!-----Font Awesome----->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!-----Glidejs----->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/css/glide.core.css">
+
+    <!-----Animate Css----->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+    <!-----Custom Css----->
+    <link rel="stylesheet" href="HOME.css">
+
+    <title>SuvidhaKart</title>
+    <style>
+    * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        .row {
+            display: block;
+            margin: 20px 0;
+            display: flex;
+        }
+
+        .column {
+            background-color: white;
+            float: left;
+            margin: 0 10px 10px 0;
+            width: 205px;
+            padding: 10px;
+        }
+
+        h3 {
+            font-size: 1.8rem;
+            font-weight: 900;
+            display: block;
+            border: 1p solid #ccc;
+        }
+  
+        button {
+            padding: 4px 14px;
+            background-color: #f60091;
+            color: rgb(255, 255, 255);
+            text-transform: uppercase;
+            flex: right;
+            margin: 5px 0;
+            font-weight: 400;
+            cursor: pointer;
+            font-family: Tahoma;
+            border-radius: 50px;
+        }
+        .column img{
+        height: 25rem;
+        width: 100%;
+        transition: all 500ms linear;
+        }
+
+        .column:hover img{
+        transform: scale(1.1);
+        }
+        /* Create three equal columns that sits next to each other */
+        .column {
+            flex: 33.33%;
+            padding: 5px;
+        }
+        .color {
+            color: white;
+        }
+
+    </style>
+</head>
+<body class="">
+    <!-----Header----->
+    <header class="header" id="header">
+        <nav class="navigation">
+            <div class="nav-center container">
+                <a href="#home" class="logo">
+                    <h1>SUVIDHA<span>K</span>ART</h1>
+                </a>
+
+                <div class="nav-menu-show">
+                    <div class="nav-top">
+                        <div class="logo">
+                            <h1>SUVIDHA<span>K</span>ART</h1>
+                        </div>
+                        <div class="close">
+                            <i class="fas fa-times"></i>
+
+                        </div>
+                    </div>
+
+                    <ul class="nav-list">
+                        <li class="nav-item">
+                            <a href="#home" class="nav-link scroll-link">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#shop" class="nav-link scroll-link">Products</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#new" class="nav-link scroll-link">New</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#recent" class="nav-link scroll-link">Recent</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#blog" class="nav-link scroll-link">Blog</a>
+                        </li>
+
+                    </ul>
+                </div>
+                <div class="nav-icons">
+                    <a style="color: #f60091;" href="login.html"><span><i class="fas fa-user"></i></span></a>
+                    <span  style="color: #f60091;"><i class="fas fa-search"></i></span>
+                    <span  style="color: #f60091;"><i class="fas fa-shopping-cart"></i></span>
+                </div>
+                <div class="hamburger">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="column">
+                    <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/12361312/2020/12/2/112a2f53-f140-418e-aca8-ae14591449501606897356910-Priyaasi-Oxidised-Silver-Plated-German-Silver-Jewellery-Set--1.jpg" style="width:60%">
+                    <br>
+                    <h3>Priyaasi</h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;">German Silver Jewellery Set</p>
+                    <p>
+                        Rs. 557
+                    </p>
+                    <button class="add-to-cart" typr="button">
+                        <a class="color" href="page1jewel.html">  ADD TO CART </a>
+                    </button>
+
+
+                </div>
+                <div class="column">
+                    <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/productimage/2021/5/15/74ef45d3-2acd-4a8b-a3a2-dc099955d0551621056130389-1.jpg" style="width:60%">
+                    <br>
+                    <h3>YouBella</h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;">Gold-Plated Layered Chain</p>
+                    <p>
+                        Rs. 449
+                    </p>
+                    <button class="add-to-cart" typr="button">
+                        <a class="color" href="page2jewel.html">  ADD TO CART </a>
+                    </button>
+                </div>
+                <div class="column">
+                    <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/productimage/2019/1/18/a562d5c6-be6c-4871-a064-a4c0c05aa8df1547817077168-1.jpg" style="width:60%">
+                    <br>
+                    <h3>PANASH
+                    </h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;">Silver-Plated & Pink Oxidised Jhumkas</p>
+                    <p>
+                        Rs. 279
+                    </p>
+                    <button class="add-to-cart" typr="button">
+                        <a class="color" href="page3jewel.html"> ADD TO CART </a>
+                    </button>
+                </div>
+                <div class="column">
+                    <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/productimage/2021/2/18/fca82fae-7bbc-4970-94a8-a948ec7dc2771613625082995-1.jpg" style="width:60%">
+                    <br>
+                    <h3>Shining Diva</h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;">Antique Gold-Plated Handcrafted Bangles</p>
+                    <p>
+                        Rs. 374
+                    </p>
+                    <button class="add-to-cart" typr="button">
+                        <a class="color" href="page4jewel.html">ADD TO CART </a>
+                    </button>
+                </div>
+            </div>
+            <div class="row">
+                <div class="column">
+                    <img src="mangalsutra.jpg" style="width:60%">
+                    <br>
+                    <h3>Priyaasi</h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;">Gold-Plated Beaded Mangalsutra</p>
+                    <p>
+                        Rs. 695
+                    </p>
+                    <button class="add-to-cart" typr="button">
+                        <a class="color" href="page5jewel.html"> ADD TO CART </a>
+                    </button>
+                </div>
+                <div class="column">
+                    <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/productimage/2021/3/10/c5b67c6b-2232-4783-80fe-80fce31469d81615379903633-1.jpg" style="width:60%">
+                    <br>
+                    <h3>Crunchy Fashion</h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;">Gold-Toned Twisted Half Hoop Earrings</p>
+                    <p>
+                        Rs. 362
+                    </p>
+                    <button class="add-to-cart" typr="button">
+                        <a class="color" href="page6jewel.html"> ADD TO CART </a>
+                    </button>
+                </div>
+                <div class="column">
+                    <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/10590614/2019/12/6/441186f8-eba5-4d41-82b2-a0ab8b16f1f41575637835961-Priyaasi-Rose-Gold-Plated-American-Diamond-Studded-Handcraft-1.jpg" style="width:60%">
+                    <br>
+                    <h3>Priyaasi</h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;">Beaded Handcrafted Jewellery Set</p>
+                    <p>
+                        Rs. 1819
+                    </p>
+                    <button class="add-to-cart" typr="button">
+                        <a class="color" href="page7jewel.html"> ADD TO CART </a>
+                    </button>
+                </div>
+                <div class="column">
+                    <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/10521606/2019/10/11/a13ad148-26d2-4851-b222-cea735c74ded1570790769444-Jewels-Galaxy-Set-of-3-Gold-Plated-Bracelets-813157079076822-1.jpg" style="width:60%">
+                    <br>
+                    <h3>Jewels Galaxy</h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;">Set of 4 Gold-Plated Bracelets</p>
+                    <p>
+                        Rs. 384
+                    </p>
+                    <button class="add-to-cart" typr="button">
+                        <a class="color" href="page8jewel.html">   ADD TO CART </a>
+                    </button>
+                </div>
+
+            </div>
+            <div class="row">
+                <div class="column">
+                    <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/10296359/2019/8/19/52a7b56c-710b-461a-82a5-ba734a2a97ca1566214953380-Zaveri-Pearls-Gold-Toned--White-Oversized-Studs-745156621495-1.jpg" style="width:60%">
+                    <br>
+                    <h3>Zaveri Pearls</h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;">Silver-Toned Contemporary Jhumkas</p>
+                    <p>
+                        Rs. 300
+                    </p>
+                    <button class="add-to-cart" typr="button">
+                        <a class="color" href="page9jewel.html">  ADD TO CART </a>
+                    </button>
+                </div>
+                <div class="column">
+                    <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/10552284/2019/10/23/d7caa40e-e098-4f03-a4d2-526f65e5045a1571831360146-Carlton-London-Rose-Gold-Plated-Necklace-7501571831359427-1.jpg" style="width:60%">
+                    <br>
+                    <h3>Carlton London</h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;">Rose Gold-Plated Embellished Necklace</p>
+                    <p>
+                        Rs. 472
+                    </p>
+                    <button class="add-to-cart" typr="button">
+                        <a class="color" href="page10jewel.html"> ADD TO CART </a>
+                    </button>
+                </div>
+                <div class="column">
+                    <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/10564392/2019/11/13/6de5d24c-7684-4159-86a3-e2146e301b9b1573647014965-Priyaasi-Set-of-2-Antique-Gold-Plated-Handcrafted-Bangles-90-1.jpg" style="width:60%">
+                    <br>
+                    <h3>Priyaasi</h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;"> Antique Gold-Plated Handcrafted Bangles</p>
+                    <p>
+                        Rs. 338
+                    </p>
+                    <button class="add-to-cart" typr="button">
+                        <a class="color" href="page11jewel.html">  ADD TO CART </a>
+                    </button>
+                </div>
+                <div class="column">
+                    <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/12631778/2021/2/3/a584fadf-4269-41b0-87f3-88459046369c1612342412222-Jewels-Galaxy-Women-Set-of-6-Gold-Plated-Earrings-8641612342-1.jpg" style="width:60%">
+                    <br>
+                    <h3>Jewels Galaxy</h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;">Gold-Toned Contemporary Studs</p>
+                    <p>
+                        Rs. 509
+                    </p>
+                    <button class="add-to-cart" typr="button">
+                        <a class="color" href="page12jewel.html">  ADD TO CART </a>
+                    </button>
+                </div>
+
+            </div>
+            
+
+            </div>
+
+
+        </nav>
+    </header>
+
+    <!-----End Header----->
+    <!-----Main----->
+    <!-----End Main----->
+    <!-----Footer----->
+    <!-----End Footer----->
+    <!-----Glidejs----->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/glide.min.js"></script>
+
+    <!-----Scripts----->
+    <script src="./js/index.js"></script>
+    <script src="./js/product.js"></script>
+    <script src="./js/slider.js"></script>
+</body>
+</html>

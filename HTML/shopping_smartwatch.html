@@ -1,0 +1,363 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-----Favicon----->
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
+
+    <!-----Google Fonts----->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;900&display=swap" rel="stylesheet">
+
+    <!-----Font Awesome----->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!-----Glidejs----->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/css/glide.core.css">
+
+    <!-----Animate Css----->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+    <!-----Custom Css----->
+    <link rel="stylesheet" href="HOME.css">
+
+    <title>SuvidhaKart</title>
+    <style>
+      * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        .row {
+            display: block;
+            margin: 20px 0;
+            display: flex;
+        }
+
+        .column {
+            background-color: white;
+            float: left;
+            margin: 0 10px 10px 0;
+            width: 205px;
+            padding: 10px;
+        }
+
+        h3 {
+            font-size: 1.8rem;
+            font-weight: 900;
+            display: block;
+            border: 1p solid #ccc;
+        }
+  
+        button {
+            padding: 4px 14px;
+            background-color: #f60091;
+            color: rgb(255, 255, 255);
+            text-transform: uppercase;
+            flex: right;
+            margin: 5px 0;
+            font-weight: 400;
+            cursor: pointer;
+            font-family: Tahoma;
+            border-radius: 50px;
+        }
+        .column img{
+        height: 25rem;
+        width: 100%;
+        transition: all 500ms linear;
+        }
+
+        .column:hover img{
+        transform: scale(1.1);
+        }
+        /* Create three equal columns that sits next to each other */
+        .column {
+            flex: 33.33%;
+            padding: 5px;
+        }
+        .color {
+            color: white;
+        }
+
+    </style>
+</head>
+<body class="">
+    <!-----Header----->
+    <header class="header" id="header">
+        <nav class="navigation">
+            <div class="nav-center container">
+                <a href="#home" class="logo">
+                    <h1>SUVIDHA<span>K</span>ART</h1>
+                </a>
+
+                <div class="nav-menu-show">
+                    <div class="nav-top">
+                        <div class="logo">
+                            <h1>SUVIDHA<span>K</span>ART</h1>
+                        </div>
+                        <div class="close">
+                            <i class="fas fa-times"></i>
+
+                        </div>
+                    </div>
+
+                    <ul class="nav-list">
+                        <li class="nav-item">
+                            <a href="#home" class="nav-link scroll-link">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#shop" class="nav-link scroll-link">Products</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#new" class="nav-link scroll-link">New</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#recent" class="nav-link scroll-link">Recent</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#blog" class="nav-link scroll-link">Blog</a>
+                        </li>
+
+                    </ul>
+                </div>
+                <div class="nav-icons">
+                    <a style="color: #f60091;" href="login.html"><span><i class="fas fa-user"></i></span></a>
+                    <span  style="color: #f60091;"><i class="fas fa-search"></i></span>
+                    <span  style="color: #f60091;"><i class="fas fa-shopping-cart"></i></span>
+                </div>
+                <div class="hamburger">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="column">
+                    <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/13471916/2021/2/9/a9a87e2a-f8c8-4953-9e5f-b8c1b8f4ff201612846540076-boAT-Unisex-Black-Storm-Smart-Watch-621612846538704-1.jpg" style="width:60%">
+                    <br>
+                    <h1>Boat</h1>
+                    <p style="font-weight: 300; font-size: 1.2rem;"> Black frame new smartwatch</p>
+                    <p>
+                        Rs. 2299
+                    </p>
+                    <button class="add-to-cart" typr="button">
+                        <a class="color" href="page1smartwatch.html">  ADD TO CART </a>
+                    </button>
+
+
+                </div>
+                <div class="column">
+                    <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/9803251/2019/5/27/d8b69526-543b-4df3-b3ff-89c8b1f2ffa61558948517602-Apple-Unisex-Smart-Watches-651558948517367-2.jpg" style="width:60%">
+                    <br>
+                    <h3>Apple</h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;"> Black frame new smartwatch</p>
+                    <p>
+                        Rs. 16900
+                    </p>
+                    <button class="add-to-cart" typr="button">
+                        <a class="color" href="page2smartwatch.html">  ADD TO CART </a>
+                    </button>
+                </div>
+                <div class="column">
+                    <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/13234938/2021/1/18/0d9adace-6196-4aab-bac9-5059c02cbdfc1610942609661-FitSpark-Unisex-Rosegold--Pink-Eclipse-Super-Retina-Display--2.jpg" style="width:60%">
+                    <br>
+                    <h3>Fitspark
+                    </h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;"> Black frame new smartwatch</p>
+                    <p>
+                        Rs. 2815
+                    </p>
+                    <button class="add-to-cart" typr="button">
+                        <a class="color" href="page3smartwatch.html"> ADD TO CART </a>
+                    </button>
+                </div>
+                <div class="column">
+                    <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/13554306/2021/2/9/a60d22fe-cfc2-43ee-ab5e-db77d715e0eb1612846806693-Realme-Unisex-Black-Smart-Watch-3291612846805955-2.jpg" style="width:60%">
+                    <br>
+                    <h3>Realme</h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;"> Black frame new smartwatch</p>
+                    <p>
+                        Rs. 4999
+                    </p>
+                    <button class="add-to-cart" typr="button">
+                        <a class="color" href="page4smartwatch.html">ADD TO CART </a>
+                    </button>
+                </div>
+            </div>
+            <div class="row">
+                <div class="column">
+                    <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/productimage/2020/12/14/3ca1da90-2ffe-4188-b55c-fc38b0face911607960084974-2.jpg" style="width:60%">
+                    <br>
+                    <h3>NOISE</h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;"> Green frame new smartwatch</p>
+                    <p>
+                        Rs. 3999
+                    </p>
+                    <button class="add-to-cart" typr="button">
+                        <a class="color" href="page5smartwatch.html"> ADD TO CART </a>
+                    </button>
+                </div>
+                <div class="column">
+                    <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/10769098/2019/10/17/07f18399-5aa8-45a6-b9b4-14811ca725241571294516228-NOISE-Black-ColorFit-Pro-2-Active-Smartwatch-324157129451526-2.jpg" style="width:60%">
+                    <br>
+                    <h3>NOISE</h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;"> Black frame new smartwatch</p>
+                    <p>
+                        Rs. 2499
+                    </p>
+                    <button class="add-to-cart" typr="button">
+                        <a class="color" href="page6smartwatch.html"> ADD TO CART </a>
+                    </button>
+                </div>
+                <div class="column">
+                    <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/productimage/2021/2/12/1a2e21f9-c94a-4dce-9540-3b755570524a1613123658888-2.jpg" style="width:60%">
+                    <br>
+                    <h3>Fitbit</h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;"> Black frame new smartwatch</p>
+                    <p>
+                        Rs. 8029
+                    </p>
+                    <button class="add-to-cart" typr="button">
+                        <a class="color" href="page7smartwatch.html"> ADD TO CART </a>
+                    </button>
+                </div>
+                <div class="column">
+                    <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/13176866/2021/3/2/59749d25-7ca4-44d7-9fde-bc1d3e9a92fd1614687919999-CrossBeats-Unisex-Black-Activity-Tracker-Sensor-Digital-Smar-1.jpg" style="width:60%">
+                    <br>
+                    <h3>CrossBeats</h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;"> Dark Green frame new smartwatch</p>
+                    <p>
+                        Rs. 3679
+                    </p>
+                    <button class="add-to-cart" typr="button">
+                        <a class="color" href="page8smartwatch.html">   ADD TO CART </a>
+                    </button>
+                </div>
+
+            </div>
+            <div class="row">
+                <div class="column">
+                    <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/13033506/2020/12/12/c8810833-baf6-4307-a0d1-2d54a651de431607762801629-molife-Unisex-Black-Advance-Health-Tracker-Sensor-Smartwatch-2.jpg" style="width:60%">
+                    <br>
+                    <h3>molife</h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;"> Black frame new smartwatch</p>
+                    <p>
+                        Rs. 3149
+                    </p>
+                    <button class="add-to-cart" typr="button">
+                        <a class="color" href="page9smartwatch.html">  ADD TO CART </a>
+                    </button>
+                </div>
+                <div class="column">
+                    <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/9803247/2019/5/27/dd1e37da-0de2-417f-abd2-6df8996040eb1558948536526-Apple-Unisex-Smart-Watches-1441558948536225-2.jpg" style="width:60%">
+                    <br>
+                    <h3>Apple</h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;"> White frame new smartwatch</p>
+                    <p>
+                        Rs. 19990
+                    </p>
+                    <button class="add-to-cart" typr="button">
+                        <a class="color" href="page10smartwatch.html"> ADD TO CART </a>
+                    </button>
+                </div>
+                <div class="column">
+                    <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/13234946/2021/1/6/1ca2e196-949a-418a-b083-410fb0e3ce391609950287041-FitSpark-Unisex-Rose-Gold-Toned--Black-Super-Retina-Display--2.jpg" style="width:60%">
+                    <br>
+                    <h3>Fitspark</h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;"> Black frame new smartwatch</p>
+                    <p>
+                        Rs. 2815
+                    </p>
+                    <button class="add-to-cart" typr="button">
+                        <a class="color" href="page11smartwatch.html">  ADD TO CART </a>
+                    </button>
+                </div>
+                <div class="column">
+                    <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/13285260/2021/1/18/78527280-5c83-49a3-8a85-db44956406ef1610967137060-CrossBeats-Unisex-Gold-Toned-Digital-Smart-Watch-CB-IGNITE-5-1.jpg" style="width:60%">
+                    <br>
+                    <h3>CrossBeats</h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;"> Black frame new smartwatch</p>
+                    <p>
+                        Rs. 2999
+                    </p>
+                    <button class="add-to-cart" typr="button">
+                        <a class="color" href="page12smartwatch.html">  ADD TO CART </a>
+                    </button>
+                </div>
+
+            </div>
+            <div class="row">
+                <div class="column">
+                    <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/14281878/2021/5/17/9c274b64-75c3-473f-9d86-4f4a13ecbf1b1621232610518-Fitbit-Versa-3-MidnightSoft-Gold-Aluminum-1081621232610004-2.jpg" style="width:60%">
+                    <br>
+                    <h3>Fitbit</h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;"> Blue frame new smartwatch</p>
+                    <p>
+                        Rs. 18999
+                    </p>
+                    <button class="add-to-cart" typr="button">
+                        <a class="color" href="page13smartwatch.html"> ADD TO CART </a>
+                    </button>
+                </div>
+                <div class="column">
+                    <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/productimage/2021/2/17/63b1f5b5-99fa-4526-87c3-cdc703d565f51613544185049-2.jpg" style="width:60%">
+                    <br>
+                    <h3>Fastrack</h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;"> Pink frame new smartwatch</p>
+                    <p>
+                        Rs. 2995
+                    </p>
+                    <button class="add-to-cart" typr="button">
+                        <a class="color" href="page14smartwatch.html">  ADD TO CART </a>
+                    </button>
+                </div>
+                <div class="column">
+                    <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/13066968/2020/11/24/9841f8bc-3a1d-4c38-9ce9-3fed71386c901606198338081-GOQii-Smart-Vital-SpO2--body-temperature-tracker-with-3-mont-1.jpg" style="width:60%">
+                    <br>
+                    <h3>GOQii</h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;"> Black frame new smartwatch</p>
+                    <p>
+                        Rs. 4299
+                    </p>
+                    <button class="add-to-cart" typr="button">
+                        <a class="color" href="page15smartwatch.html"> ADD TO CART </a>
+                    </button>
+                </div>
+                <div class="column">
+                    <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/productimage/2019/2/23/1255e383-7c5c-4d21-a951-1f903f6f2a371550914296266-2.jpg" style="width:60%">
+                    <br>
+                    <h3>Fastrack</h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;"> Navy Blue frame new smartwatch</p>
+                    <p>
+                        Rs. 1995
+                    </p>
+                    <button class="add-to-cart" typr="button">
+                        <a class="color" href="page16smartwatch.html"> ADD TO CART </a>
+                    </button>
+                </div>
+
+            </div>
+
+
+        </nav>
+    </header>
+
+    <!-----End Header----->
+    <!-----Main----->
+    <!-----End Main----->
+    <!-----Footer----->
+    <!-----End Footer----->
+    <!-----Glidejs----->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/glide.min.js"></script>
+
+    <!-----Scripts----->
+    <script src="./js/index.js"></script>
+    <script src="./js/product.js"></script>
+    <script src="./js/slider.js"></script>
+</body>
+</html>

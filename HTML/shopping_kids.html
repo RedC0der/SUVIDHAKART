@@ -1,0 +1,311 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-----Favicon----->
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
+
+    <!-----Google Fonts----->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;900&display=swap" rel="stylesheet">
+
+    <!-----Font Awesome----->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!-----Glidejs----->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/css/glide.core.css">
+
+    <!-----Animate Css----->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+    <!-----Custom Css----->
+    <link rel="stylesheet" href="HOME.css">
+
+    <title>SuvidhaKart</title>
+    <style>
+               * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        .row {
+            display: block;
+            margin: 20px 0;
+            display: flex;
+        }
+
+        .column {
+            background-color: white;
+            float: left;
+            margin: 0 10px 10px 0;
+            width: 205px;
+            padding: 10px;
+        }
+
+        h3 {
+            font-size: 1.8rem;
+            font-weight: 900;
+            display: block;
+            border: 1p solid #ccc;
+        }
+  
+        button {
+            padding: 4px 14px;
+            background-color: #f60091;
+            color: rgb(255, 255, 255);
+            text-transform: uppercase;
+            flex: right;
+            margin: 5px 0;
+            font-weight: 400;
+            cursor: pointer;
+            font-family: Tahoma;
+            border-radius: 50px;
+        }
+        .column img{
+        height: 25rem;
+        width: 100%;
+        transition: all 500ms linear;
+        }
+
+        .column:hover img{
+        transform: scale(1.1);
+        }
+        /* Create three equal columns that sits next to each other */
+        .column {
+            flex: 33.33%;
+            padding: 5px;
+        }
+        .color {
+            color: white;
+        }
+
+    </style>
+</head>
+<body class="">
+    <!-----Header----->
+    <header class="header" id="header">
+        <nav class="navigation">
+            <div class="nav-center container">
+                <a href="#home" class="logo">
+                    <h1>SUVIDHA<span>K</span>ART</h1>
+                </a>
+
+                <div class="nav-menu-show">
+                    <div class="nav-top">
+                        <div class="logo">
+                            <h1>SUVIDHA<span>K</span>ART</h1>
+                        </div>
+                        <div class="close">
+                            <i class="fas fa-times"></i>
+
+                        </div>
+                    </div>
+
+                    <ul class="nav-list">
+                        <li class="nav-item">
+                            <a href="#home" class="nav-link scroll-link">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#shop" class="nav-link scroll-link">Products</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#new" class="nav-link scroll-link">New</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#recent" class="nav-link scroll-link">Recent</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#blog" class="nav-link scroll-link">Blog</a>
+                        </li>
+
+                    </ul>
+                </div>
+                <div class="nav-icons">
+                    <a style="color: #f60091;" href="login.html"><span><i class="fas fa-user"></i></span></a>
+                    <span  style="color: #f60091;"><i class="fas fa-search"></i></span>
+                    <span  style="color: #f60091;"><i class="fas fa-shopping-cart"></i></span>
+                </div>
+                <div class="hamburger">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="column">
+                    <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/productimage/2021/2/17/04cbd593-0c20-46db-b9cf-c700f7f976e81613573002396-1.jpg" style="width:60%">
+                    <br>
+                    <h3>Stylo Bug</h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;">Printed Cotton A-Line Dress</p>
+                    <p>
+                        Rs. 658
+                    </p>
+                    <button class="add-to-cart" typr="button">
+                        <a class="color" href="page1kid.html">  ADD TO CART </a>
+                    </button>
+
+
+                </div>
+                <div class="column">
+                    <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/productimage/2020/9/20/108ebab1-4dd9-4b31-92bd-d15c1eaf4a851600551515102-1.jpg" style="width:60%">
+                    <br>
+                    <h3>JBN Creation</h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;"> Chikankari Handloom Kurta</p>
+                    <p>
+                        Rs. 999
+                    </p>
+                    <button class="add-to-cart" typr="button">
+                        <a class="color" href="page2kid.html">  ADD TO CART </a>
+                    </button>
+                </div>
+                <div class="column">
+                    <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/productimage/2020/2/15/465f5be9-f081-4025-9ff0-03d09a7b14d81581718528462-1.jpg" style="width:60%">
+                    <br>
+                    <h3>Bitiya by bhama
+                    </h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;">Peach-Coloured Printed Fit & Flare</p>
+                    <p>
+                        Rs. 1239
+                    </p>
+                    <button class="add-to-cart" typr="button">
+                        <a class="color" href="page3kid.html"> ADD TO CART </a>
+                    </button>
+                </div>
+                <div class="column">
+                    <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/productimage/2021/5/11/ddd345c3-2441-4a92-87f9-36b667be3d321620732661512-1.jpg" style="width:60%">
+                    <br>
+                    <h3>Cutiekins</h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;">Lite color t-shirt and pants </p>
+                    <p>
+                        Rs. 639
+                    </p>
+                    <button class="add-to-cart" typr="button">
+                        <a class="color" href="page4kid.html">ADD TO CART </a>
+                    </button>
+                </div>
+            </div>
+            <div class="row">
+                <div class="column">
+                    <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/12810566/2021/2/8/30fc47e1-b023-400a-ba64-b992a93bc3461612786585751-GAP-Boys-Blue-Regular-Fit-Faded-Denim-Cotton-Casual-Shirt-23-1.jpg" style="width:60%">
+                    <br>
+                    <h3>GAP</h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;">Boys Striped Cotton T-shirt</p>
+                    <p>
+                        Rs. 1149
+                    </p>
+                    <button class="add-to-cart" typr="button">
+                        <a class="color" href="page5kid.html"> ADD TO CART </a>
+                    </button>
+                </div>
+                <div class="column">
+                    <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/productimage/2021/2/4/a2ee24ec-2963-4578-8078-f98fe8f7b08d1612415679386-1.jpg" style="width:60%">
+                    <br>
+                    <h3>Bitiya by Bhama</h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;">Girls Blue & Red Printed A-Line Dress</p>
+                    <p>
+                        Rs. 769
+                    </p>
+                    <button class="add-to-cart" typr="button">
+                        <a class="color" href="page6kid.html"> ADD TO CART </a>
+                    </button>
+                </div>
+                <div class="column">
+                    <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/14021356/2021/5/13/78c13bce-68c7-4146-b6bd-97ac30856fb11620901525817-VASTRAMAY-Boys-Pink--White-Embroidered-Kurta-with-Pyjamas-64-1.jpg" style="width:60%">
+                    <br>
+                    <h3>VASTRAMAY</h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;">Boys Solid Shirt Kurta</p>
+                    <p>
+                        Rs. 1199
+                    </p>
+                    <button class="add-to-cart" typr="button">
+                        <a class="color" href="page7kid.html"> ADD TO CART </a>
+                    </button>
+                </div>
+                <div class="column">
+                    <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/10616450/2021/2/18/99ea370d-de6f-4740-b2e9-758a010c29821613641172023-LilPicks-Red-Ready-to-Wear-Lehenga--Blouse-with-Dupatta-8791-1.jpg" style="width:60%">
+                    <br>
+                    <h3>Lilpicks</h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;">Girls Red Solid Shirt Dress</p>
+                    <p>
+                        Rs. 1500
+                    </p>
+                    <button class="add-to-cart" typr="button">
+                        <a class="color" href="page8kid.html">   ADD TO CART </a>
+                    </button>
+                </div>
+
+            </div>
+            <div class="row">
+                <div class="column">
+                    <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/productimage/2020/11/19/1e7a6adb-26f8-43dc-837e-ee9413369f821605790753955-1.jpg" style="width:60%">
+                    <br>
+                    <h3>TARMAK By Decathlon</h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;">Boy Grey sports wear</p>
+                    <p>
+                        Rs. 300
+                    </p>
+                    <button class="add-to-cart" typr="button">
+                        <a class="color" href="page9kid.html">  ADD TO CART </a>
+                    </button>
+                </div>
+                <div class="column">
+                    <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/productimage/2021/1/14/665a8e27-9dd3-4a10-854f-2b81edb4b1bc1610610593838-1.jpg" style="width:60%">
+                    <br>
+                    <h3>Cutiekins</h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;"> Printed Stylish Dress for Girls</p>
+                    <p>
+                        Rs. 659
+                    </p>
+                    <button class="add-to-cart" typr="button">
+                        <a class="color" href="page10kid.html"> ADD TO CART </a>
+                    </button>
+                </div>
+                <div class="column">
+                    <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/productimage/2021/3/19/7419b52c-0258-4797-b954-a6e08663b7d31616129420506-1.jpg" style="width:60%">
+                    <br>
+                    <h3>DEYAAN</h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;"> Solid Kurta with Churidar</p>
+                    <p>
+                        Rs. 1196
+                    </p>
+                    <button class="add-to-cart" typr="button">
+                        <a class="color" href="page11kid.html">  ADD TO CART </a>
+                    </button>
+                </div>
+                <div class="column">
+                    <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/productimage/2019/1/5/a5832b21-6c11-4076-8f46-3e4f3287bd5d1546649284259-1.jpg" style="width:60%">
+                    <br>
+                    <h3>Bitiya by Bhama</h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;">Girls Yellow Solid Anarkali Kurta</p>
+                    <p>
+                        Rs. 749
+                    </p>
+                    <button class="add-to-cart" typr="button">
+                        <a class="color" href="page12kid.html">  ADD TO CART </a>
+                    </button>
+                </div>
+
+            </div>
+            
+        </nav>
+    </header>
+
+    <!-----End Header----->
+    <!-----Main----->
+    <!-----End Main----->
+    <!-----Footer----->
+    <!-----End Footer----->
+    <!-----Glidejs----->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/glide.min.js"></script>
+
+    <!-----Scripts----->
+    <script src="./js/index.js"></script>
+    <script src="./js/product.js"></script>
+    <script src="./js/slider.js"></script>
+</body>
+</html>

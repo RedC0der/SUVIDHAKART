@@ -1,0 +1,311 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-----Favicon----->
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
+
+    <!-----Google Fonts----->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;900&display=swap" rel="stylesheet">
+
+    <!-----Font Awesome----->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!-----Glidejs----->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/css/glide.core.css">
+
+    <!-----Animate Css----->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+    <!-----Custom Css----->
+    <link rel="stylesheet" href="HOME.css">
+
+    <title>SuvidhaKart</title>
+    <style>
+         * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        .row {
+            display: block;
+            margin: 20px 0;
+            display: flex;
+        }
+
+        .column {
+            background-color: white;
+            float: left;
+            margin: 0 10px 10px 0;
+            width: 205px;
+            padding: 10px;
+        }
+
+        h3 {
+            font-size: 1.8rem;
+            font-weight: 900;
+            display: block;
+            border: 1p solid #ccc;
+        }
+  
+        button {
+            padding: 4px 14px;
+            background-color: #f60091;
+            color: rgb(255, 255, 255);
+            text-transform: uppercase;
+            flex: right;
+            margin: 5px 0;
+            font-weight: 400;
+            cursor: pointer;
+            font-family: Tahoma;
+            border-radius: 50px;
+        }
+        .column img{
+        height: 25rem;
+        width: 100%;
+        transition: all 500ms linear;
+        }
+
+        .column:hover img{
+        transform: scale(1.1);
+        }
+        /* Create three equal columns that sits next to each other */
+        .column {
+            flex: 33.33%;
+            padding: 5px;
+        }
+        .color {
+            color: white;
+        }
+
+    </style>
+</head>
+<body class="">
+    <!-----Header----->
+    <header class="header" id="header">
+        <nav class="navigation">
+            <div class="nav-center container">
+                <a href="#home" class="logo">
+                    <h1>SUVIDHA<span>K</span>ART</h1>
+                </a>
+
+                <div class="nav-menu-show">
+                    <div class="nav-top">
+                        <div class="logo">
+                            <h1>SUVIDHA<span>K</span>ART</h1>
+                        </div>
+                        <div class="close">
+                            <i class="fas fa-times"></i>
+
+                        </div>
+                    </div>
+
+                    <ul class="nav-list">
+                        <li class="nav-item">
+                            <a href="#home" class="nav-link scroll-link">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#shop" class="nav-link scroll-link">Products</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#new" class="nav-link scroll-link">New</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#recent" class="nav-link scroll-link">Recent</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#blog" class="nav-link scroll-link">Blog</a>
+                        </li>
+
+                    </ul>
+                </div>
+                <div class="nav-icons">
+                    <a style="color: #f60091;" href="login.html"><span><i class="fas fa-user"></i></span></a>
+                    <span  style="color: #f60091;"><i class="fas fa-search"></i></span>
+                    <span  style="color: #f60091;"><i class="fas fa-shopping-cart"></i></span>
+                </div>
+                <div class="hamburger">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="column">
+                    <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/productimage/2019/8/3/81d8af0d-f549-4383-abb6-8807097936241564773990589-1.jpg" style="width:60%">
+                    <br>
+                    <h3>H&M</h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;">Black Quilted Handheld Bag</p>
+                    <p>
+                        Rs. 1954
+                    </p>
+                    <button class="add-to-cart" typr="button">
+                        <a class="color" href="page1bag.html">  ADD TO CART </a>
+                    </button>
+
+
+                </div>
+                <div class="column">
+                    <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/10300335/2020/2/14/b32f70f7-e64b-48a2-acb5-8a670e33d25f1581684402643-KLEIO-Black-Solid-Sling-Bag-2881581684400858-1.jpg" style="width:60%">
+                    <br>
+                    <h3>KLEIO</h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;">Black Solid Sling Bag</p>
+                    <p>
+                        Rs. 999
+                    </p>
+                    <button class="add-to-cart" typr="button">
+                        <a class="color" href="page2bag.html">  ADD TO CART </a>
+                    </button>
+                </div>
+                <div class="column">
+                    <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/1642589/2020/1/30/dfdc9f68-fd1a-46be-9dc1-bdd84333ec251580366068670-DressBerry-Pink-Satchel-1421580366066588-1.jpg" style="width:60%">
+                    <br>
+                    <h3>DressBerry
+                    </h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;">Pink Quilted Handheld Bag</p>
+                    <p>
+                        Rs. 1049
+                    </p>
+                    <button class="add-to-cart" typr="button">
+                        <a class="color" href="page3bag.html"> ADD TO CART </a>
+                    </button>
+                </div>
+                <div class="column">
+                    <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/13407918/2021/1/27/45ee2039-3130-4794-92b2-391a5d8339dc1611739265440-Allen-Solly-Pink-Solid-Handheld-Bag-6711611739264085-1.jpg" style="width:60%">
+                    <br>
+                    <h3>Allen Solly</h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;">Pink Satchel Bag</p>
+                    <p>
+                        Rs. 1649
+                    </p>
+                    <button class="add-to-cart" typr="button">
+                        <a class="color" href="page4bag.html">ADD TO CART </a>
+                    </button>
+                </div>
+            </div>
+            <div class="row">
+                <div class="column">
+                    <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/11454668/2021/5/26/b1c7215d-da9b-42cd-b9fd-c73c12f5fe1d1622045504727-Bagsy-Malone-Black-Quilted-Sling-Bag-2911622045504447-1.jpg" style="width:60%">
+                    <br>
+                    <h3>Bagsy Malone</h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;">Women MyTrix 2 Graphic Backpack</p>
+                    <p>
+                        Rs. 659
+                    </p>
+                    <button class="add-to-cart" typr="button">
+                        <a class="color" href="page5bag.html"> ADD TO CART </a>
+                    </button>
+                </div>
+                <div class="column">
+                    <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/14035822/2021/6/7/071dcf7e-d6bb-4843-98c6-1887dec27f741623080433598CapreseWomenPinkTexturedLeatherThreeFoldWalletBackpacksCapre1.jpg" style="width:60%">
+                    <br>
+                    <h3>Caprese</h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;"> Black Quilted Sling Bag</p>
+                    <p>
+                        Rs. 999
+                    </p>
+                    <button class="add-to-cart" typr="button">
+                        <a class="color" href="page6bag.html"> ADD TO CART </a>
+                    </button>
+                </div>
+                <div class="column">
+                    <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/13407890/2021/2/15/4be99964-6932-43ff-a1ca-d81ddebe0bf01613386216461-Allen-Solly-Black-Solid-Laptop-Handheld-Bag-3161613386215128-1.jpg" style="width:60%">
+                    <br>
+                    <h3>Allen Solly</h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;"> Black Solid Handheld Bag</p>
+                    <p>
+                        Rs. 1399
+                    </p>
+                    <button class="add-to-cart" typr="button">
+                        <a class="color" href="page7bag.html"> ADD TO CART </a>
+                    </button>
+                </div>
+                <div class="column">
+                    <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/productimage/2021/5/28/46ba4f80-d471-4bd9-aa1c-1f184c0011181622177499421-1.jpg" style="width:60%">
+                    <br>
+                    <h3>H&M</h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;"> Bubbled Solid Handheld Bag</p>
+                    <p>
+                        Rs. 1104
+                    </p>
+                    <button class="add-to-cart" typr="button">
+                        <a class="color" href="page8bag.html">   ADD TO CART </a>
+                    </button>
+                </div>
+
+            </div>
+            <div class="row">
+                <div class="column">
+                    <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/productimage/2021/6/10/60cbb0ad-3eff-4046-bfab-8f3418665fd61623303221835-1.jpg" style="width:60%">
+                    <br>
+                    <h3>LOVE MOSCHINO</h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;"> Off-White Solid Handheld Bag </p>
+                    <p>
+                        Rs. 32,500
+                    </p>
+                    <button class="add-to-cart" typr="button">
+                        <a class="color" href="page9bag.html">  ADD TO CART </a>
+                    </button>
+                </div>
+                <div class="column">
+                    <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/7743402/2019/1/9/cb4679f2-7012-47b7-887e-0107d38647191547018895201-Lino-Perros-Pink-Leatherette-Tote-Bag-1581547018894449-1.jpg" style="width:60%">
+                    <br>
+                    <h3>Lino Perros</h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;">Dusty Pink Solid Shoulder Bag</p>
+                    <p>
+                        Rs. 988
+                    </p>
+                    <button class="add-to-cart" typr="button">
+                        <a class="color" href="page10bag.html"> ADD TO CART </a>
+                    </button>
+                </div>
+                <div class="column">
+                    <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/2244661/2017/11/13/11510576499093-LaFille-Black-Solid-Handheld-Bag-1461510576498890-1.jpg" style="width:60%">
+                    <br>
+                    <h3>LaFille</h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;">Coffee Brown Textured Handheld Bag</p>
+                    <p>
+                        Rs. 895
+                    </p>
+                    <button class="add-to-cart" typr="button">
+                        <a class="color" href="page11bag.html">  ADD TO CART </a>
+                    </button>
+                </div>
+                <div class="column">
+                    <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/13407912/2021/2/15/c2cb705b-e9fd-4220-b049-0e0b26f762261613393511189-Allen-Solly-Tan-Brown-Solid-Satchel-341613393509367-1.jpg" style="width:60%">
+                    <br>
+                    <h3>Allen Solly</h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;"> Structured Satchel with Quilted</p>
+                    <p>
+                        Rs. 1689
+                    </p>
+                    <button class="add-to-cart" typr="button">
+                        <a class="color" href="page12bag.html">  ADD TO CART </a>
+                    </button>
+                </div>
+
+            </div>
+
+        </nav>
+    </header>
+
+    <!-----End Header----->
+    <!-----Main----->
+    <!-----End Main----->
+    <!-----Footer----->
+    <!-----End Footer----->
+    <!-----Glidejs----->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/glide.min.js"></script>
+
+    <!-----Scripts----->
+    <script src="./js/index.js"></script>
+    <script src="./js/product.js"></script>
+    <script src="./js/slider.js"></script>
+</body>
+</html>

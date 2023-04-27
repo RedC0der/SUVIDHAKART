@@ -1,0 +1,364 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-----Favicon----->
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
+
+    <!-----Google Fonts----->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;900&display=swap" rel="stylesheet">
+
+    <!-----Font Awesome----->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!-----Glidejs----->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/css/glide.core.css">
+
+    <!-----Animate Css----->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+    <!-----Custom Css----->
+    <link rel="stylesheet" href="HOME.css">
+
+    <title>SuvidhaKart</title>
+    <style>
+    * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        .row {
+            display: block;
+            margin: 20px 0;
+            display: flex;
+        }
+
+        .column {
+            background-color: white;
+            float: left;
+            margin: 0 10px 10px 0;
+            width: 205px;
+            padding: 10px;
+        }
+
+        h3 {
+            font-size: 1.8rem;
+            font-weight: 900;
+            display: block;
+            border: 1p solid #ccc;
+        }
+  
+        button {
+            padding: 4px 14px;
+            background-color: #f60091;
+            color: rgb(255, 255, 255);
+            text-transform: uppercase;
+            flex: right;
+            margin: 5px 0;
+            font-weight: 400;
+            cursor: pointer;
+            font-family: Tahoma;
+            border-radius: 50px;
+        }
+        .column img{
+        height: 25rem;
+        width: 100%;
+        transition: all 500ms linear;
+        }
+
+        .column:hover img{
+        transform: scale(1.1);
+        }
+        /* Create three equal columns that sits next to each other */
+        .column {
+            flex: 33.33%;
+            padding: 5px;
+        }
+        .color {
+            color: white;
+        }
+
+    </style>
+</head>
+<body class="">
+    <!-----Header----->
+    <header class="header" id="header">
+        <nav class="navigation">
+            <div class="nav-center container">
+                <a href="#home" class="logo">
+                    <h1>SUVIDHA<span>K</span>ART</h1>
+                </a>
+
+                <div class="nav-menu-show">
+                    <div class="nav-top">
+                        <div class="logo">
+                            <h1>SUVIDHA<span>K</span>ART</h1>
+                        </div>
+                        <div class="close">
+                            <i class="fas fa-times"></i>
+
+                        </div>
+                    </div>
+
+                    <ul class="nav-list">
+                        <li class="nav-item">
+                            <a href="#home" class="nav-link scroll-link">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#shop" class="nav-link scroll-link">Products</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#new" class="nav-link scroll-link">New</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#recent" class="nav-link scroll-link">Recent</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#blog" class="nav-link scroll-link">Blog</a>
+                        </li>
+
+                    </ul>
+                </div>
+                <div class="nav-icons">
+                    <a style="color: #f60091;" href="login.html"><span><i class="fas fa-user"></i></span></a>
+                    <span  style="color: #f60091;"><i class="fas fa-search"></i></span>
+                    <span  style="color: #f60091;"><i class="fas fa-shopping-cart"></i></span>
+                </div>
+                <div class="hamburger">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="column">
+                    <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/8158857/2018/12/10/1010d175-ac8e-4512-9038-ebec44e1dc581544424769226-Multi-color--Buddha-face-with-hand-canvas-painting-24X24cms--1.jpg" style="width:60%">
+                    <br>
+                    <h3>999Store</h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;">Lord Buddha Canvas Wall Art</p>
+                    <p>
+                        Rs. 1199
+                    </p>
+                    <button class="add-to-cart" typr="button">
+                        <a class="color" href="page1decor.html">  ADD TO CART </a>
+                    </button>
+
+
+                </div>
+                <div class="column">
+                    <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/productimage/2020/9/25/1c4d229c-5fd4-4b63-8dc5-4e01c9103ab61600992839880-1.jpg" style="width:60%">
+                    <br>
+                    <h3>RANDOM</h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;">Transparent Glass Flower Wall Decor</p>
+                    <p>
+                        Rs. 1319
+                    </p>
+                    <button class="add-to-cart" typr="button">
+                        <a class="color" href="page2decor.html">  ADD TO CART </a>
+                    </button>
+                </div>
+                <div class="column">
+                    <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/11774120/2020/3/30/3dd208ac-5026-4767-a8c9-b907b4ad571d1585584286480eCraftIndiaBlackGold-TonedHandcraftedPalmBuddhaShowpieceWith1.jpg" style="width:60%">
+                    <br>
+                    <h3>
+                        eCraftIndia
+                    </h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;"> Handcrafted Palm Buddha Showpiece </p>
+                    <p>
+                        Rs. 599
+                    </p>
+                    <button class="add-to-cart" typr="button">
+                        <a class="color" href="page3decor.html"> ADD TO CART </a>
+                    </button>
+                </div>
+                <div class="column">
+                    <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/productimage/2019/5/14/8614e9c9-a9d3-4014-963f-d0669e2614a51557786866917-1.jpg" style="width:60%">
+                    <br>
+                    <h3>Homesake</h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;">Black Textured Handcrafted Wall</p>
+                    <p>
+                        Rs. 2052
+                    </p>
+                    <button class="add-to-cart" typr="button">
+                        <a class="color" href="page4decor.html">ADD TO CART </a>
+                    </button>
+                </div>
+            </div>
+            <div class="row">
+                <div class="column">
+                    <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/productimage/2020/8/2/7c841587-471b-4702-b3a5-c31b7be3aea81596318366087-1.jpg" style="width:60%">
+                    <br>
+                    <h3>RANDOM</h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;"> Black Solid Synthetic Collage Frames</p>
+                    <p>
+                        Rs. 1010
+                    </p>
+                    <button class="add-to-cart" typr="button">
+                        <a class="color" href="page5decor.html"> ADD TO CART </a>
+                    </button>
+                </div>
+                <div class="column">
+                    <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/11841426/2020/5/11/b379a47a-051f-474c-84b2-6c9ecd3b69a91589181175024CraftVatikaGold-PlatedLadooGopalSinghasanPoojaChowkiShowpiec1.jpg" style="width:60%">
+                    <br>
+                    <h3>CraftVatika</h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;">Gold-Plated Ladoo Gopal Singhasan</p>
+                    <p>
+                        Rs. 675
+                    </p>
+                    <button class="add-to-cart" typr="button">
+                        <a class="color" href="page6decor.html"> ADD TO CART </a>
+                    </button>
+                </div>
+                <div class="column">
+                    <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/productimage/2019/12/15/bbd18059-da43-425e-87e5-64f5321277f41576372604988-1.jpg" style="width:60%">
+                    <br>
+                    <h3>TIED RIBBONS</h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;"> Pink & White Artificial Flower Bunches</p>
+                    <p>
+                        Rs. 494
+                    </p>
+                    <button class="add-to-cart" typr="button">
+                        <a class="color" href="page7decor.html"> ADD TO CART </a>
+                    </button>
+                </div>
+                <div class="column">
+                    <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/productimage/2021/2/19/e75b52e7-a13c-4dbf-abf8-a29bf169defd1613721327580-1.jpg" style="width:60%">
+                    <br>
+                    <h3>Amoliconcepts</h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;">Handcrafted Wall or Ceiling Lamp</p>
+                    <p>
+                        Rs. 1450
+                    </p>
+                    <button class="add-to-cart" typr="button">
+                        <a class="color" href="page8decor.html">   ADD TO CART </a>
+                    </button>
+                </div>
+
+            </div>
+            <div class="row">
+                <div class="column">
+                    <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/productimage/2019/3/13/bb8f1bc1-5dfd-4970-bb5e-a6c7089666c41552435006241-1.jpg" style="width:60%">
+                    <br>
+                    <h3>Homesake</h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;">Brown & Cream-Coloured Solid Classic </p>
+                    <p>
+                        Rs. 1536
+                    </p>
+                    <button class="add-to-cart" typr="button">
+                        <a class="color" href="page9decor.html">  ADD TO CART </a>
+                    </button>
+                </div>
+                <div class="column">
+                    <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/productimage/2021/2/11/35bf3b3c-c027-4ab5-8c91-e56d8440faf91613044698039-1.jpg" style="width:60%">
+                    <br>
+                    <h3>Fancy mart</h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;"> Green & White Artificial Bamboo Leaves</p>
+                    <p>
+                        Rs. 536
+                    </p>
+                    <button class="add-to-cart" typr="button">
+                        <a class="color" href="page10decor.html"> ADD TO CART </a>
+                    </button>
+                </div>
+                <div class="column">
+                    <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/productimage/2021/6/14/9bf42e7a-0a88-4035-b2dd-211f1d36e0e41623661803939-1.jpg" style="width:60%">
+                    <br>
+                    <h3>Home Centre</h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;"> Gold-Toned  Housewarming Ganesha </p>
+                    <p>
+                        Rs. 999
+                    </p>
+                    <button class="add-to-cart" typr="button">
+                        <a class="color" href="page11decor.html">  ADD TO CART </a>
+                    </button>
+                </div>
+                <div class="column">
+                    <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/productimage/2019/1/22/873f60a0-c387-416f-bf86-bd4863ceb14b1548138409731-1.jpg" style="width:60%">
+                    <br>
+                    <h3>Homesake</h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;"> Multicoloured Framed Wall Material</p>
+                    <p>
+                        Rs. 2250
+                    </p>
+                    <button class="add-to-cart" typr="button">
+                        <a class="color" href="page12decor.html">  ADD TO CART </a>
+                    </button>
+                </div>
+
+            </div>
+            <div class="row">
+                <div class="column">
+                    <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/productimage/2019/11/25/be6fc5de-3011-419a-878b-73d7d3f7a14b1574705353688-1.jpg" style="width:60%">
+                    <br>
+                    <h3>Chumbak</h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;">  Grow Dammit Cup-Saucer Planter</p>
+                    <p>
+                        Rs. 715
+                    </p>
+                    <button class="add-to-cart" typr="button">
+                        <a class="color" href="page13decor.html"> ADD TO CART </a>
+                    </button>
+                </div>
+                <div class="column">
+                    <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/3077782/2018/3/9/11520579951052-Fos-Lighting-Cream-Coloured--Gold-Toned-Textured-Hanging-Ceiling-Lamp-9411520579950161-2.jpg" style="width:60%">
+                    <br>
+                    <h3>Fos Lighting</h3>
+                     <p style="font-weight: 300; font-size: 1.2rem;">Cream-Coloured & Gold-Toned Textured </p>
+                    <p>
+                        Rs. 9158
+                    </p>
+                    <button class="add-to-cart" typr="button">
+                        <a class="color" href="page14decor.html">  ADD TO CART </a>
+                    </button>
+                </div>
+                <div class="column">
+                    <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/13550614/2021/2/1/3ca9a058-d128-4ca8-9e64-ab74541699e51612165567284EXIMDECORBrownGreenSandTimer1.jpg" style="width:60%">
+                    <br>
+                    <h3>EXIM DECOR</h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;"> Brown & Green Sand Timer</p>
+                    <p>
+                        Rs. 599
+                    </p>
+                    <button class="add-to-cart" typr="button">
+                        <a class="color" href="page15decor.html"> ADD TO CART </a>
+                    </button>
+                </div>
+                <div class="column">
+                    <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/11185596/2020/1/3/5f86fed3-aaaa-4bc3-9bcf-d35c63c2c3eb1578038258247-999Store-Set-of-5-Yellow--Blue-Printed-Leaves-Tree-And-Lake--1.jpg" style="width:60%">
+                    <br>
+                    <h3>999Store</h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;"> Yellow & Blue Printed Framed Wall Art</p>
+                    <p>
+                        Rs. 1599
+                    </p>
+                    <button class="add-to-cart" typr="button">
+                        <a class="color" href="page16decor.html"> ADD TO CART </a>
+                    </button>
+                </div>
+
+            </div>
+
+
+        </nav>
+    </header>
+
+    <!-----End Header----->
+    <!-----Main----->
+    <!-----End Main----->
+    <!-----Footer----->
+    <!-----End Footer----->
+    <!-----Glidejs----->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/glide.min.js"></script>
+
+    <!-----Scripts----->
+    <script src="./js/index.js"></script>
+    <script src="./js/product.js"></script>
+    <script src="./js/slider.js"></script>
+</body>
+</html>

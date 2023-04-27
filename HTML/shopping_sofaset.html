@@ -1,0 +1,366 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-----Favicon----->
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
+
+    <!-----Google Fonts----->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;900&display=swap" rel="stylesheet">
+
+    <!-----Font Awesome----->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!-----Glidejs----->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/css/glide.core.css">
+
+    <!-----Animate Css----->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+    <!-----Custom Css----->
+    <link rel="stylesheet" href="HOME.css">
+
+    <title>SuvidhaKart</title>
+    <style>
+           * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        .row {
+            display: block;
+            margin: 20px 0;
+            display: flex;
+        }
+
+        .column {
+            background-color: white;
+            float: left;
+            margin: 0 10px 10px 0;
+            width: 205px;
+            padding: 10px;
+        }
+
+        h3 {
+            font-size: 1.8rem;
+            font-weight: 900;
+            display: block;
+            border: 1p solid #ccc;
+        }
+  
+        button {
+            padding: 4px 14px;
+            background-color: #f60091;
+            color: rgb(255, 255, 255);
+            text-transform: uppercase;
+            flex: right;
+            margin: 5px 0;
+            font-weight: 400;
+            cursor: pointer;
+            font-family: Tahoma;
+            border-radius: 50px;
+        }
+        .column img{
+        height: 25rem;
+        width: 100%;
+        transition: all 500ms linear;
+        }
+
+        .column:hover img{
+        transform: scale(1.1);
+        }
+        /* Create three equal columns that sits next to each other */
+        .column {
+            flex: 33.33%;
+            padding: 5px;
+        }
+        .color {
+            color: white;
+        }
+
+    </style>
+</head>
+<body class="">
+    <!-----Header----->
+    <header class="header" id="header">
+        <nav class="navigation">
+            <div class="nav-center container">
+                <a href="#home" class="logo">
+                    <h1>SUVIDHA<span>K</span>ART</h1>
+                </a>
+
+                <div class="nav-menu-show">
+                    <div class="nav-top">
+                        <div class="logo">
+                            <h1>SUVIDHA<span>K</span>ART</h1>
+                        </div>
+                        <div class="close">
+                            <i class="fas fa-times"></i>
+
+                        </div>
+                    </div>
+
+                    <ul class="nav-list">
+                        <li class="nav-item">
+                            <a href="#home" class="nav-link scroll-link">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#shop" class="nav-link scroll-link">Products</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#new" class="nav-link scroll-link">New</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#recent" class="nav-link scroll-link">Recent</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#blog" class="nav-link scroll-link">Blog</a>
+                        </li>
+
+                    </ul>
+                </div>
+                <div class="nav-icons">
+                    <a style="color: #f60091;" href="login.html"><span><i class="fas fa-user"></i></span></a>
+                    <span  style="color: #f60091;"><i class="fas fa-search"></i></span>
+                    <span  style="color: #f60091;"><i class="fas fa-shopping-cart"></i></span>
+                </div>
+                <div class="hamburger">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="column">
+                    <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/productimage/2021/4/17/20fba086-eef5-4559-883b-d6a5b81cf5371618643812202-2.jpg" style="width:60%">
+                    <br>
+                    <h3>SWAYAM</h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;">White & Blue Printed Cotton Diwan</p>
+                    <p>
+                        Rs. 2064
+                    </p>
+                    <button class="add-to-cart" typr="button">
+                        <a class="color" href="page1sofaset.html">  ADD TO CART </a>
+                    </button>
+
+
+                </div>
+                <div class="column">
+                    <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/productimage/2021/2/18/72760d86-cd61-418d-8e07-e3eee8374fd51613664667937-2.jpg" style="width:60%">
+                    <br>
+                    <h3>Bromwick</h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;"> White & Red Printed Diwan Set</p>
+                    <p>
+                        Rs. 944
+                    </p>
+                    <button class="add-to-cart" typr="button">
+                        <a class="color" href="page2sofaset.html">  ADD TO CART </a>
+                    </button>
+                </div>
+                <div class="column">
+                    <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/productimage/2019/10/11/78520b78-66b2-4366-bed4-a7db6a8e7dd11570796910226-1.jpg" style="width:60%">
+                    <br>
+                    <h3>
+                        Rajasthan Decor
+                    </h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;">Beige & Grey Checked Diwan Set</p>
+                    <p>
+                        Rs. 1249
+                    </p>
+                    <button class="add-to-cart" typr="button">
+                        <a class="color" href="page3sofaset.html"> ADD TO CART </a>
+                    </button>
+                </div>
+                <div class="column">
+                    <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/productimage/2021/6/22/33423ded-e2a3-43fb-b84b-f97de6e7c9601624345743837-1.jpg" style="width:60%">
+                    <br>
+                    <h3>Salona Bichona</h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;">Beige & Blue Checked Diwan Set</p>
+                    <p>
+                        Rs. 689
+                    </p>
+                    <button class="add-to-cart" typr="button">
+                        <a class="color" href="page4sofaset.html">ADD TO CART </a>
+                    </button>
+                </div>
+            </div>
+            <div class="row">
+                <div class="column">
+                    <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/productimage/2020/7/16/d16346c5-ade1-4534-9c7f-0e2bc35a3bf11594853035132-1.jpg" style="width:60%">
+                    <br>
+                    <h3>KLOTTHE</h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;"> Set Of 8 Pink Striped Diwan Set</p>
+                    <p>
+                        Rs. 1649
+                    </p>
+                    <button class="add-to-cart" typr="button">
+                        <a class="color" href="page5sofaset.html"> ADD TO CART </a>
+                    </button>
+                </div>
+                <div class="column">
+                    <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/productimage/2021/4/17/8cb62bd9-3f61-4d9c-ba07-6cacd2bc1c0e1618649056843-1.jpg" style="width:60%">
+                    <br>
+                    <h3>SWAYAM</h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;">Set Of 8 White Striped Diwan Set</p>
+                    <p>
+                        Rs. 2064
+                    </p>
+                    <button class="add-to-cart" typr="button">
+                        <a class="color" href="page6sofaset.html"> ADD TO CART </a>
+                    </button>
+                </div>
+                <div class="column">
+                    <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/productimage/2021/2/18/44090048-ddb4-494f-b10d-359c67a0693b1613666371794-1.jpg" style="width:60%">
+                    <br>
+                    <h3>Bromwick</h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;"> Set Of 8 Black Striped Diwan Set</p>
+                    <p>
+                        Rs. 899
+                    </p>
+                    <button class="add-to-cart" typr="button">
+                        <a class="color" href="page7sofaset.html"> ADD TO CART </a>
+                    </button>
+                </div>
+                <div class="column">
+                    <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/productimage/2021/6/22/e5a1318a-7997-4835-969f-66608c42a0d91624342868234-2.jpg" style="width:60%">
+                    <br>
+                    <h3>Salona Bichona</h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;"> Maroon & Beige Pure Cotton Covers</p>
+                    <p>
+                        Rs. 989
+                    </p>
+                    <button class="add-to-cart" typr="button">
+                        <a class="color" href="page8sofaset.html">   ADD TO CART </a>
+                    </button>
+                </div>
+
+            </div>
+            <div class="row">
+                <div class="column">
+                    <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/productimage/2021/3/16/319da8c8-ea99-45eb-94fa-cdf51b33d8491615899256950-1.jpg" style="width:60%">
+                    <br>
+                    <h3>
+                        KLOTTHE
+                    </h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;"> Brown & Beige Geometric Printed </p>
+                    <p>
+                        Rs. 998
+                    </p>
+                    <button class="add-to-cart" typr="button">
+                        <a class="color" href="page9sofaset.html">  ADD TO CART </a>
+                    </button>
+                </div>
+                <div class="column">
+                    <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/productimage/2021/3/1/a209d5ae-5140-4b52-880d-7e499fa936b91614588631202-1.jpg" style="width:60%">
+                    <br>
+                    <h3>SWAYAM</h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;"> Beige & Brown Printed 144 TC </p>
+                    <p>
+                        Rs. 1526
+                    </p>
+                    <button class="add-to-cart" typr="button">
+                        <a class="color" href="page10sofaset.html"> ADD TO CART </a>
+                    </button>
+                </div>
+                <div class="column">
+                    <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/productimage/2021/4/17/c19905f4-d7a8-42a9-97ac-e7f301d3dcc21618636952228-1.jpg" style="width:60%">
+                    <br>
+                    <h3>SWAYAM</h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;"> Beige & Light Pink Printed 144 TC </p>
+                    <p>
+                        Rs. 2064
+                    </p>
+                    <button class="add-to-cart" typr="button">
+                        <a class="color" href="page11sofaset.html">  ADD TO CART </a>
+                    </button>
+                </div>
+                <div class="column">
+                    <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/6618371/2018/6/5/adee35f4-327e-4654-91a2-1c3b357865471528179564538-na-6281528179564301-1.jpg" style="width:60%">
+                    <br>
+                    <h3>ROMEE</h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;"> White & Red Ethnic Motif Printed</p>
+                    <p>
+                        Rs. 2079
+                    </p>
+                    <button class="add-to-cart" typr="button">
+                        <a class="color" href="page12sofaset.html">  ADD TO CART </a>
+                    </button>
+                </div>
+
+            </div>
+            <div class="row">
+                <div class="column">
+                    <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/productimage/2021/6/22/2d2997d1-74ee-4bc3-a084-de19a7b1b6d51624343417040-1.jpg" style="width:60%">
+                    <br>
+                    <h3>Salona Bichona</h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;"> Grey & Pink Geometric Printed 144 TC</p>
+                    <p>
+                        Rs. 539
+                    </p>
+                    <button class="add-to-cart" typr="button">
+                        <a class="color" href="page13sofaset.html"> ADD TO CART </a>
+                    </button>
+                </div>
+                <div class="column">
+                    <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/productimage/2019/12/18/7cdbb611-d284-4b0d-81d8-954739dacadd1576626514268-1.jpg" style="width:60%">
+                    <br>
+                    <h3>Soumya</h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;"> Red Geometric Printed 144 TC</p>
+                    <p>
+                        Rs. 1399
+                    </p>
+                    <button class="add-to-cart" typr="button">
+                        <a class="color" href="page14sofaset.html">  ADD TO CART </a>
+                    </button>
+                </div>
+                <div class="column">
+                    <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/productimage/2021/6/17/28983f85-0949-44f4-a976-32a3ba0937f01623913363957-1.jpg" style="width:60%">
+                    <br>
+                    <h3>LIVING ROOTS</h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;"> Green Printed Diwan Set with Bolster</p>
+                    <p>
+                        Rs. 1349
+                    </p>
+                    <button class="add-to-cart" typr="button">
+                        <a class="color" href="page15sofaset.html"> ADD TO CART </a>
+                    </button>
+                </div>
+                <div class="column">
+                    <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/productimage/2019/10/11/90146783-95d0-4040-9388-c26d98f4e6251570815661270-1.jpg" style="width:60%">
+                    <br>
+                    <h3>Rajasthan Decor</h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;"> Brown Printed Diwan Set with Bolster</p>
+                    <p>
+                        Rs. 1249
+                    </p>
+                    <button class="add-to-cart" typr="button">
+                        <a class="color" href="page16sofaset.html"> ADD TO CART </a>
+                    </button>
+                </div>
+
+            </div>
+
+
+        </nav>
+    </header>
+
+    <!-----End Header----->
+    <!-----Main----->
+    <!-----End Main----->
+    <!-----Footer----->
+    <!-----End Footer----->
+    <!-----Glidejs----->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/glide.min.js"></script>
+
+    <!-----Scripts----->
+    <script src="./js/index.js"></script>
+    <script src="./js/product.js"></script>
+    <script src="./js/slider.js"></script>
+</body>
+</html>

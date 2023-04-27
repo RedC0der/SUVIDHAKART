@@ -1,0 +1,363 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-----Favicon----->
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
+
+    <!-----Google Fonts----->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;900&display=swap" rel="stylesheet">
+
+    <!-----Font Awesome----->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!-----Glidejs----->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/css/glide.core.css">
+
+    <!-----Animate Css----->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+    <!-----Custom Css----->
+    <link rel="stylesheet" href="HOME.css">
+
+    <title>SuvidhaKart</title>
+    <style>
+         * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        .row {
+            display: block;
+            margin: 20px 0;
+            display: flex;
+        }
+
+        .column {
+            background-color: white;
+            float: left;
+            margin: 0 10px 10px 0;
+            width: 205px;
+            padding: 10px;
+        }
+
+        h3 {
+            font-size: 1.8rem;
+            font-weight: 900;
+            display: block;
+            border: 1p solid #ccc;
+        }
+  
+        button {
+            padding: 4px 14px;
+            background-color: #f60091;
+            color: rgb(255, 255, 255);
+            text-transform: uppercase;
+            flex: right;
+            margin: 5px 0;
+            font-weight: 400;
+            cursor: pointer;
+            font-family: Tahoma;
+            border-radius: 50px;
+        }
+        .column img{
+        height: 25rem;
+        width: 100%;
+        transition: all 500ms linear;
+        }
+
+        .column:hover img{
+        transform: scale(1.1);
+        }
+        /* Create three equal columns that sits next to each other */
+        .column {
+            flex: 33.33%;
+            padding: 5px;
+        }
+        .color {
+            color: white;
+        }
+
+    </style>
+</head>
+<body class="">
+    <!-----Header----->
+    <header class="header" id="header">
+        <nav class="navigation">
+            <div class="nav-center container">
+                <a href="#home" class="logo">
+                    <h1>SUVIDHA<span>K</span>ART</h1>
+                </a>
+
+                <div class="nav-menu-show">
+                    <div class="nav-top">
+                        <div class="logo">
+                            <h1>SUVIDHA<span>K</span>ART</h1>
+                        </div>
+                        <div class="close">
+                            <i class="fas fa-times"></i>
+
+                        </div>
+                    </div>
+
+                    <ul class="nav-list">
+                        <li class="nav-item">
+                            <a href="#home" class="nav-link scroll-link">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#shop" class="nav-link scroll-link">Products</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#new" class="nav-link scroll-link">New</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#recent" class="nav-link scroll-link">Recent</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#blog" class="nav-link scroll-link">Blog</a>
+                        </li>
+
+                    </ul>
+                </div>
+                <div class="nav-icons">
+                    <a style="color: #f60091;" href="login.html"><span><i class="fas fa-user"></i></span></a>
+                    <span  style="color: #f60091;"><i class="fas fa-search"></i></span>
+                    <span  style="color: #f60091;"><i class="fas fa-shopping-cart"></i></span>
+                </div>
+                <div class="hamburger">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="column">
+                    <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/1372819/2016/6/13/11465810731688-SEJ-by-Nisha-Gupta-White-160-TC-Cotton-Double-Bedsheet-with-2-Pillow-Covers-7931465810731488-1.jpg" style="width:60%">
+                    <br>
+                    <h3>SEJ by Nisha Gupta</h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;"> Printed Bubbled Blue Cotton Bedsheet</p>
+                    <p>
+                        Rs. 699
+                    </p>
+                    <button class="add-to-cart" typr="button">
+                        <a class="color" href="page1bedsheet.html">  ADD TO CART </a>
+                    </button>
+
+
+                </div>
+                <div class="column">
+                    <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/productimage/2019/1/4/007be9aa-bc5f-4ea5-b721-cfd6cac1c07d1546603804571-1.jpg" style="width:60%">
+                    <br>
+                    <h3>Divine Casa</h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;"> Off-White & Teal Ethnic Motifs </p>
+                    <p>
+                        Rs. 593
+                    </p>
+                    <button class="add-to-cart" typr="button">
+                        <a class="color" href="page2bedsheet.html">  ADD TO CART </a>
+                    </button>
+                </div>
+                <div class="column">
+                    <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/14136892/2021/6/16/b8612b47-4f12-4f33-84d2-e4eee4c7216b1623816287439BedsheetsAuraUnisexBedsheetsAuraUnisexBedsheetsAuraUnisexBed1.jpg" style="width:60%">
+                    <br>
+                    <h3>Aura
+                    </h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;"> Grey & Pink 250 TC Cotton</p>
+                    <p>
+                        Rs. 659
+                    </p>
+                    <button class="add-to-cart" typr="button">
+                        <a class="color" href="page3bedsheet.html"> ADD TO CART </a>
+                    </button>
+                </div>
+                <div class="column">
+                    <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/productimage/2021/2/19/d785281e-3fdb-459b-9f5e-a491994a7a8f1613753979901-1.jpg" style="width:60%">
+                    <br>
+                    <h3>BIANCA</h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;"> Maroon & Pink250 TC Cotton</p>
+                    <p>
+                        Rs. 1439
+                    </p>
+                    <button class="add-to-cart" typr="button">
+                        <a class="color" href="page4bedsheet.html">ADD TO CART </a>
+                    </button>
+                </div>
+            </div>
+            <div class="row">
+                <div class="column">
+                    <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/productimage/2021/3/1/f875df76-c699-4aaa-93c9-72d34b03c3131614590300353-1.jpg" style="width:60%">
+                    <br>
+                    <h3>Florida</h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;">Blue & Lavender Floral 144 TC</p>
+                    <p>
+                        Rs. 594
+                    </p>
+                    <button class="add-to-cart" typr="button">
+                        <a class="color" href="page5bedsheet.html"> ADD TO CART </a>
+                    </button>
+                </div>
+                <div class="column">
+                    <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/13979396/2021/6/16/c3bfbb1f-2340-4414-a2b5-e58a6c41a6ab1623816329147BedsheetsAuraUnisexBedsheetsAuraUnisexBedsheetsAuraUnisexBed1.jpg" style="width:60%">
+                    <br>
+                    <h3>Aura</h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;"> Grey Floral 186 TC Cotton Bedsheet</p>
+                    <p>
+                        Rs. 659
+                    </p>
+                    <button class="add-to-cart" typr="button">
+                        <a class="color" href="page6bedsheet.html"> ADD TO CART </a>
+                    </button>
+                </div>
+                <div class="column">
+                    <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/productimage/2019/5/21/cc85625e-1050-47f1-930c-671727bb6a5e1558396444207-1.jpg" style="width:60%">
+                    <br>
+                    <h3>SEJ by Nisha Gupta</h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;">Yellow & Grey Floral 144 TC</p>
+                    <p>
+                        Rs. 699
+                    </p>
+                    <button class="add-to-cart" typr="button">
+                        <a class="color" href="page7bedsheet.html"> ADD TO CART </a>
+                    </button>
+                </div>
+                <div class="column">
+                    <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/productimage/2019/10/14/68e695a1-b598-4a02-8116-3ba01cd7a6fb1571077129075-1.jpg" style="width:60%">
+                    <br>
+                    <h3>Rajasthan Decor</h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;"> Purple Floral 144 TC Polycotton</p>
+                    <p>
+                        Rs. 791
+                    </p>
+                    <button class="add-to-cart" typr="button">
+                        <a class="color" href="page8bedsheet.html">   ADD TO CART </a>
+                    </button>
+                </div>
+
+            </div>
+            <div class="row">
+                <div class="column">
+                    <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/12311310/2021/6/27/9349172b-aa45-4477-82e7-fc02685920af1624781585106-Storyhome-White--Blue-Floral-300-TC-Cotton-1-King-Bedsheet-w-1.jpg" style="width:60%">
+                    <br>
+                    <h3>Story@home</h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;"> Blue & White Floral 210 TC</p>
+                    <p>
+                        Rs.1559
+                    </p>
+                    <button class="add-to-cart" typr="button">
+                        <a class="color" href="page9bedsheet.html">  ADD TO CART </a>
+                    </button>
+                </div>
+                <div class="column">
+                    <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/productimage/2019/5/21/b506a7ea-f79b-466a-9bae-cd037813eaed1558401720076-1.jpg" style="width:60%">
+                    <br>
+                    <h3>SEJ by Nisha Gupta</h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;"> White & Pink Floral 144 TC Cotton </p>
+                    <p>
+                        Rs. 699
+                    </p>
+                    <button class="add-to-cart" typr="button">
+                        <a class="color" href="page10bedsheet.html"> ADD TO CART </a>
+                    </button>
+                </div>
+                <div class="column">
+                    <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/productimage/2021/5/5/e9bf180d-783d-458c-9ff4-f07c346e9da41620220092285-1.jpg" style="width:60%">
+                    <br>
+                    <h3>Salona Bichona</h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;">White & Blue Geometric 144 TC Cotton</p>
+                    <p>
+                        Rs. 374
+                    </p>
+                    <button class="add-to-cart" typr="button">
+                        <a class="color" href="page11bedsheet.html">  ADD TO CART </a>
+                    </button>
+                </div>
+                <div class="column">
+                    <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/14136902/2021/6/16/12bb9f73-e5c6-45f7-8147-505d50eae8eb1623816326802BedsheetsAuraUnisexBedsheetsAuraUnisexBedsheetsAuraUnisexBed1.jpg" style="width:60%">
+                    <br>
+                    <h3>Aura</h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;"> Grey Floral 186 TC Cotton Bedsheet</p>
+                    <p>
+                        Rs. 659
+                    </p>
+                    <button class="add-to-cart" typr="button">
+                        <a class="color" href="page12bedsheet.html">  ADD TO CART </a>
+                    </button>
+                </div>
+
+            </div>
+            <div class="row">
+                <div class="column">
+                    <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/13771326/2021/3/11/24dabbe5-c797-456e-b223-ecad617f5f571615445195920-DREAM-WEAVERZ-Blue--White-Graphic-300-TC-Cotton-1-King-Bedsh-1.jpg" style="width:60%">
+                    <br>
+                    <h3>DREAM WEAVERZ</h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;">Aky Blue Printed Cotton bedsheet</p>
+                    <p>
+                        Rs. 849
+                    </p>
+                    <button class="add-to-cart" typr="button">
+                        <a class="color" href="page13bedsheet.html"> ADD TO CART </a>
+                    </button>
+                </div>
+                <div class="column">
+                    <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/11870508/2020/5/19/21ac5bc2-6b2d-4b3d-aefc-25748227a2d91589891761582HomeSizzler1.jpg" style="width:60%">
+                    <br>
+                    <h3>Home Sizzler</h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;">Navy Blue Soft & Shiny Bedsheet</p>
+                    <p>
+                        Rs. 499
+                    </p>
+                    <button class="add-to-cart" typr="button">
+                        <a class="color" href="page14bedsheet.html">  ADD TO CART </a>
+                    </button>
+                </div>
+                <div class="column">
+                    <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/2399429/2020/12/31/9ff3756d-a656-4462-9bde-bde0c344253f1609412730449StoryhomeNude-ColouredTealFloralFlat240TC1DoubleBedsheetwith1.jpg" style="width:60%">
+                    <br>
+                    <h3>Story@home</h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;"> White Floral 186 TC Cotton Bedsheet</p>
+                    <p>
+                        Rs. 967
+                    </p>
+                    <button class="add-to-cart" typr="button">
+                        <a class="color" href="page15bedsheet.html"> ADD TO CART </a>
+                    </button>
+                </div>
+                <div class="column">
+                    <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/12085822/2021/7/5/e52126c1-a53e-49fa-ad9d-0fc44ef5adae1625491478663-DREAM-WEAVERZ-Grey--White-250-TC-Cotton-1-Queen-Bedsheet-wit-1.jpg" style="width:60%">
+                    <br>
+                    <h3>DREAM WEAVERZ</h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;"> Grey Floral 186 TC Cotton Bedsheet</p>
+                    <p>
+                        Rs. 779
+                    </p>
+                    <button class="add-to-cart" typr="button">
+                        <a class="color" href="page16bedsheet.html"> ADD TO CART </a>
+                    </button>
+                </div>
+
+            </div>
+
+
+        </nav>
+    </header>
+
+    <!-----End Header----->
+    <!-----Main----->
+    <!-----End Main----->
+    <!-----Footer----->
+    <!-----End Footer----->
+    <!-----Glidejs----->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/glide.min.js"></script>
+
+    <!-----Scripts----->
+    <script src="./js/index.js"></script>
+    <script src="./js/product.js"></script>
+    <script src="./js/slider.js"></script>
+</body>
+</html>

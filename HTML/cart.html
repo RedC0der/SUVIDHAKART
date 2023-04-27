@@ -1,0 +1,287 @@
+<!-----
+<?php
+session_start();
+include 'databasecon.php';
+if (isset($_POST['submit'])) {
+	$email = mysqli_real_escape_string($con, $_POST['email']);
+	$insertquery = "insert into signupform (email) VALUES ('$email')";
+	$iquery = mysqli_query($con, $insertquery);
+
+	if ($iquery) {
+			
+			} else {
+				echo("error");
+	}
+}
+?>
+----->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-----Favicon----->
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">  
+
+    <!-----Google Fonts-----> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;900&display=swap" rel="stylesheet">
+
+    <!-----Font Awesome----->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!-----Glidejs----->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/css/glide.core.css">
+
+    <!-----Animate Css----->
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+
+    <!-----Custom Css----->
+    <link rel="stylesheet" href="styles.css">
+
+    <title>SuvidhaKart</title>
+</head>
+<body class="">
+    <!-----Header----->
+
+    <header class="header" id="home">
+        <nav class="navigation">
+            <div class="nav-center container">
+            <a href="#home" class="logo">
+                <h1>SUVIDHA<span>K</span>ART</h1>
+            </a>
+
+            <div class="nav-menu">
+            <div class="nav-top">
+                <div class="logo">
+                    <h1>SUVIDHA<span>K</span>ART</h1>
+                </div> 
+                <div class="close">
+                <i class="fas fa-times"></i>
+
+                </div>
+               </div>
+
+               <ul class="nav-list">
+                   <li class="nav-item">
+                       <a href="#home" class="nav-link scroll-link">Home</a>
+                   </li>
+                <li class="nav-item">
+                    <a href="#new" class="nav-link scroll-link">New</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#recent" class="nav-link scroll-link">Recent</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#blog" class="nav-link scroll-link">Blog</a>
+                </li>
+                <li class="nav-item">
+                    <a href="" class="nav-link scroll-link">Cart</a>
+                </li>
+
+            </ul>
+              </div>
+              <div class="nav-icons">
+                  <a style="color: #f60091;" href="login.html"><span><i class="fas fa-user"></i></span></a>
+                  <span style="color: #f60091;"><i class="fas fa-search"></i></span>
+                  <span style="color: #f60091;"><i class="fas fa-shopping-cart"></i></span>
+              </div>
+              <div class="hamburger">
+                <i class="fas fa-bars"></i>
+              </div>
+            </div>
+        </nav>
+    </header>
+<!-----Cart items details----->
+<div style="margin: 80px;">
+<div class="small-container cart-page">
+    <table>
+        <tr>
+            <th>Product</th>
+            <th>Quantity</th>
+            <th>Subtotal</th>
+          </tr>
+            <tr>
+                <td>
+                    <div class="cart-info">
+                        <img src="lehanga1.jpg" width="17%" alt="">
+                        <div>
+                            <p>Bridal Heavy Lehanga</p>
+                            <small>Price:₹5000</small>
+                            <br>
+                            <a href="">Remove</a>
+                        </div>
+                    </div>
+                </td>
+                <td><input type="number" value="1"></td>
+                <td>₹5000</td>
+        </tr>
+        <tr>
+          <td>
+              <div class="cart-info">
+                  <img src="besttrendy-r.png" width="20%" alt="">
+                  <div>
+                      <p>Partywear Saree</p>
+                      <small>Price:₹2000</small>
+                      <br>
+                      <a href="">Remove</a>
+                  </div>
+              </div>
+          </td>
+          <td><input type="number" value="1"></td>
+          <td>₹2000</td>
+  </tr>
+  <tr>
+    <td>
+        <div class="cart-info">
+            <img src="mentrend-r.png" width="20%" alt="">
+            <div>
+                <p>Men Blazer</p>
+                <small>Price:₹5000</small>
+                <br>
+                <a href="">Remove</a>
+            </div>
+        </div>
+    </td>
+    <td><input type="number" value="1"></td>
+    <td>₹5000</td>
+</tr>
+<tr>
+  <td>
+      <div class="cart-info">
+          <img src="babycloths-r.png" width="19%" alt="">
+          <div>
+              <p>Baby Ethnic Wear</p>
+              <small>Price:₹500</small>
+              <br>
+              <a href="">Remove</a>
+          </div>
+      </div>
+  </td>
+  <td><input type="number" value="1"></td>
+  <td>₹500</td>
+</tr>
+<tr>
+  <td>
+      <div class="cart-info">
+          <img src="nehrujack-r.png" width="17%" alt="">
+          <div>
+              <p>Nehru Jacket</p>
+              <small>Price:₹1200</small>
+              <br>
+              <a href="">Remove</a>
+          </div>
+      </div>
+  </td>
+  <td><input type="number" value="1"></td>
+  <td>₹1200</td>
+</tr>
+    </table>
+    <div class="total-price">
+      <table>
+        <tr>
+          <td>Subtotal</td>
+          <td>₹13700</td>
+        </tr>
+        <tr>
+          <td>Tax</td>
+          <td>₹50</td>
+        </tr>
+        <tr>
+          <td>Total</td>
+          <td>₹13750</td>
+        </tr>
+      </table>
+    </div>
+</div>
+</div>
+   
+
+    <!-----Footer----->
+    <footer id="footer" class="section footer">
+        <div class="container">
+          <div class="footer-container">
+            <div class="footer-center">
+              <h3>EXTRAS</h3>
+              <a href="#">Brands</a>
+              <a href="#">Gift Certificates</a>
+              <a href="#">Affiliate</a>
+              <a href="#">Specials</a>
+              <a href="#">Site Map</a>
+            </div>
+            <div class="footer-center">
+              <h3>INFORMATION</h3>
+              <a href="#">About Us</a>
+              <a href="#">Privacy Policy</a>
+              <a href="#">Terms & Conditions</a>
+              <a href="#">Contact Us</a>
+              <a href="#">Site Map</a>
+            </div>
+            <div class="footer-center">
+              <h3>MY ACCOUNT</h3>
+              <a href="#">My Account</a>
+              <a href="#">Order History</a>
+              <a href="#">Wish List</a>
+              <a href="#">blogletter</a>
+              <a href="#">Returns</a>
+            </div>
+
+            <div class="footer-center">
+                <h3>FOLLOW US</h3>
+                <a href="https://www.facebook.com/profile.php?id=100070055935383"><i style="color: rgb(72, 140, 243);" class="fab fa-facebook"></i>  Facebook Page</a>
+                <a href="https://www.instagram.com/suvidhakart/"><i style="color: rgb(236, 38, 147);" class="fab fa-instagram"></i>  Instagram Page</a>
+                <a href="https://twitter.com/suvidhakart?s=08"><i  style="color: rgb(42, 179, 233);" class="fab fa-twitter-square"></i>  Twitter</a>
+                <a href="https://Linkedin.com/suvidhakart"><i style="color: rgb(8, 95, 224);" class="fab fa-linkedin"></i>  Linkedin</a>
+                <a href="https://Whatsapp.com/suvidhakart"><i  style="color: rgb(16, 241, 16);" class="fab fa-whatsapp"></i>  Whatsapp</a>
+              </div>
+                
+            <div class="footer-center">
+              <h3>CONTACT US</h3>
+              <div>
+                <span>
+                  <i style="color: red;" class="fas fa-map-marker-alt"></i>
+                </span>
+                42 Dream House, Dreammy street, 7131 Dreamville, USA
+              </div>
+              <div>
+                <span>
+                  <i style="color: rgb(255, 166, 0);" class="far fa-envelope"></i>
+                </span>
+                company@gmail.com
+              </div>
+              <div>
+                <span>
+                  <i style="color: rgb(243, 120, 72);" class="fas fa-phone"></i>
+                </span>
+                456-456-4512
+              </div>
+              <div>
+                <span>
+                  <i style="color: rgb(72, 223, 243);" class="far fa-paper-plane"></i>
+                </span>
+                Dream City, USA
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+      </footer>
+
+    <!-----End Footer----->
+
+    <!-----Glidejs----->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/glide.min.js"></script>
+    
+    <!-----Scripts----->
+    <script src="./js/index.js"></script>
+    <script src="./js/product.js"></script>
+    <script src="./js/slider.js"></script>
+</body>
+</html>

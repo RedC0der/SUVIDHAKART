@@ -1,0 +1,313 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-----Favicon----->
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
+
+    <!-----Google Fonts----->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;900&display=swap" rel="stylesheet">
+
+    <!-----Font Awesome----->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!-----Glidejs----->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/css/glide.core.css">
+
+    <!-----Animate Css----->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+    <!-----Custom Css----->
+    <link rel="stylesheet" href="HOME.css">
+
+    <title>SuvidhaKart</title>
+    <style>
+       * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        .row {
+            display: block;
+            margin: 20px 0;
+            display: flex;
+        }
+
+        .column {
+            background-color: white;
+            float: left;
+            margin: 0 10px 10px 0;
+            width: 205px;
+            padding: 10px;
+        }
+
+        h3 {
+            font-size: 1.8rem;
+            font-weight: 900;
+            display: block;
+            border: 1p solid #ccc;
+        }
+  
+        button {
+            padding: 4px 14px;
+            background-color: #f60091;
+            color: rgb(255, 255, 255);
+            text-transform: uppercase;
+            flex: right;
+            margin: 5px 0;
+            font-weight: 400;
+            cursor: pointer;
+            font-family: Tahoma;
+            border-radius: 50px;
+        }
+        .column img{
+        height: 25rem;
+        width: 100%;
+        transition: all 500ms linear;
+        }
+
+        .column:hover img{
+        transform: scale(1.1);
+        }
+        /* Create three equal columns that sits next to each other */
+        .column {
+            flex: 33.33%;
+            padding: 5px;
+        }
+        .color {
+            color: white;
+        }
+
+    </style>
+</head>
+<body class="">
+    <!-----Header----->
+    <header class="header" id="header">
+        <nav class="navigation">
+            <div class="nav-center container">
+                <a href="#home" class="logo">
+                    <h1>SUVIDHA<span>K</span>ART</h1>
+                </a>
+
+                <div class="nav-menu-show">
+                    <div class="nav-top">
+                        <div class="logo">
+                            <h1>SUVIDHA<span>K</span>ART</h1>
+                        </div>
+                        <div class="close">
+                            <i class="fas fa-times"></i>
+
+                        </div>
+                    </div>
+
+                    <ul class="nav-list">
+                        <li class="nav-item">
+                            <a href="#home" class="nav-link scroll-link">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#shop" class="nav-link scroll-link">Products</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#new" class="nav-link scroll-link">New</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#recent" class="nav-link scroll-link">Recent</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#blog" class="nav-link scroll-link">Blog</a>
+                        </li>
+
+                    </ul>
+                </div>
+                <div class="nav-icons">
+                    <a style="color: #f60091;" href="login.html"><span><i class="fas fa-user"></i></span></a>
+                    <span  style="color: #f60091;"><i class="fas fa-search"></i></span>
+                    <span  style="color: #f60091;"><i class="fas fa-shopping-cart"></i></span>
+                </div>
+                <div class="hamburger">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="column">
+                    <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/1265392/2020/1/20/12fc0ced-84b7-4933-8cbc-5a7832c7686e1579504849580-Highlander-Black-Slim-Fit-Casual-Shirt-2521579504847937-1.jpg" style="width:60%">
+                    <br>
+                    <h3>HIGHLANDER</h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;"> Nuvo Fit Checked Formal Shirt</p>
+                    <p>
+                        Rs. 399
+                    </p>
+                    <button class="add-to-cart" type="button">
+                        <a class="color" href="page1men.html">  ADD TO CART </a>
+                    </button>
+
+
+                </div>
+                <div class="column">
+                    <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/productimage/2019/7/28/fa02fa77-0b09-45e7-875d-45d6c4f87fea1564259983580-1.jpg" style="width:60%">
+                    <br>
+                    <h3>LOCOMOTION</h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;"> Printed Fit Formal Shirt</p>
+                    <p>
+                        Rs. 639
+                    </p>
+                    <button class="add-to-cart" type="button">
+                        <a class="color" href="page2men.html">  ADD TO CART </a>
+                    </button>
+                </div>
+                <div class="column">
+                    <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/6791227/2018/7/23/63a3b687-3d1f-4810-bf2e-d1183eec84181532336327663-Roadster-Men-Blue-Regular-Fit-Solid-Casual-Shirt-35615323363-1.jpg" style="width:60%">
+                    <br>
+                    <h3>Roadster
+                    </h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;"> Micro Ditsy Print Formal Shirt</p>
+                    <p>
+                        Rs. 629
+                    </p>
+                    <button class="add-to-cart" type="button">
+                        <a class="color" href="page3men.html"> ADD TO CART </a>
+                    </button>
+                </div>
+                <div class="column">
+                    <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/11780922/2020/4/3/0fe1f83f-4a92-4a9e-ac95-3559e4b978e61585905004166HIGHLANDERMenWhiteGreySlimFitPrintedCasualShirt1.jpg" style="width:60%">
+                    <br>
+                    <h3>HIGHLANDER</h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;"> Slim Fit Solid Regular Shirt</p>
+                    <p>
+                        Rs. 419
+                    </p>
+                    <button class="add-to-cart" type="button">
+                        <a class="color" href="page4men.html">ADD TO CART </a>
+                    </button>
+                </div>
+            </div>
+            <div class="row">
+                <div class="column">
+                    <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/productimage/2020/1/17/d71045b2-4300-4395-b110-f652fa00e9e51579211471795-1.jpg" style="width:60%">
+                    <br>
+                    <h3>JAINISH</h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;">Men Grey Classic Regular Fit</p>
+                    <p>
+                        Rs. 493
+                    </p>
+                    <button class="add-to-cart" type="button">
+                        <a class="color" href="page5men.html"> ADD TO CART </a>
+                    </button>
+                </div>
+                <div class="column">
+                    <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/12311828/2020/10/14/2a205de2-0144-4c38-a30f-87bb4567504d1602678866862-Mast--Harbour-Men-Shirts-3991602678864789-1.jpg" style="width:60%">
+                    <br>
+                    <h3>Mast & Harbour</h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;">Red Stripped Slim Fit Solid</p>
+                    <p>
+                        Rs. 664
+                    </p>
+                    <button class="add-to-cart" type="button">
+                        <a class="color" href="page6men.html"> ADD TO CART </a>
+                    </button>
+                </div>
+                <div class="column">
+                    <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/13252112/2021/1/5/8f99081e-1ef0-49d7-a306-6964571e170a1609827194807-Levis-Men-Shirts-2661609827193541-1.jpg" style="width:60%">
+                    <br>
+                    <h3>Levis</h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;">Checked Classic Slim Fit Solid</p>
+                    <p>
+                        Rs. 899
+                    </p>
+                    <button class="add-to-cart" type="button">
+                        <a class="color" href="page7men.html"> ADD TO CART </a>
+                    </button>
+                </div>
+                <div class="column">
+                    <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/productimage/2020/10/15/5b9a1046-2369-4976-9ece-d8e0013e06fb1602716976713-1.jpg" style="width:60%">
+                    <br>
+                    <h3>HIGHLANDER</h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;">Light Blue Classic Slim Fit Solid</p>
+                    <p>
+                        Rs. 599
+                    </p>
+                    <button class="add-to-cart" type="button">
+                        <a class="color" href="page8men.html">   ADD TO CART </a>
+                    </button>
+                </div>
+
+            </div>
+            <div class="row">
+                <div class="column">
+                    <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/11421956/2020/5/21/5d8de0f9-2199-4266-a3d1-0f22ea2b91cf1590059115085-ether-Men-White-Anti-Microbial-Cotton-Poplin-Shirt-527159005-1.jpg" style="width:60%">
+                    <br>
+                    <h3>ether</h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;">White Slim Fit Solid Formal Shirt</p>
+                    <p>
+                        Rs. 584
+                    </p>
+                    <button class="add-to-cart" type="button">
+                        <a class="color" href="page9men.html">  ADD TO CART </a>
+                    </button>
+                </div>
+                <div class="column">
+                    <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/12947762/2021/3/26/d4894665-c3e5-4b43-a3a7-d5f48a1ef2591616750916238-Roadster-Men-Shirts-1801616750912422-1.jpg" style="width:60%">
+                    <br>
+                    <h3>Roadster</h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;">Slim Fit Formal Shirt</p>
+                    <p>
+                        Rs. 559
+                    </p>
+                    <button class="add-to-cart" type="button">
+                        <a class="color" href="page10men.html"> ADD TO CART </a>
+                    </button>
+                </div>
+                <div class="column">
+                    <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/14081026/2021/5/12/afda9be1-9115-4ab5-8b7f-1d45e7304b8e1620812853882-HERENOW-Men-Shirts-5031620812853199-1.jpg" style="width:60%">
+                    <br>
+                    <h3>HERE&NOW</h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;">Blue Classic Slim Fit Solid</p>
+                    <p>
+                        Rs. 799
+                    </p>
+                    <button class="add-to-cart" type="button">
+                        <a class="color" href="page11men.html">  ADD TO CART </a>
+                    </button>
+                </div>
+                <div class="column">
+                    <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/14598460/2021/7/1/2599051d-2d44-4a59-ae8f-0dc1372b74641625132496220-Louis-Philippe-Men-Shirts-2491625132495701-1.jpg" style="width:60%">
+                    <br>
+                    <h3>Louis Philippe</h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;">Men Black Slim Fit Solid Formal Shirt</p>
+                    <p>
+                        Rs. 999
+                    </p>
+                    <button class="add-to-cart" type="button">
+                        <a class="color" href="page12men.html">  ADD TO CART </a>
+                    </button>
+                </div>
+
+            
+            </div>
+
+
+        </nav>
+    </header>
+
+    <!-----End Header----->
+    <!-----Main----->
+    <!-----End Main----->
+    <!-----Footer----->
+    <!-----End Footer----->
+    <!-----Glidejs----->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/glide.min.js"></script>
+
+    <!-----Scripts----->
+    <script src="./js/index.js"></script>
+    <script src="./js/product.js"></script>
+    <script src="./js/slider.js"></script>
+</body>
+</html>

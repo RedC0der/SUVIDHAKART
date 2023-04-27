@@ -1,0 +1,311 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-----Favicon----->
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
+
+    <!-----Google Fonts----->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;900&display=swap" rel="stylesheet">
+
+    <!-----Font Awesome----->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!-----Glidejs----->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/css/glide.core.css">
+
+    <!-----Animate Css----->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+    <!-----Custom Css----->
+    <link rel="stylesheet" href="HOME.css">
+
+    <title>SuvidhaKart</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        .row {
+            display: block;
+            margin: 20px 0;
+            display: flex;
+        }
+
+        .column {
+            background-color: white;
+            float: left;
+            margin: 0 10px 10px 0;
+            width: 205px;
+            padding: 10px;
+        }
+
+        h3 {
+            font-size: 1.8rem;
+            font-weight: 900;
+            display: block;
+            border: 1p solid #ccc;
+        }
+  
+        button {
+            padding: 4px 14px;
+            background-color: #f60091;
+            color: rgb(255, 255, 255);
+            text-transform: uppercase;
+            flex: right;
+            margin: 5px 0;
+            font-weight: 400;
+            cursor: pointer;
+            font-family: Tahoma;
+            border-radius: 50px;
+        }
+        .column img{
+        height: 25rem;
+        width: 100%;
+        transition: all 500ms linear;
+        }
+
+        .column:hover img{
+        transform: scale(1.1);
+        }
+        /* Create three equal columns that sits next to each other */
+        .column {
+            flex: 33.33%;
+            padding: 5px;
+        }
+        .color {
+            color: white;
+        }
+
+    </style>
+</head>
+<body class="">
+    <!-----Header----->
+    <header class="header" id="header">
+        <nav class="navigation">
+            <div class="nav-center container">
+                <a href="#home" class="logo">
+                    <h1>SUVIDHA<span>K</span>ART</h1>
+                </a>
+
+                <div class="nav-menu-show">
+                    <div class="nav-top">
+                        <div class="logo">
+                            <h1>SUVIDHA<span>K</span>ART</h1>
+                        </div>
+                        <div class="close">
+                            <i class="fas fa-times"></i>
+
+                        </div>
+                    </div>
+
+                    <ul class="nav-list">
+                        <li class="nav-item">
+                            <a href="#home" class="nav-link scroll-link">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#shop" class="nav-link scroll-link">Products</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#new" class="nav-link scroll-link">New</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#recent" class="nav-link scroll-link">Recent</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#blog" class="nav-link scroll-link">Blog</a>
+                        </li>
+
+                    </ul>
+                </div>
+                <div class="nav-icons">
+                    <a style="color: #f60091;" href="login.html"><span><i class="fas fa-user"></i></span></a>
+                    <span  style="color: #f60091;"><i class="fas fa-search"></i></span>
+                    <span  style="color: #f60091;"><i class="fas fa-shopping-cart"></i></span>
+                </div>
+                <div class="hamburger">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="column">
+                    <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/9038471/2019/8/9/ec8f3c60-ffe7-4ff0-b916-940095e5be2a1565343387625-HRX-by-Hrithik-Roshan-Unisex-Polarised-Square-Sunglasses-MFB-2.jpg" style="width:60%">
+                    <br>
+                    <h3>HRX by Hrithik Roshan</h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;"> UV Protected Lens Cateye Sunglasses</p>
+                    <p>
+                        Rs. 1649
+                    </p>
+                    <button class="add-to-cart" typr="button">
+                        <a class="color" href="page1sunglass.html">  ADD TO CART </a>
+                    </button>
+
+
+                </div>
+                <div class="column">
+                    <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/12977534/2020/11/13/a4fdb7ad-f75e-4b71-8a11-d41fab286dcd1605270643084QuechuaByDecathlonUnisexWayfarerMH140Cat3Sunglasses85592621.jpg" style="width:60%">
+                    <br>
+                    <h3>Quechua By Decathlon</h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;"> Oval Sunglasses B80-336</p>
+                    <p>
+                        Rs. 999
+                    </p>
+                    <button class="add-to-cart" typr="button">
+                        <a class="color" href="page2sunglass.html">  ADD TO CART </a>
+                    </button>
+                </div>
+                <div class="column">
+                    <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/productimage/2021/6/10/f35781b0-5f55-40e1-b1a9-69c3610a7de21623268204240-1.jpg" style="width:60%">
+                    <br>
+                    <h3>CRIBA
+                    </h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;">Wayfarer MH140 Cat 3 Sunglasses</p>
+                    <p>
+                        Rs. 459
+                    </p>
+                    <button class="add-to-cart" typr="button">
+                        <a class="color" href="page3sunglass.html"> ADD TO CART </a>
+                    </button>
+                </div>
+                <div class="column">
+                    <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/13669580/2021/2/22/37c6c9e9-7b87-4ead-88fd-a383c7f320d21613971037874-Carlton-London-Unisex-Sunglasses-5011613971037447-1.jpg" style="width:60%">
+                    <br>
+                    <h3>Carlton London</h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;">Square Sunglasses MFB-PN-CY-51804</p>
+                    <p>
+                        Rs. 998
+                    </p>
+                    <button class="add-to-cart" typr="button">
+                        <a class="color" href="page4sunglass.html">ADD TO CART </a>
+                    </button>
+                </div>
+            </div>
+            <div class="row">
+                <div class="column">
+                    <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/productimage/2020/11/26/d65ef797-ccb3-457b-86db-787a24c126c31606394070256-1.jpg" style="width:60%">
+                    <br>
+                    <h3>Voyage</h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;"> Women Oversized Sunglasses A3066</p>
+                    <p>
+                        Rs. 756
+                    </p>
+                    <button class="add-to-cart" typr="button">
+                        <a class="color" href="page5sunglass.html"> ADD TO CART </a>
+                    </button>
+                </div>
+                <div class="column">
+                    <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/productimage/2020/2/6/3d622f2b-e98c-4ef7-9f36-419813ead6081580939561757-1.jpg" style="width:60%">
+                    <br>
+                    <h3>ROYAL SON</h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;"> Aviator Sunglasses PN-SR-SM2960</p>
+                    <p>
+                        Rs. 659
+                    </p>
+                    <button class="add-to-cart" typr="button">
+                        <a class="color" href="page6sunglass.html"> ADD TO CART </a>
+                    </button>
+                </div>
+                <div class="column">
+                    <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/productimage/2021/6/16/72b64fa9-dad6-43f4-929a-241340ceca0a1623857498746-1.jpg" style="width:60%">
+                    <br>
+                    <h3>Ted Smith</h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;">Women Gradient Oval Sunglasses </p>
+                    <p>
+                        Rs. 1221
+                    </p>
+                    <button class="add-to-cart" typr="button">
+                        <a class="color" href="page7sunglass.html"> ADD TO CART </a>
+                    </button>
+                </div>
+                <div class="column">
+                    <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/11150706/2020/7/1/e21f25a1-ed98-4498-a3a4-3109545527411593594453395-Pepe-Jeans-Unisex-Rectangular-Sunglasses-PJ5175C3-6831593594-1.jpg" style="width:60%">
+                    <br>
+                    <h3>Pepe Jeans</h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;"> Protected Square Sunglasses CHI0074</p>
+                    <p>
+                        Rs. 2499
+                    </p>
+                    <button class="add-to-cart" typr="button">
+                        <a class="color" href="page8sunglass.html">   ADD TO CART </a>
+                    </button>
+                </div>
+
+            </div>
+            <div class="row">
+                <div class="column">
+                    <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/9038581/2019/7/26/c1fd752b-b84b-4ee2-9a20-74d19ed484a91564116941349-Roadster-Unisex-Square-Sunglasses-4591564116940986-1.jpg" style="width:60%">
+                    <br>
+                    <h3>Roadster</h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;">Cateye Sunglasses MFB-PN-PS-3027</p>
+                    <p>
+                        Rs. 454
+                    </p>
+                    <button class="add-to-cart" typr="button">
+                        <a class="color" href="page9sunglass.html">  ADD TO CART </a>
+                    </button>
+                </div>
+                <div class="column">
+                    <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/8366671/2019/4/24/4a5cad1d-0113-4d54-b70e-ac827ef7adae1556088538111-HRX-by-Hrithik-Roshan-Unisex-Sunglasses-6751556088537668-2.jpg" style="width:60%">
+                    <br>
+                    <h3>HRX by Hrithik Roshan</h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;"> Gold-Toned Full Rim Square Frames</p>
+                    <p>
+                        Rs. 1399
+                    </p>
+                    <button class="add-to-cart" typr="button">
+                        <a class="color" href="page10sunglass.html"> ADD TO CART </a>
+                    </button>
+                </div>
+                <div class="column">
+                    <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/5612581/2021/4/14/8892dbdb-4e0c-4b04-9914-9d901688b05b1618397159058-Roadster-Unisex-Mirrored-Lens--Black-Aviator-Sunglasses-with-1.jpg" style="width:60%">
+                    <br>
+                    <h3>Roadster</h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;"> Gold-toned Round Sunglasses</p>
+                    <p>
+                        Rs. 314
+                    </p>
+                    <button class="add-to-cart" typr="button">
+                        <a class="color" href="page11sunglass.html">  ADD TO CART </a>
+                    </button>
+                </div>
+                <div class="column">
+                    <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/productimage/2021/6/17/4b17b600-9899-4d25-8f73-e7aeac11675e1623931324546-1.jpg" style="width:60%">
+                    <br>
+                    <h3>CRIBA</h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;">UV Protected Lens Sunglasses</p>
+                    <p>
+                        Rs. 499
+                    </p>
+                    <button class="add-to-cart" typr="button">
+                        <a class="color" href="page1sungl2ass.html">  ADD TO CART </a>
+                    </button>
+                </div>
+
+            </div>
+            
+        </nav>
+    </header>
+
+    <!-----End Header----->
+    <!-----Main----->
+    <!-----End Main----->
+    <!-----Footer----->
+    <!-----End Footer----->
+    <!-----Glidejs----->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/glide.min.js"></script>
+
+    <!-----Scripts----->
+    <script src="./js/index.js"></script>
+    <script src="./js/product.js"></script>
+    <script src="./js/slider.js"></script>
+</body>
+</html>

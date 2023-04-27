@@ -1,0 +1,366 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-----Favicon----->
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
+
+    <!-----Google Fonts----->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;900&display=swap" rel="stylesheet">
+
+    <!-----Font Awesome----->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!-----Glidejs----->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/css/glide.core.css">
+
+    <!-----Animate Css----->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+    <!-----Custom Css----->
+    <link rel="stylesheet" href="styles.css">
+
+    <title>SuvidhaKart</title>
+    <style>
+            * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        .row {
+            display: block;
+            margin: 20px 0;
+            display: flex;
+        }
+
+        .column {
+            background-color: white;
+            float: left;
+            margin: 0 10px 10px 0;
+            width: 205px;
+            padding: 10px;
+        }
+
+        h3 {
+            font-size: 1.8rem;
+            font-weight: 900;
+            display: block;
+            border: 1p solid #ccc;
+        }
+  
+        button {
+            padding: 4px 14px;
+            background-color: #f60091;
+            color: rgb(255, 255, 255);
+            text-transform: uppercase;
+            flex: right;
+            margin: 5px 0;
+            font-weight: 400;
+            cursor: pointer;
+            font-family: Tahoma;
+            border-radius: 50px;
+        }
+        .column img{
+        height: 25rem;
+        width: 100%;
+        transition: all 500ms linear;
+        }
+
+        .column:hover img{
+        transform: scale(1.1);
+        }
+        /* Create three equal columns that sits next to each other */
+        .column {
+            flex: 33.33%;
+            padding: 5px;
+        }
+        .color {
+            color: white;
+        }
+
+    </style>
+</head>
+<body class="">
+    <!-----Header----->
+    <header class="header" id="header">
+        <nav class="navigation">
+            <div class="nav-center container">
+                <a href="#home" class="logo">
+                    <h1>SUVIDHA<span>K</span>ART</h1>
+                </a>
+
+                <div class="nav-menu-show">
+                    <div class="nav-top">
+                        <div class="logo">
+                            <h1>SUVIDHA<span>K</span>ART</h1>
+                        </div>
+                        <div class="close">
+                            <i class="fas fa-times"></i>
+
+                        </div>
+                    </div>
+
+                    <ul class="nav-list">
+                        <li class="nav-item">
+                            <a href="#home" class="nav-link scroll-link">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#shop" class="nav-link scroll-link">Products</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#new" class="nav-link scroll-link">New</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#recent" class="nav-link scroll-link">Recent</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#blog" class="nav-link scroll-link">Blog</a>
+                        </li>
+
+                    </ul>
+                </div>
+                <div class="nav-icons">
+                    <a style="color: #f60091;" href="login.html"><span><i class="fas fa-user"></i></span></a>
+                    <span  style="color: #f60091;"><i class="fas fa-search"></i></span>
+                    <span  style="color: #f60091;"><i class="fas fa-shopping-cart"></i></span>
+                </div>
+                <div class="hamburger">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="column">
+                    <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/2505584/2018/4/24/11524547245136-Bio-Oil-Women-Specialist-Skin-Care-Oil-60-ml-2501524547245075-2.jpg" style="width:60%">
+                    <br>
+                    <h3>Bio Oil</h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;"> Women Specialist Skin Care Oil</p>
+                    <p>
+                        Rs.315
+                    </p>
+                    <button class="add-to-cart" typr="button">
+                        <a class="color" href="page1skincare.html">  ADD TO CART </a>
+                    </button>
+
+
+                </div>
+                <div class="column">
+                    <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/154046/2019/9/25/86d1c40c-c11f-4d1f-a512-8bddbaeea45e1569403304023-Lakme-Women-Sun-Expert-Fairness--UV-Sunscreen-Lotion-3151569-1.jpg" style="width:60%">
+                    <br>
+                    <h3>Lakme</h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;"> Women Sun Expert Fairness</p>
+                    <p>
+                        Rs. 153
+                    </p>
+                    <button class="add-to-cart" typr="button">
+                        <a class="color" href="page2skincare.html">  ADD TO CART </a>
+                    </button>
+                </div>
+                <div class="column">
+                    <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/10901934/2020/11/26/afd2fff0-e543-456c-9e96-2858741b004e1606363042336-MCaffeine-Naked--Raw-Tan-Removal-Coffee-Face-Scrub-100-g-841-2.jpg" style="width:60%">
+                    <br>
+                    <h3>
+                        MCaffeine
+                    </h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;"> Tan Removal Coffee Body Scrub</p>
+                    <p>
+                        Rs. 296
+                    </p>
+                    <button class="add-to-cart" typr="button">
+                        <a class="color" href="page3skincare.html"> ADD TO CART </a>
+                    </button>
+                </div>
+                <div class="column">
+                    <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/11752736/2020/9/29/f93ffcd3-bd2b-4dfa-bacf-d1c0f4a4c3a31601377501051-Lotus-Herbals-Women-Face-Moisturisers-8121601377500397-1.jpg" style="width:60%">
+                    <br>
+                    <h3>Lotus Herbals</h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;"> Vitamin C & Honey Body Lotion </p>
+                    <p>
+                        Rs. 191
+                    </p>
+                    <button class="add-to-cart" typr="button">
+                        <a class="color" href="page4skincare.html">ADD TO CART </a>
+                    </button>
+                </div>
+            </div>
+            <div class="row">
+                <div class="column">
+                    <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/1920198/2020/10/10/f809833b-d0b2-48af-9961-60bec2c284e41602273627282LotusHerbalsSustainableRadiantGoldCellularGlowFacialKit1.jpg" style="width:60%">
+                    <br>
+                    <h3>
+                        Lotus Herbals
+                    </h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;">Pearl Cellular Lightening Facial Kit</p>
+                    <p>
+                        Rs. 171
+                    </p>
+                    <button class="add-to-cart" typr="button">
+                        <a class="color" href="page5skincare.html"> ADD TO CART </a>
+                    </button>
+                </div>
+                <div class="column">
+                    <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/productimage/2020/12/9/eb53dc93-1c23-4d93-9ef3-f9798e2bef7d1607529063445-2.jpg" style="width:60%">
+                    <br>
+                    <h3>Paulas Choice</h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;"> Bio Morning Nectar Flawless </p>
+                    <p>
+                        Rs. 2430
+                    </p>
+                    <button class="add-to-cart" typr="button">
+                        <a class="color" href="page6skincare.html"> ADD TO CART </a>
+                    </button>
+                </div>
+                <div class="column">
+                    <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/10901912/2020/11/18/c8aa81f3-3f86-4ed2-a0e5-739aeb8229351605701120521-MCaffeine-Coffee-Moment-Skin-Care-Gift-Kit-6501605701118728-1.jpg" style="width:60%">
+                    <br>
+                    <h3>MCaffeine</h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;"> Renewed Clarity Sustainable Night Gel</p>
+                    <p>
+                        Rs. 1083
+                    </p>
+                    <button class="add-to-cart" typr="button">
+                        <a class="color" href="page7skincare.html"> ADD TO CART </a>
+                    </button>
+                </div>
+                <div class="column">
+                    <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/625428/2017/6/21/11498046791117-LOreal-Skin-Perfect-Anti-Aging-Plus-Whitening-Cream-8671498046791070-1.jpg" style="width:60%">
+                    <br>
+                    <h3>LOreal</h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;"> Paris Skin Perfect Age Cream</p>
+                    <p>
+                        Rs. 450
+                    </p>
+                    <button class="add-to-cart" typr="button">
+                        <a class="color" href="page8skincare.html">   ADD TO CART </a>
+                    </button>
+                </div>
+
+            </div>
+            <div class="row">
+                <div class="column">
+                    <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/10235947/2019/12/13/318cf04d-4362-4a6b-a5ba-448112e6c6a41576234963881--Ponds-Super-Light-Gel-Oil-Free-Moisturiser-73-g-57715762349-1.jpg" style="width:60%">
+                    <br>
+                    <h3>Ponds</h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;"> Women Face Moisturisers</p>
+                    <p>
+                        Rs. 131
+                    </p>
+                    <button class="add-to-cart" typr="button">
+                        <a class="color" href="page9skincare.html">  ADD TO CART </a>
+                    </button>
+                </div>
+                <div class="column">
+                    <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/13566908/2021/2/2/4018e5c7-4800-40ec-9923-c4644e1e32cd1612261585966-Mamaearth-Unisex-Face-Moisturisers-621612261585140-1.jpg" style="width:60%">
+                    <br>
+                    <h3>Mamaearth</h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;"> Bye Bye Blemishes Face Cream 30ml</p>
+                    <p>
+                        Rs. 805
+                    </p>
+                    <button class="add-to-cart" typr="button">
+                        <a class="color" href="page10skincare.html"> ADD TO CART </a>
+                    </button>
+                </div>
+                <div class="column">
+                    <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/625426/2017/6/21/11498046782240-LOreal-Skin-Perfect-Anti-Fine-Lines-Plus-Whitening-Cream-1121498046782177-1.jpg" style="width:60%">
+                    <br>
+                    <h3>LOreal</h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;"> Paris Unisex Skin Perfect Cream</p>
+                    <p>
+                        Rs. 280
+                    </p>
+                    <button class="add-to-cart" typr="button">
+                        <a class="color" href="page11skincare.html">  ADD TO CART </a>
+                    </button>
+                </div>
+                <div class="column">
+                    <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/14491474/2021/6/15/972d705e-a20d-4f69-9ac1-c29baf72cdea1623709873738-Warm-Vanilla-Sugar-Shower-Gel-1921623709873635-1.jpg" style="width:60%">
+                    <br>
+                    <h3>Bath & Body Works</h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;"> Almond Shower Gel 250 ml</p>
+                    <p>
+                        Rs. 597
+                    </p>
+                    <button class="add-to-cart" typr="button">
+                        <a class="color" href="page12skincare.html">  ADD TO CART </a>
+                    </button>
+                </div>
+
+            </div>
+            <div class="row">
+                <div class="column">
+                    <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/9202495/2019/9/5/0dd2f363-ceba-4f5e-a3ee-1a69197dceb21567686887695-The-Face-Shop-Rice--Ceramide-Moisturizing-Cream-50-ml-845156-1.jpg" style="width:60%">
+                    <br>
+                    <h3>The Face Shop</h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;">Anti Aging & Face Brightening Cream</p>
+                    <p>
+                        Rs. 690
+                    </p>
+                    <button class="add-to-cart" typr="button">
+                        <a class="color" href="page13skincare.html"> ADD TO CART </a>
+                    </button>
+                </div>
+                <div class="column">
+                    <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/1353649/2020/10/9/82b2d00e-6b12-42d2-84e2-c0c0aca712d21602267078770LotusHerbalsSustainablePackof4RadiantPearlCellularLightening1.jpg" style="width:60%">
+                    <br>
+                    <h3>Lotus Herbals</h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;">Bio Pearl White Facial Kit</p>
+                    <p>
+                        Rs. 581
+                    </p>
+                    <button class="add-to-cart" typr="button">
+                        <a class="color" href="page14skincare.html">  ADD TO CART </a>
+                    </button>
+                </div>
+                <div class="column">
+                    <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/2175584/2021/5/21/28472cc5-c6e2-402c-8ee2-8356e04cac041621573853467PlumGreenTeaPoreCleansingSustainableFaceWashforOilyorAcne-Pr2.jpg" style="width:60%">
+                    <br>
+                    <h3>Plum</h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;"> Green Tea Set of Night Cream</p>
+                    <p>
+                        Rs. 293
+                    </p>
+                    <button class="add-to-cart" typr="button">
+                        <a class="color" href="page15skincare.html"> ADD TO CART </a>
+                    </button>
+                </div>
+                <div class="column">
+                    <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/10901928/2020/11/26/c188e770-4d87-467b-a240-331b22b44c8c1606362996340-MCaffeine-Naked-Detox-Hydrating-Green-Tea-Face-Serum-40-ml-8-1.jpg" style="width:60%">
+                    <br>
+                    <h3>MCaffeine</h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;">Coffee-Choco Cocktail Kit Relax</p>
+                    <p>
+                        Rs. 531
+                    </p>
+                    <button class="add-to-cart" typr="button">
+                        <a class="color" href="page16skincare.html"> ADD TO CART </a>
+                    </button>
+                </div>
+
+            </div>
+
+
+        </nav>
+    </header>
+
+    <!-----End Header----->
+    <!-----Main----->
+    <!-----End Main----->
+    <!-----Footer----->
+    <!-----End Footer----->
+    <!-----Glidejs----->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/glide.min.js"></script>
+
+    <!-----Scripts----->
+    <script src="./js/index.js"></script>
+    <script src="./js/product.js"></script>
+    <script src="./js/slider.js"></script>
+</body>
+</html>

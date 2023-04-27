@@ -1,0 +1,367 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-----Favicon----->
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
+
+    <!-----Google Fonts----->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;900&display=swap" rel="stylesheet">
+
+    <!-----Font Awesome----->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!-----Glidejs----->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/css/glide.core.css">
+
+    <!-----Animate Css----->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+    <!-----Custom Css----->
+    <link rel="stylesheet" href="HOME.css">
+
+    <title>SuvidhaKart</title>
+    <style>
+             * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        .row {
+            display: block;
+            margin: 20px 0;
+            display: flex;
+        }
+
+        .column {
+            background-color: white;
+            float: left;
+            margin: 0 10px 10px 0;
+            width: 205px;
+            padding: 10px;
+        }
+
+        h3 {
+            font-size: 1.8rem;
+            font-weight: 900;
+            display: block;
+            border: 1p solid #ccc;
+        }
+  
+        button {
+            padding: 4px 14px;
+            background-color: #f60091;
+            color: rgb(255, 255, 255);
+            text-transform: uppercase;
+            flex: right;
+            margin: 5px 0;
+            font-weight: 400;
+            cursor: pointer;
+            font-family: Tahoma;
+            border-radius: 50px;
+        }
+        .column img{
+        height: 25rem;
+        width: 100%;
+        transition: all 500ms linear;
+        }
+
+        .column:hover img{
+        transform: scale(1.1);
+        }
+        /* Create three equal columns that sits next to each other */
+        .column {
+            flex: 33.33%;
+            padding: 5px;
+        }
+        .color {
+            color: white;
+        }
+
+    
+  
+    </style>
+</head>
+<body class="">
+    <!-----Header----->
+    <header class="header" id="header">
+        <nav class="navigation">
+            <div class="nav-center container">
+                <a href="#home" class="logo">
+                    <h1>SUVIDHA<span>K</span>ART</h1>
+                </a>
+
+                <div class="nav-menu-show">
+                    <div class="nav-top">
+                        <div class="logo">
+                            <h1>SUVIDHA<span>K</span>ART</h1>
+                        </div>
+                        <div class="close">
+                            <i class="fas fa-times"></i>
+
+                        </div>
+                    </div>
+
+                    <ul class="nav-list">
+                        <li class="nav-item">
+                            <a href="#home" class="nav-link scroll-link">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#shop" class="nav-link scroll-link">Products</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#new" class="nav-link scroll-link">New</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#recent" class="nav-link scroll-link">Recent</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#blog" class="nav-link scroll-link">Blog</a>
+                        </li>
+
+                    </ul>
+                </div>
+                <div class="nav-icons">
+                    <a style="color: #f60091;" href="login.html"><span><i class="fas fa-user"></i></span></a>
+                    <span  style="color: #f60091;"><i class="fas fa-search"></i></span>
+                    <span  style="color: #f60091;"><i class="fas fa-shopping-cart"></i></span>
+                </div>
+                <div class="hamburger">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="column">
+                    <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/10414852/2020/10/19/d7f2ce9a-cbf8-49b6-b05a-06291a974f3e1603097481507-Maybelline-New-York-Lash-Sensational-Black-Waterproof-Mascar-1.jpg" style="width:60%">
+                    <br>
+                    <h3>Maybelline</h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;">New York Waterproof Mascara</p>
+                    <p>
+                        Rs. 357
+                    </p>
+                    <button class="add-to-cart" typr="button">
+                        <a class="color" href="page1makeup.html">  ADD TO CART </a>
+                    </button>
+
+
+                </div>
+                <div class="column">
+                    <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/9590433/2019/5/21/2557bcbd-fe1b-4d2b-96d6-a8f477af0df31558431586295-MAC-Women-Highlighter-and-Blush-8251558431586075-1.jpg" style="width:60%">
+                    <br>
+                    <h3>M.A.C</h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;"> Studio Fix Powder Foundation </p>
+                    <p>
+                        Rs. 2300
+                    </p>
+                    <button class="add-to-cart" typr="button">
+                        <a class="color" href="page2makeup.html">  ADD TO CART </a>
+                    </button>
+                </div>
+                <div class="column">
+                    <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/2000583/2017/8/7/11502099060745-Lakme-9to5-Almond-Complexion-Care-Cream-30g-5931502099060735-2.jpg" style="width:60%">
+                    <br>
+                    <h3>
+                        Lakme
+                    </h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;"> 9 to 5 SPF-30 CC Cream</p>
+                    <p>
+                        Rs. 224
+                    </p>
+                    <button class="add-to-cart" typr="button">
+                        <a class="color" href="page3makeup.html"> ADD TO CART </a>
+                    </button>
+                </div>
+                <div class="column">
+                    <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/10251869/2020/10/19/f1c8bd65-8c02-452c-8a73-0e17e73ae0721603103329150-Maybelline-New-York-Fit-Me-Matte--Poreless-Liquid-Foundation-1.jpg" style="width:60%">
+                    <br>
+                    <h3>Maybelline</h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;">Studio Fix Fluid Foundation</p>
+                    
+                    <p>
+                        Rs. 549
+                    </p>
+                    <button class="add-to-cart" typr="button">
+                        <a class="color" href="page4makeup.html">ADD TO CART </a>
+                    </button>
+                </div>
+            </div>
+            <div class="row">
+                <div class="column">
+                    <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/images/style/properties/Lakme-Women-Eyeconic-Curling-Mascara_6daf8e9aa29f1dc976b83bf7c3f70fda_images.jpg" style="width:60%">
+                    <br>
+                    <h3>Lakme</h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;">New York Colossal Kajal - Black</p>
+                    <p>
+                        Rs. 315
+                    </p>
+                    <button class="add-to-cart" typr="button">
+                        <a class="color" href="page5makeup.html"> ADD TO CART </a>
+                    </button>
+                </div>
+                <div class="column">
+                    <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/12839062/2021/3/3/d0d6fd2a-f3bd-4656-9265-242d572361791614747721699-MAC-Mini-Matte-Lipstick---Mehr-18-g-7651614747721387-1.jpg" style="width:60%">
+                    <br>
+                    <h3>M.A.C</h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;"> Mini Matte Lipstick - Mehr 1.8 g</p>
+                    <p>
+                        Rs. 1050
+                    </p>
+                    <button class="add-to-cart" typr="button">
+                        <a class="color" href="page6makeup.html"> ADD TO CART </a>
+                    </button>
+                </div>
+                <div class="column">
+                    <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/6924963/2020/10/13/2dec41d7-8779-4019-a4a0-6c101c64050b1602590555625-Makeup-Revolution-X-Tammi-Eyeshadow-Palette---Tropical-Parad-1.jpg" style="width:60%">
+                    <br>
+                    <h3>Makeup Revolution London</h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;"> Absolute Eye Shadow Palette</p>
+                    <p>
+                        Rs. 585
+                    </p>
+                    <button class="add-to-cart" typr="button">
+                        <a class="color" href="page7makeup.html"> ADD TO CART </a>
+                    </button>
+                </div>
+                <div class="column">
+                    <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/2421530/2021/7/1/2ded69a5-d821-4aa8-b424-35d65c7c0aef1625116597943FACESCANADAUltimeProMakeupFixer2.jpg" style="width:60%">
+                    <br>
+                    <h3>FACES CANADA</h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;"> FACE & CHEEK PALETTE - Deep</p>
+                    <p>
+                        Rs. 454
+                    </p>
+                    <button class="add-to-cart" typr="button">
+                        <a class="color" href="page8makeup.html">   ADD TO CART </a>
+                    </button>
+                </div>
+
+            </div>
+            <div class="row">
+                <div class="column">
+                    <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/2000593/2017/8/7/11502099097291-Lakme-9to5-PrimerMatte-Ivory-Cream-Powder-Foundation-Compact-5751502099097221-1.jpg" style="width:60%">
+                    <br>
+                    <h3>Lakme</h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;"> Rose Face Powder with Sunscreen </p>
+                    <p>
+                        Rs. 345
+                    </p>
+                    <button class="add-to-cart" typr="button">
+                        <a class="color" href="page9makeup.html">  ADD TO CART </a>
+                    </button>
+                </div>
+                <div class="column">
+                    <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/12335502/2020/9/3/13c63d9b-63c4-4fce-8115-94c2a2b3f3861599132146231FIXBALANCE1.jpg" style="width:60%">
+                    <br>
+                    <h3>M.A.C</h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;">Women Fix+Passion Setting Spray 30 ml</p>
+                    <p>
+                        Rs. 1200
+                    </p>
+                    <button class="add-to-cart" typr="button">
+                        <a class="color" href="page10makeup.html"> ADD TO CART </a>
+                    </button>
+                </div>
+                <div class="column">
+                    <img src="https://assets.myntassets.com/f_webp,dpr_1.8,q_60,w_210,c_limit,fl_progressive/assets/images/productimage/2021/6/4/82e5cd51-ff27-4034-9505-100fa452f3f81622826981103-1.jpg" style="width:60%">
+                    <br>
+                    <h3>ELEANOR</h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;"> Love Me Lipstick - You Do You</p>
+                    <p>
+                        Rs. 535
+                    </p>
+                    <button class="add-to-cart" typr="button">
+                        <a class="color" href="page11makeup.html">  ADD TO CART </a>
+                    </button>
+                </div>
+                <div class="column">
+                    <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/7047500/2018/11/23/d1a098d9-2a90-41da-b0b0-8b3f0390f9911542956768781-Maybelline-Women-Compact-2291542956768709-1.jpg" style="width:60%">
+                    <br>
+                    <h3>Maybelline</h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;"> Couture DAZZLESHADOW Eye Shadow</p>
+                    <p>
+                        Rs. 695 
+                    </p>
+                    <button class="add-to-cart" typr="button">
+                        <a class="color" href="page12makeup.html">  ADD TO CART </a>
+                    </button>
+                </div>
+
+            </div>
+            <div class="row">
+                <div class="column">
+                    <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/productimage/2021/6/29/a5bd4d26-33b2-4004-9052-bd56de2d3f341624972902726-1.jpg" style="width:60%">
+                    <br>
+                    <h3>NY Bae</h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;"> Arch Arrival Brow Definer - 04</p>
+                    <p>
+                        Rs. 349
+                    </p>
+                    <button class="add-to-cart" typr="button">
+                        <a class="color" href="page13makeup.html"> ADD TO CART </a>
+                    </button>
+                </div>
+                <div class="column">
+                    <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/12800174/2020/11/6/eb647a1d-f4cd-4871-bd8e-37393a988f221604660190926-Kama-Ayurveda-10-PIECE-BESTSELLER-GIFT-BOX-6601604660188887-1.jpg" style="width:60%">
+                    <br>
+                    <h3>KAMA AYURVEDA</h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;"> Reloaded Eyeshadow Palette</p>
+                    <p>
+                        Rs. 1000
+                    </p>
+                    <button class="add-to-cart" typr="button">
+                        <a class="color" href="page14makeup.html">  ADD TO CART </a>
+                    </button>
+                </div>
+                <div class="column">
+                    <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/9589191/2020/2/19/e224d4d5-6ceb-42bb-bf33-c86065d736261582096469856-Bobbi-Brown-Women-Kajal-and-Eyeliner-9451582096469091-1.jpg" style="width:60%">
+                    <br>
+                    <h3>Bobbi Brown</h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;"> Eyeconic Colossal Kajal - Black</p>
+                    <p>
+                        Rs. 1600
+                    </p>
+                    <button class="add-to-cart" typr="button">
+                        <a class="color" href="page15makeup.html"> ADD TO CART </a>
+                    </button>
+                </div>
+                <div class="column">
+                    <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/productimage/2021/6/15/79cd1523-7027-4d24-acae-eee29ebbdab11623747291185-2.jpg" style="width:60%">
+                    <br>
+                    <h3>Note</h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;"> Breathable Nail Lacquer </p>
+                    <p>
+                        Rs. 764
+                    </p>
+                    <button class="add-to-cart" typr="button">
+                        <a class="color" href="page16makeup.html"> ADD TO CART </a>
+                    </button>
+                </div>
+
+            </div>
+
+
+        </nav>
+    </header>
+
+    <!-----End Header----->
+    <!-----Main----->
+    <!-----End Main----->
+    <!-----Footer----->
+    <!-----End Footer----->
+    <!-----Glidejs----->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/glide.min.js"></script>
+
+    <!-----Scripts----->
+    <script src="./js/index.js"></script>
+    <script src="./js/product.js"></script>
+    <script src="./js/slider.js"></script>
+</body>
+</html>

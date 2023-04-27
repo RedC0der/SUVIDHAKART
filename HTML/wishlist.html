@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-----Favicon----->
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
+
+    <!-----Google Fonts----->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;900&display=swap" rel="stylesheet">
+
+    <!-----Font Awesome----->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!-----Glidejs----->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/css/glide.core.css">
+
+    <!-----Animate Css----->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+    <!-----Custom Css----->
+    <link rel="stylesheet" href="styles.css">
+
+    <title>SuvidhaKart</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        .row {
+            display: block;
+            margin: 20px 0;
+            display: flex;
+        }
+
+        .column {
+            background-color: white;
+            float: left;
+            margin: 0 10px 10px 0;
+            width: 205px;
+            padding: 10px;
+        }
+
+        h3 {
+            font-size: 1.8rem;
+            font-weight: 900;
+            display: block;
+            border: 1p solid #ccc;
+        }
+  
+        button {
+            padding: 4px 14px;
+            background-color: #f60091;
+            color: rgb(255, 255, 255);
+            text-transform: uppercase;
+            flex: right;
+            margin: 5px 0;
+            font-weight: 400;
+            cursor: pointer;
+            font-family: Tahoma;
+            border-radius: 50px;
+        }
+        .column img{
+        height: 25rem;
+        width: 100%;
+        transition: all 500ms linear;
+        }
+
+        .column:hover img{
+        transform: scale(1.1);
+        }
+        /* Create three equal columns that sits next to each other */
+        .column {
+            flex: 33.33%;
+            padding: 5px;
+        }
+        .color {
+            color: white;
+        }
+
+
+    </style>
+</head>
+<body class="">
+    <!-----Header----->
+    <header class="header" id="header">
+        <nav class="navigation">
+            <div class="nav-center container">
+                <a href="#home" class="logo">
+                    <h1>SUVIDHA<span>K</span>ART</h1>
+                </a>
+
+                <div class="nav-menu-show">
+                    <div class="nav-top">
+                        <div class="logo">
+                            <h1>SUVIDHA<span>K</span>ART</h1>
+                        </div>
+                        <div class="close">
+                            <i class="fas fa-times"></i>
+
+                        </div>
+                    </div>
+
+                    <ul class="nav-list">
+                        <li class="nav-item">
+                            <a href="#home" class="nav-link scroll-link">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#new" class="nav-link scroll-link">New</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#recent" class="nav-link scroll-link">Recent</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#blog" class="nav-link scroll-link">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link scroll-link">Contact Us</a>
+                        </li>
+
+                    </ul>
+                </div>
+                <div class="nav-icons">
+                    <a style="color: #f60091;" href="login.html"><span><i class="fas fa-user"></i></span></a>
+                    <span  style="color: #f60091;"><i class="fas fa-search"></i></span>
+                    <span  style="color: #f60091;"><i class="fas fa-shopping-cart"></i></span>
+                </div>
+                <div class="hamburger">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+
+            <div class="row">
+              <div class="column">
+                <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/productimage/2021/6/4/9f53684f-a9f9-4084-9d36-c351d0d70bec1622827071120-1.jpg" style="width:60%">
+                <br>
+                <h3>Sangria</h3>
+                <p style="font-weight: 300; font-size: 1.2rem;">Light Designer Saree</p>
+                <p>
+                    Rs. 1343
+                </p>
+                <button class="add-to-cart" type="button">
+                  <a class="color" href="page6saree.html"> ADD TO CART </a>
+                </button>
+            </div>
+                <div class="column">
+                  <img src="lahanga4.jpg" style="width:70%">
+                  <br>
+                  <h3>Ethno Vogue</h3>
+                  <p style="font-weight: 300; font-size: 1.2rem;"> Embroidered Semi Stitched Pink Lehenga</p>
+                  <p>
+                      Rs. 3458
+                  </p>
+                  <button class="add-to-cart" typr="button">
+                      <a class="color" href="page4bridal.html">  ADD TO CART </a>
+                  </button>
+              </div>
+              <div class="column">
+                <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/1265392/2020/1/20/12fc0ced-84b7-4933-8cbc-5a7832c7686e1579504849580-Highlander-Black-Slim-Fit-Casual-Shirt-2521579504847937-1.jpg" style="width:60%">
+                <br>
+                <h3>HIGHLANDER</h3>
+                <p style="font-weight: 300; font-size: 1.2rem;"> Nuvo Fit Checked Formal Shirt</p>
+                <p>
+                    Rs. 399
+                </p>
+                <button class="add-to-cart" type="button">
+                    <a class="color" href="page1men.html">  ADD TO CART </a>
+                </button>
+              </div>
+
+                <div class="column">
+                  <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/productimage/2021/2/17/04cbd593-0c20-46db-b9cf-c700f7f976e81613573002396-1.jpg" style="width:60%">
+                  <br>
+                  <h3>Stylo Bug</h3>
+                  <p style="font-weight: 300; font-size: 1.2rem;">Printed Cotton A-Line Dress</p>
+                  <p>
+                      Rs. 658
+                  </p>
+                  <button class="add-to-cart" typr="button">
+                      <a class="color" href="page1kid.html">  ADD TO CART </a>
+                  </button>
+              </div>
+            </div>
+          
+            <div class="row">
+              <div class="column">
+                <img src="mangalsutra.jpg" style="width:60%">
+                <br>
+                <h3>Priyaasi</h3>
+                <p style="font-weight: 300; font-size: 1.2rem;">Gold-Plated Beaded Mangalsutra</p>
+                <p>
+                    Rs. 695
+                </p>
+                <button class="add-to-cart" typr="button">
+                    <a class="color" href="page5jewel.html"> ADD TO CART </a>
+                </button>
+            </div>
+
+            <div class="column">
+              <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/2525392/2019/5/2/f9f13ec3-c11a-460a-b35a-9f6ec31590871556781497682-RARE-Women-Blue-Printed-Maxi-Dress-3951556781495634-1.jpg" style="width:60%">
+              <br>
+              <h3>RARE</h3>
+              <p style="font-weight: 300; font-size: 1.2rem;"> Silk Solid Wear</p>
+              <p>
+                  Rs. 889
+              </p>
+              <button class="add-to-cart" type="button">
+                  <a class="color" href="page1ww.html">  ADD TO CART </a>
+                </button>
+
+
+          </div>
+      
+          <div class="column">
+            <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/productimage/2020/1/17/d71045b2-4300-4395-b110-f652fa00e9e51579211471795-1.jpg" style="width:60%">
+            <br>
+            <h3>JAINISH</h3>
+            <p style="font-weight: 300; font-size: 1.2rem;">Men Grey Classic Regular Fit</p>
+            <p>
+                Rs. 493
+            </p>
+            <button class="add-to-cart" type="button">
+                <a class="color" href="page5men.html"> ADD TO CART </a>
+            </button>
+        </div>
+                <div class="column">
+                    <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/productimage/2021/5/25/a2c32671-3cb9-46cc-81c1-a722ddbf4c1e1621929685104-1.jpg" style="width:60%">
+                    <br>
+                    <h3>Sangria</h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;"> Embroidered Saree</p>
+                    <p>
+                        Rs. 1484
+                    </p>
+                    <button class="add-to-cart" type="button">
+                      <a class="color" href="page8saree.html" > ADD TO CART </a>
+                    </button>
+                </div>
+
+            </div>
+            <div class="row">
+              <div class="column">
+                <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/productimage/2021/3/1/f875df76-c699-4aaa-93c9-72d34b03c3131614590300353-1.jpg" style="width:60%">
+                <br>
+                <h3>Florida</h3>
+                <p style="font-weight: 300; font-size: 1.2rem;">Blue & Lavender Floral 144 TC</p>
+                <p>
+                    Rs. 594
+                </p>
+                <button class="add-to-cart" typr="button">
+                    <a class="color" href="page5bedsheet.html"> ADD TO CART </a>
+                </button>
+            </div>
+            <div class="column">
+              <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/8158857/2018/12/10/1010d175-ac8e-4512-9038-ebec44e1dc581544424769226-Multi-color--Buddha-face-with-hand-canvas-painting-24X24cms--1.jpg" style="width:60%">
+              <br>
+              <h3>999Store</h3>
+              <p style="font-weight: 300; font-size: 1.2rem;">Lord Buddha Canvas Wall Art</p>
+              <p>
+                  Rs. 1199
+              </p>
+              <button class="add-to-cart" typr="button">
+                  <a class="color" href="page1decor.html">  ADD TO CART </a>
+              </button>
+
+
+          </div>
+          <div class="column">
+            <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/productimage/2020/11/19/1e7a6adb-26f8-43dc-837e-ee9413369f821605790753955-1.jpg" style="width:60%">
+            <br>
+            <h3>TARMAK By Decathlon</h3>
+            <p style="font-weight: 300; font-size: 1.2rem;">Boy Grey sports wear</p>
+            <p>
+                Rs. 300
+            </p>
+            <button class="add-to-cart" typr="button">
+                <a class="color" href="page9kid.html">  ADD TO CART </a>
+            </button>
+        </div>
+                
+        <div class="column">
+          <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/productimage/2020/3/13/7d5baf7e-7ab8-4f5c-9bc2-b884173a46781584049161251-1.jpg" style="width:60%">
+          <br>
+          <h3>Homesake
+          </h3>
+          <p style="font-weight: 300; font-size: 1.2rem;">Bronze-Toned Self Design Classic </p>
+          <p>
+              Rs. 4250
+          </p>
+          <button class="add-to-cart" typr="button">
+              <a class="color" href="page3lamp.html"> ADD TO CART </a>
+          </button>
+      </div>
+
+            </div>
+
+            </div>
+
+
+        </nav>
+    </header>
+
+    <!-----End Header----->
+    <!-----Main----->
+    <!-----End Main----->
+    <!-----Footer----->
+    <footer id="footer" class="section footer">
+      <div class="container">
+        <div class="footer-container">
+          <div class="footer-center">
+            <h3>EXTRAS</h3>
+            <a href="#">Brands</a>
+            <a href="#">Gift Certificates</a>
+            <a href="#">Affiliate</a>
+            <a href="#">Specials</a>
+            <a href="#">Site Map</a>
+          </div>
+          <div class="footer-center">
+            <h3>INFORMATION</h3>
+            <a href="#">About Us</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & Conditions</a>
+            <a href="#">Contact Us</a>
+            <a href="#">Site Map</a>
+          </div>
+          <div class="footer-center">
+            <h3>MY ACCOUNT</h3>
+            <a href="#">My Account</a>
+            <a href="#">Order History</a>
+            <a href="#">Wish List</a>
+            <a href="#">blogletter</a>
+            <a href="#">Returns</a>
+          </div>
+
+          <div class="footer-center">
+              <h3>FOLLOW US</h3>
+              <a href="https://www.facebook.com/profile.php?id=100070055935383"><i style="color: rgb(72, 140, 243);" class="fab fa-facebook"></i>  Facebook Page</a>
+              <a href="https://www.instagram.com/suvidhakart/"><i style="color: rgb(236, 38, 147);" class="fab fa-instagram"></i>  Instagram Page</a>
+              <a href="https://twitter.com/suvidhakart?s=08"><i  style="color: rgb(42, 179, 233);" class="fab fa-twitter-square"></i>  Twitter</a>
+              <a href="https://Linkedin.com/suvidhakart"><i style="color: rgb(8, 95, 224);" class="fab fa-linkedin"></i>  Linkedin</a>
+              <a href="https://Whatsapp.com/suvidhakart"><i  style="color: rgb(16, 241, 16);" class="fab fa-whatsapp"></i>  Whatsapp</a>
+            </div>
+              
+          <div class="footer-center">
+            <h3>CONTACT US</h3>
+            <div>
+              <span>
+                <i style="color: red;" class="fas fa-map-marker-alt"></i>
+              </span>
+              42 Dream House, Dreammy street, 7131 Dreamville, USA
+            </div>
+            <div>
+              <span>
+                <i style="color: rgb(255, 166, 0);" class="far fa-envelope"></i>
+              </span>
+              company@gmail.com
+            </div>
+            <div>
+              <span>
+                <i style="color: rgb(243, 120, 72);" class="fas fa-phone"></i>
+              </span>
+              456-456-4512
+            </div>
+            <div>
+              <span>
+                <i style="color: rgb(72, 223, 243);" class="far fa-paper-plane"></i>
+              </span>
+              Dream City, USA
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </footer>
+    <!-----End Footer----->
+    <!-----Glidejs----->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/glide.min.js"></script>
+
+    <!-----Scripts----->
+    <script src="./js/index.js"></script>
+    <script src="./js/product.js"></script>
+    <script src="./js/slider.js"></script>
+</body>
+</html>

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Credit Card Form</title>
+    <link href="new.css" rel="stylesheet">
+     <script src="new.js"></script>
+    <script src="https://kit.fontawesome.com/c5e1da910d.js" crossorigin="anonymous"></script>
+</head>
+<body >
+    <div class="wrapper">
+        <h2>Payment Form</h2>
+        <form method="GET">
+            <h4>Account</h4>
+            <div class="input-group">
+                <div class="input-box">
+                    <input id="Test" type="text" placeholder="Full Name" required class="name" >
+                    <i class="fa fa-user icon" ></i>
+                    <div class="input-box">
+                        <input id="this" type="text" placeholder="Nick Name" required class="name" >
+                        <i class="fa fa-user icon"></i>
+                    </div>
+                </div>
+                <div class="input-group">
+                    <div class="input-box">
+                        <input type="email" placeholder="Email Address" required class="name" >
+                        <i class="fa fa-envelope"></i>
+                    </div>
+                </div>
+                <div class="input-group">
+                    <div class="input-box">
+                        <h4>Date of Birth</h4>
+                        <input type="text" placeholder="DD" required class="dob" >
+                        <input type="text" placeholder="MM" required class="dob" >
+                        <input type="text" placeholder="YYYY" required class="dob" >
+                    </div>
+                    <div class="input-box">
+                        <h4>Gender</h4>
+                        <input type="radio" id="b1" name="gender" class="radio">
+                        <label for "b1">Male</label>
+                        <input type="radio" id="b2" name="gender" checked class="radio">
+                        <label for "b2">Female</label>
+                    </div>
+                </div>
+                <div class="input-group">
+                    <div class="input-box">
+                        <h4>Payment Details</h4>
+                        <input type="radio" name="pay" id="bc1" checked class="radio">
+                        <label for "bc1"><span><i class="fa fa-visa"></i>Credit Card</span></label>
+                        <input type="radio" name="pay" id="bc2" class="radio">
+                        <label for "bc2"><span><i class="fa fa-paypal"></i>Paypal</span></label>
+                    </div>
+                </div>
+                <div class="input-group">
+                    <div class="input-box">
+                        <input type="tel" placeholder="Card Number" required class="name" >
+                        <i class="fa fa-credit-card icon"></i>     
+                    </div>
+                </div>
+                
+                    <div class="input-box">
+                       <select>
+                           <option>22 Jun</option>
+                           <option>23 Jun</option>
+                           <option>24 Jun</option>
+                       </select>    
+                       <select>
+                        <option>2021</option>
+                        <option>2021</option>
+                        <option>2021</option>
+                    </select>    
+                    </div>
+                </div>
+                <div class="input-group">
+                    <div class="input-box">
+                   <button type="submit">Pay Now</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

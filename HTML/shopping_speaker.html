@@ -1,0 +1,316 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-----Favicon----->
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
+
+    <!-----Google Fonts----->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;900&display=swap" rel="stylesheet">
+
+    <!-----Font Awesome----->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!-----Glidejs----->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/css/glide.core.css">
+
+    <!-----Animate Css----->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+    <!-----Custom Css----->
+    <link rel="stylesheet" href="HOME.css">
+
+    <title>SuvidhaKart</title>
+    <style>
+ * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        .row {
+            display: block;
+            margin: 20px 0;
+            display: flex;
+        }
+
+        .column {
+            background-color: white;
+            float: left;
+            margin: 0 10px 10px 0;
+            width: 205px;
+            padding: 10px;
+        }
+
+        h3 {
+            font-size: 1.8rem;
+            font-weight: 900;
+            display: block;
+            border: 1p solid #ccc;
+        }
+  
+        button {
+            padding: 4px 14px;
+            background-color: #f60091;
+            color: rgb(255, 255, 255);
+            text-transform: uppercase;
+            flex: right;
+            margin: 5px 0;
+            font-weight: 400;
+            cursor: pointer;
+            font-family: Tahoma;
+            border-radius: 50px;
+        }
+        .column img{
+        height: 25rem;
+        width: 100%;
+        transition: all 500ms linear;
+        }
+
+        .column:hover img{
+        transform: scale(1.1);
+        }
+        /* Create three equal columns that sits next to each other */
+        .column {
+            flex: 33.33%;
+            padding: 5px;
+        }
+        .color {
+            color: white;
+        }
+
+
+    </style>
+</head>
+<body class="">
+    <!-----Header----->
+    <header class="header" id="header">
+        <nav class="navigation">
+            <div class="nav-center container">
+                <a href="#home" class="logo">
+                    <h1>SUVIDHA<span>K</span>ART</h1>
+                </a>
+
+                <div class="nav-menu-show">
+                    <div class="nav-top">
+                        <div class="logo">
+                            <h1>SUVIDHA<span>K</span>ART</h1>
+                        </div>
+                        <div class="close">
+                            <i class="fas fa-times"></i>
+
+                        </div>
+                    </div>
+
+                    <ul class="nav-list">
+                        <li class="nav-item">
+                            <a href="#home" class="nav-link scroll-link">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#shop" class="nav-link scroll-link">Products</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#new" class="nav-link scroll-link">New</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#recent" class="nav-link scroll-link">Recent</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#blog" class="nav-link scroll-link">Blog</a>
+                        </li>
+
+                    </ul>
+                </div>
+                <div class="nav-icons">
+                    <a style="color: #f60091;" href="login.html"><span><i class="fas fa-user"></i></span></a>
+                    <span  style="color: #f60091;"><i class="fas fa-search"></i></span>
+                    <span  style="color: #f60091;"><i class="fas fa-shopping-cart"></i></span>
+                </div>
+                <div class="hamburger">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="column">
+                    <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/8468439/2019/1/14/99d4ba83-f7d1-4f80-b838-6610c674929a1547445645482-JBL-Charge-4-Powerful-Portable-Speaker-with-Built-in-Powerba-1.jpg" style="width:60%">
+                    <br>
+                    <h3>JBL</h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;"> Blue JBL Speaker + extra features</p>
+                    <p>
+                        Rs. 12,999
+                    </p>
+                    <button class="add-to-cart" typr="button">
+                        <a class="color" href="page1speaker.html">  ADD TO CART </a>
+                    </button>
+
+
+                </div>
+                <div class="column">
+                    <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/11888878/2021/6/8/b87150df-ad9b-4bd9-8752-017776eb0c281623126496063-boAt-Stone-1500-40W-Active-Black-Wireless-Speaker-with-boAt--1.jpg" style="width:60%">
+                    <br>
+                    <h3>boAt</h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;"> Black JBL Speaker with extra features</p>
+                    <p>
+                        Rs. 5,499
+                    </p>
+                    <button class="add-to-cart" typr="button">
+                        <a class="color" href="page2speaker.html">  ADD TO CART </a>
+                    </button>
+                </div>
+                <div class="column">
+                    <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/14400298/2021/7/1/c06123cc-8eb3-4c38-9d08-4278529308dd1625118416165-Philips-Unisex-Speakers-6071625118415882-1.jpg" style="width:60%">
+                    <br>
+                    <h3>Philips
+                    </h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;"> Round JBL Speaker for loud sound</p>
+                    <p>
+                        Rs. 1,499
+                    </p>
+                    <button class="add-to-cart" typr="button">
+                        <a class="color" href="page3speaker.html"> ADD TO CART </a>
+                    </button>
+                </div>
+                <div class="column">
+                    <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/productimage/2020/12/14/fafc16d2-fc6a-4864-a150-2fcfc9da40461607927185549-1.jpg" style="width:60%">
+                    <br>
+                    <h3>FitSpark</h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;"> Portable JBL Speaker new version</p>
+                    <p>
+                        Rs. 959
+                    </p>
+                    <button class="add-to-cart" typr="button">
+                        <a class="color" href="page4speaker.html">ADD TO CART </a>
+                    </button>
+                </div>
+            </div>
+            <div class="row">
+                <div class="column">
+                    <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/11777018/2020/12/24/af3a2968-6d83-4bbf-8b10-bcf31215656b1608793889111-molife-Unisex-Black-Amplify-100-Powerful-Wireless-Soundbar-W-1.jpg" style="width:60%">
+                    <br>
+                    <h3>molife</h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;"> long Speaker with extra features</p>
+                    <p>
+                        Rs. 1,889
+                    </p>
+                    <button class="add-to-cart" typr="button">
+                        <a class="color" href="page5speaker.html"> ADD TO CART </a>
+                    </button>
+                </div>
+                <div class="column">
+                    <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/productimage/2020/12/5/58b0da88-cafc-4abf-9c97-bfe01add0ebd1607183811676-1.jpg" style="width:60%">
+                    <br>
+                    <h3>NOISE</h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;"> JBL Speaker with extra features</p>
+                    <p>
+                        Rs. 1519
+                    </p>
+                    <button class="add-to-cart" typr="button">
+                        <a class="color" href="page6speaker.html"> ADD TO CART </a>
+                    </button>
+                </div>
+                <div class="column">
+                    <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/productimage/2020/12/14/25371eb5-44ae-4991-826d-c9975ea4589e1607928152124-2.jpg" style="width:60%">
+                    <br>
+                    <h3>FitSpark</h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;"> JBL Speaker with extra features</p>
+                    <p>
+                        Rs. 1079
+                    </p>
+                    <button class="add-to-cart" typr="button">
+                        <a class="color" href="page7speaker.html"> ADD TO CART </a>
+                    </button>
+                </div>
+                <div class="column">
+                    <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/productimage/2019/1/18/c6ff7366-ce50-443f-b55d-8db07647a7631547764996839-2.jpg" style="width:60%">
+                    <br>
+                    <h3>SWISS MILITARY</h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;"> JBL Speaker with extra features</p>
+                    <p>
+                        Rs. 834
+                    </p>
+                    <button class="add-to-cart" typr="button">
+                        <a class="color" href="page8speaker.html">   ADD TO CART </a>
+                    </button>
+                </div>
+
+            </div>
+            <div class="row">
+                <div class="column">
+                    <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/10479600/2019/12/11/42476d70-8bd7-4363-a68d-cc081e76e9a11576064816706-SWISS-MILITARY-Black-Voice-Assistant-Wireless-Speaker-TZ01-4-1.jpg" style="width:60%">
+                    <br>
+                    <h3>SWISS MILITARY</h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;"> JBL Speaker with extra features</p>
+                    <p>
+                        Rs. 834
+                    </p>
+                    <button class="add-to-cart" typr="button">
+                        <a class="color" href="page9speaker.html">  ADD TO CART </a>
+                    </button>
+                </div>
+                <div class="column">
+                    <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/7081840/2018/8/3/ba3ab751-da6f-46ca-9e55-655a61dba98c1533297471785-JBL-Unisex-Speakers-7231533297470354-1.jpg" style="width:60%">
+                    <br>
+                    <h3>JBL</h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;"> JBL Speaker with extra features</p>
+                    <p>
+                        Rs. 7,499
+                    </p>
+                    <button class="add-to-cart" typr="button">
+                        <a class="color" href="page10speaker.html"> ADD TO CART </a>
+                    </button>
+                </div>
+                <div class="column">
+                    <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/productimage/2021/2/25/36f56f73-e24a-40d5-adce-8aca1b9489ec1614247797590-1.jpg" style="width:60%">
+                    <br>
+                    <h3>UltraProlink</h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;"> JBL Speaker with extra features</p>
+                    <p>
+                        Rs. 729
+                    </p>
+                    <button class="add-to-cart" typr="button">
+                        <a class="color" href="page11speaker.html">  ADD TO CART </a>
+                    </button>
+                </div>
+                <div class="column">
+                    <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/12677702/2020/10/5/7f8302e2-1b93-4260-b86f-7298209d0dd71601873128399-JBL-Unisex-Speakers-7991601873127679-1.jpg" style="width:60%">
+                    <br>
+                    <h3>JBL</h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;"> JBL Speaker with extra features</p>
+                    <p>
+                        Rs. 2,799
+                    </p>
+                    <button class="add-to-cart" typr="button">
+                        <a class="color" href="page12speaker.html">  ADD TO CART </a>
+                    </button>
+                </div>
+
+            </div>
+            
+
+            </div>
+
+
+        </nav>
+    </header>
+
+    <!-----End Header----->
+    <!-----Main----->
+    <!-----End Main----->
+    <!-----Footer----->
+    <!-----End Footer----->
+    <!-----Glidejs----->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/glide.min.js"></script>
+
+    <!-----Scripts----->
+    <script src="./js/index.js"></script>
+    <script src="./js/product.js"></script>
+    <script src="./js/slider.js"></script>
+</body>
+</html>

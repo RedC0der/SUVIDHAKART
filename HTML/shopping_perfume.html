@@ -1,0 +1,365 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-----Favicon----->
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
+
+    <!-----Google Fonts----->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;900&display=swap" rel="stylesheet">
+
+    <!-----Font Awesome----->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!-----Glidejs----->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/css/glide.core.css">
+
+    <!-----Animate Css----->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+    <!-----Custom Css----->
+    <link rel="stylesheet" href="HOME.css">
+
+    <title>SuvidhaKart</title>
+    <style>
+             * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        .row {
+            display: block;
+            margin: 20px 0;
+            display: flex;
+        }
+
+        .column {
+            background-color: white;
+            float: left;
+            margin: 0 10px 10px 0;
+            width: 205px;
+            padding: 10px;
+        }
+
+        h3 {
+            font-size: 1.8rem;
+            font-weight: 900;
+            display: block;
+            border: 1p solid #ccc;
+        }
+  
+        button {
+            padding: 4px 14px;
+            background-color: #f60091;
+            color: rgb(255, 255, 255);
+            text-transform: uppercase;
+            flex: right;
+            margin: 5px 0;
+            font-weight: 400;
+            cursor: pointer;
+            font-family: Tahoma;
+            border-radius: 50px;
+        }
+        .column img{
+        height: 25rem;
+        width: 100%;
+        transition: all 500ms linear;
+        }
+
+        .column:hover img{
+        transform: scale(1.1);
+        }
+        /* Create three equal columns that sits next to each other */
+        .column {
+            flex: 33.33%;
+            padding: 5px;
+        }
+        .color {
+            color: white;
+        }
+
+
+    </style>
+</head>
+<body class="">
+    <!-----Header----->
+    <header class="header" id="header">
+        <nav class="navigation">
+            <div class="nav-center container">
+                <a href="#home" class="logo">
+                    <h1>SUVIDHA<span>K</span>ART</h1>
+                </a>
+
+                <div class="nav-menu-show">
+                    <div class="nav-top">
+                        <div class="logo">
+                            <h1>SUVIDHA<span>K</span>ART</h1>
+                        </div>
+                        <div class="close">
+                            <i class="fas fa-times"></i>
+
+                        </div>
+                    </div>
+
+                    <ul class="nav-list">
+                        <li class="nav-item">
+                            <a href="#home" class="nav-link scroll-link">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#shop" class="nav-link scroll-link">Products</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#new" class="nav-link scroll-link">New</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#recent" class="nav-link scroll-link">Recent</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#blog" class="nav-link scroll-link">Blog</a>
+                        </li>
+
+                    </ul>
+                </div>
+                <div class="nav-icons">
+                    <a style="color: #f60091;" href="login.html"><span><i class="fas fa-user"></i></span></a>
+                    <span  style="color: #f60091;"><i class="fas fa-search"></i></span>
+                    <span  style="color: #f60091;"><i class="fas fa-shopping-cart"></i></span>
+                </div>
+                <div class="hamburger">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="column">
+                    <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/13461026/2021/1/27/ca6e06b1-542a-41a9-98fb-4e9ca45896201611766793142IntheStarsFineFragranceMist1.jpg" style="width:60%">
+                    <br>
+                    <h3>Bath & body Works</h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;">Women Blush Mist 190 ml</p>
+                    <p>
+                        Rs. 799
+                    </p>
+                    <button class="add-to-cart" typr="button">
+                      <a class="color" href="page1perfume.html">  ADD TO CART </a>
+                    </button>
+
+
+                </div>
+                <div class="column">
+                    <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/10893324/2019/12/17/bbe6dc05-6ee9-4f88-9898-0142beaaade11576582004410-Tommy-Hilfiger-Men-EDT-Spray-100-ml-1511576582004282-1.jpg" style="width:60%">
+                    <br>
+                    <h3>Tommy Hilfiger</h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;"> Crush Fragrance Mist 190 ml</p>
+                    <p>
+                        Rs. 2232
+                    </p>
+                    <button class="add-to-cart" typr="button">
+                      <a class="color" href="page2perfume.html">  ADD TO CART </a>
+                    </button>
+                </div>
+                <div class="column">
+                    <img src="https://assets.myntassets.com/f_webp,dpr_1.8,q_60,w_210,c_limit,fl_progressive/assets/images/8789051/2019/5/2/7c352f22-a98c-42b1-a89f-8b38bc9059561556796805100--Mercedes-Benz-Men-Miniature-Gift-Set-4801556796804456-1.jpg" style="width:60%">
+                    <br>
+                    <h3>
+                        Mercedes Benz
+                    </h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;">Musk Sustainable Eau De 60ml</p>
+                    <p>
+                        Rs. 2450
+                    </p>
+                    <button class="add-to-cart" typr="button">
+                      <a class="color" href="page3perfume.html" > ADD TO CART </a>
+                    </button>
+                </div>
+                <div class="column">
+                    <img src="https://assets.myntassets.com/f_webp,dpr_1.8,q_60,w_210,c_limit,fl_progressive/assets/images/productimage/2021/4/8/5da9d0f9-fb11-4ebe-8937-56ae224dc0221617862199483-1.jpg" style="width:60%">
+                    <br>
+                    <h3>VILLIAN</h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;"> SignatureTropical Green Fragrance</p>
+                    <p>
+                        Rs. 560
+                    </p>
+                    <button class="add-to-cart" typr="button">
+                      <a class="color" href="page4perfume.html">ADD TO CART </a>
+                    </button>
+                </div>
+            </div>
+            <div class="row">
+                <div class="column">
+                    <img src="https://assets.myntassets.com/f_webp,dpr_1.8,q_60,w_210,c_limit,fl_progressive/assets/images/2273983/2020/6/18/108be4bf-f916-4107-8766-4273904cf7551592460621074NiveaWomenFreshNaturalAnti-PerspirantRoll-OnDeodorant50ml1.jpg" style="width:60%">
+                    <br>
+                    <h3>Nivea</h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;">Men Imperial Hamilton Eau de</p>
+                    <p>
+                        Rs. 199
+                    </p>
+                    <button class="add-to-cart" typr="button">
+                     <a class="color" href="page5perfume.html"> ADD TO CART </a>
+                    </button>
+                </div>
+                <div class="column">
+                    <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/9055331/2019/4/9/a300f11e-f7eb-4769-9950-8f262b16c9981554809707570-Denver-Men-Perfume-and-Body-Mist-851554809707251-1.jpg" style="width:60%">
+                    <br>
+                    <h3>Denver</h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;"> Men By The Sea Spray 150 ml</p>
+                    <p>
+                        Rs. 304
+                    </p>
+                    <button class="add-to-cart" typr="button">
+                       <a class="color" href="page6perfume.html" > ADD TO CART </a>
+                    </button>
+                </div>
+                <div class="column">
+                    <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/2231192/2017/12/19/11513671163384-United-Colors-of-Benetton-Men-United-Dreams-Go-Far-Deodorant-150-ml-6501513671163384-1.jpg" style="width:60%">
+                    <br>
+                    <h3>United Colors of Benetton</h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;">The Woods Body Spray 150 ml</p>
+                    <p>
+                        Rs. 175
+                    </p>
+                    <button class="add-to-cart" typr="button">
+                     <a class="color" href="page7perfume.html" > ADD TO CART </a>
+                    </button>
+                </div>
+                <div class="column">
+                    <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/1711647/2018/12/1/63bae53c-97d9-4f93-addb-89187230d5851543643200798-JAGUAR-Men-Classic-Black-Deodorant-150-ml-3501543643200264-1.jpg" style="width:60%">
+                    <br>
+                    <h3>JAGUAR</h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;">Men Classic Eau De Parfum - 100 ml</p>
+                    <p>
+                        Rs. 314
+                    </p>
+                    <button class="add-to-cart" typr="button">
+                        <a class="color" href="page8perfume.html">   ADD TO CART </a>
+</button>
+                </div>
+
+            </div>
+            <div class="row">
+                <div class="column">
+                    <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/productimage/2020/11/27/6c7bf18f-c197-43fe-a3bb-f938e58c77461606470741170-1.jpg" style="width:60%">
+                    <br>
+                    <h3>Bvlgari</h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;">White Musk Fragrance Mist 100 ml</p>
+                    <p>
+                        Rs. 7000
+                    </p>
+                    <button class="add-to-cart" typr="button">
+                        <a class="color" href="page9perfume.html">  ADD TO CART </a>
+</button>
+                </div>
+                <div class="column">
+                    <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/93077/2020/6/19/2850bacd-002f-4985-9635-6b7d495d22101592559876525-DAVIDOFF-Men-Cool-Water-Mild-Deodorant-Doux-241592559876209-1.jpg" style="width:60%">
+                    <br>
+                    <h3>Davidoff</h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;">VILLIAN Hydra Eau De</p>
+                    <p>
+                        Rs. 1476
+                    </p>
+                    <button class="add-to-cart" typr="button">
+                        <a class="color" href="page10perfume.html"> ADD TO CART </a>
+</button>
+                </div>
+                <div class="column">
+                    <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/productimage/2019/6/11/110e4dfe-31e5-4166-a295-ffeeb34a3ae51560230867291-2.jpg" style="width:60%">
+                    <br>
+                    <h3>Bvlgari</h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;">Men 1 Million Eau De 100ml</p>
+                    <p>
+                        Rs. 10950
+                    </p>
+                    <button class="add-to-cart" typr="button">
+                        <a class="color" href="page11perfume.html">  ADD TO CART </a>
+</button>
+                </div>
+                <div class="column">
+                    <img src="https://assets.myntassets.com/f_webp,dpr_1.8,q_60,w_210,c_limit,fl_progressive/assets/images/2231186/2019/2/18/5e5e1742-cb6a-44a2-8867-75ff884b9a231550486232874-United-Colors-of-Benetton-Women-Dreams-Love-Yourself-Eau-De--1.jpg" style="width:60%">
+                    <br>
+                    <h3>United Colors of Benetton</h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;"> Nargis Body Mist 130 ml</p>
+                    <p>
+                        Rs. 855
+                    </p>
+                    <button class="add-to-cart" typr="button">
+                        <a class="color" href="page12perfume.html">  ADD TO CART </a>
+</button>
+                </div>
+
+            </div>
+            <div class="row">
+                <div class="column">
+                    <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/9791637/2019/7/16/9a80423d-e695-4a51-bb76-1a928d4e34b21563256915421-Calvin-Klein-Women-Eau-De-Parfum-100-ml-6331563256915129-1.jpg" style="width:60%">
+                    <br>
+                    <h3>Calvin Klein</h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;"> Dahlia Fine Mist- 236 ml</p>
+                    <p>
+                        Rs. 4774
+                    </p>
+                    <button class="add-to-cart" typr="button">
+                        <a class="color" href="page13perfume.html"> ADD TO CART </a>
+</button>
+                </div>
+                <div class="column">
+                    <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/productimage/2019/12/29/bca37b49-fe39-4029-a3b2-981fd6604bf61577573334712-1.jpg" style="width:60%">
+                    <br>
+                    <h3>Ajmal</h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;">Atlantic Deodorizing Body Spray</p>
+                    <p>
+                        Rs. 628
+                    </p>
+                    <button class="add-to-cart" typr="button">
+                        <a class="color" href="page14perfume.html">  ADD TO CART </a>
+</button>
+                </div>
+                <div class="column">
+                    <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/2277186/2018/12/1/f2655080-4fca-4c29-a6ee-e1d904f02b031543643352394-JACQUES-BOGART-Men-Silver-Scent-Intense-Deodorant-3815436433-1.jpg" style="width:60%">
+                    <br>
+                    <h3>JACQUES BOGART</h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;"> Rose & Cardamom Mist 50ml</p>
+                    <p>
+                        Rs. 430
+                    </p>
+                    <button class="add-to-cart" typr="button">
+                        <a class="color" href="page15perfume.html"> ADD TO CART </a>
+</button>
+                </div>
+                <div class="column">
+                    <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/7665216/2018/12/13/bd13b710-7131-4d93-bd13-8d06de8b12801544694122370-Police-Women-To-Be-Tattooart-Eau-de-Parfum-125-ml-2961544694-1.jpg" style="width:60%">
+                    <br>
+                    <h3>Fogg Spray</h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;"> Feel Alive Fragrance 100 ml</p>
+                    <p>
+                        Rs. 1216
+                    </p>
+                    <button class="add-to-cart" typr="button">
+                        <a class="color" href="page16perfume.html"> ADD TO CART </a>
+</button>
+                </div>
+
+            </div>
+
+
+        </nav>
+    </header>
+
+    <!-----End Header----->
+    <!-----Main----->
+    <!-----End Main----->
+    <!-----Footer----->
+    <!-----End Footer----->
+    <!-----Glidejs----->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/glide.min.js"></script>
+
+    <!-----Scripts----->
+    <script src="./js/index.js"></script>
+    <script src="./js/product.js"></script>
+    <script src="./js/slider.js"></script>
+</body>
+</html>

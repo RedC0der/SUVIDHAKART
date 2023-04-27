@@ -1,0 +1,364 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-----Favicon----->
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
+
+    <!-----Google Fonts----->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;900&display=swap" rel="stylesheet">
+
+    <!-----Font Awesome----->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!-----Glidejs----->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/css/glide.core.css">
+
+    <!-----Animate Css----->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+    <!-----Custom Css----->
+    <link rel="stylesheet" href="HOME.css">
+
+    <title>SuvidhaKart</title>
+    <style>
+           * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        .row {
+            display: block;
+            margin: 20px 0;
+            display: flex;
+        }
+
+        .column {
+            background-color: white;
+            float: left;
+            margin: 0 10px 10px 0;
+            width: 205px;
+            padding: 10px;
+        }
+
+        h3 {
+            font-size: 1.8rem;
+            font-weight: 900;
+            display: block;
+            border: 1p solid #ccc;
+        }
+  
+        button {
+            padding: 4px 14px;
+            background-color: #f60091;
+            color: rgb(255, 255, 255);
+            text-transform: uppercase;
+            flex: right;
+            margin: 5px 0;
+            font-weight: 400;
+            cursor: pointer;
+            font-family: Tahoma;
+            border-radius: 50px;
+        }
+        .column img{
+        height: 25rem;
+        width: 100%;
+        transition: all 500ms linear;
+        }
+
+        .column:hover img{
+        transform: scale(1.1);
+        }
+        /* Create three equal columns that sits next to each other */
+        .column {
+            flex: 33.33%;
+            padding: 5px;
+        }
+        .color {
+            color: white;
+        }
+ 
+
+    </style>
+</head>
+<body class="">
+    <!-----Header----->
+    <header class="header" id="header">
+        <nav class="navigation">
+            <div class="nav-center container">
+                <a href="#home" class="logo">
+                    <h1>SUVIDHA<span>K</span>ART</h1>
+                </a>
+
+                <div class="nav-menu-show">
+                    <div class="nav-top">
+                        <div class="logo">
+                            <h1>SUVIDHA<span>K</span>ART</h1>
+                        </div>
+                        <div class="close">
+                            <i class="fas fa-times"></i>
+
+                        </div>
+                    </div>
+
+                    <ul class="nav-list">
+                        <li class="nav-item">
+                            <a href="#home" class="nav-link scroll-link">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#shop" class="nav-link scroll-link">Products</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#new" class="nav-link scroll-link">New</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#recent" class="nav-link scroll-link">Recent</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#blog" class="nav-link scroll-link">Blog</a>
+                        </li>
+
+                    </ul>
+                </div>
+                <div class="nav-icons">
+                    <a style="color: #f60091;" href="login.html"><span><i class="fas fa-user"></i></span></a>
+                    <span  style="color: #f60091;"><i class="fas fa-search"></i></span>
+                    <span  style="color: #f60091;"><i class="fas fa-shopping-cart"></i></span>
+                </div>
+                <div class="hamburger">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="column">
+                    <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/2211556/2018/4/3/11522759311621-DressBerry-Women-Maroon-Analogue-Watch-MFB-PN-SNT-C30-1-2401522759311459-1.jpg" style="width:60%">
+                    <br>
+                    <h3>Dressberry</h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;"> Women Rose Gold Analogue Watch</p>
+                    <p>
+                        Rs. 1484
+                    </p>
+                    <button class="add-to-cart" type="button">
+                       <a class="color" href="page1watch.html" > ADD TO CART </a>
+                    </button>
+
+
+                </div>
+                <div class="column">
+                    <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/2278228/2018/4/5/11522913267066-DressBerry-Women-Watches-7501522913266942-1.jpg" style="width:60%">
+                    <br>
+                    <h3>Marie Claire</h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;"> CECILE Women Rose Gold Analogue</p>
+                    <p>
+                        Rs. 1154
+                    </p>
+                    <button class="add-to-cart" type="button">
+                        <a class="color" href="page2watch.html">  ADD TO CART </a>
+</button>
+                </div>
+                <div class="column">
+                    <img src="https://assets.myntassets.com/f_webp,dpr_1.8,q_60,w_210,c_limit,fl_progressive/assets/images/909882/2021/5/24/21471c31-5eaa-4093-9eab-21210c54ecdc1621829499618-Fossil-Women-White-Dial-Chronograph-Watch-ES3625I-2561621829-15.jpg" style="width:60%">
+                    <br>
+                    <h3>Fossil</h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;">Brown Analogue Watch</p>
+                    <p>
+                        Rs. 4747
+                    </p>
+                    <button class="add-to-cart" type="button">
+                        <a class="color" href="page3watch.html">  ADD TO CART </a>
+</button>
+                </div>
+                <div class="column">
+                    <img src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/10317185/2019/10/11/1736a2b6-6c9b-4b8e-a64c-89a3e7dd6d1b1570775716492-French-Connection-Women-Rose-Gold-Toned-Analogue-Watch-FCN00-1.jpg" style="width:60%">
+                    <br>
+                    <h3>CASIO</h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;">Golden Stripped Analogue Watch</p>
+                    <p>
+                        Rs. 3595
+                    </p>
+                    <button class="add-to-cart" type="button">
+                        <a class="color" href="page4watch.html">  ADD TO CART </a>
+</button>
+                </div>
+            </div>
+            <div class="row">
+                <div class="column">
+                    <img src="https://assets.myntassets.com/f_webp,dpr_1.8,q_60,w_210,c_limit,fl_progressive/assets/images/13061568/2020/11/23/4af63d19-185a-475e-b743-49c28d78bef91606128474769-Fastrack-Women-Blue-Analogue-Watch-4791606128473383-1.jpg" style="width:60%">
+                    <br>
+                    <h3>Fasttrack</h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;"> MODERN SOP Women Rose Gold</p>
+                    <p>
+                        Rs. 1400
+                    </p>
+                    <button class="add-to-cart" type="button">
+                        <a class="color" href="page5watch.html">  ADD TO CART </a>
+</button>
+                </div>
+                <div class="column">
+                    <img src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/7186187/2018/9/13/bca2250f-391b-4464-850a-b732e760da6d1536833256031-GIORDANO-Women-Silver-Toned-Analogue-Watch-8951536833255863-1.jpg" style="width:60%">
+                    <br>
+                    <h3>Sonata</h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;">Stainless Steel Bracelet Style Watch</p>
+                    <p>
+                        Rs. 1319
+                    </p>
+                    <button class="add-to-cart" type="button">
+                        <a class="color" href="page6watch.html">  ADD TO CART </a>
+</button>
+                </div>
+                <div class="column">
+                    <img src="https://assets.myntassets.com/f_webp,dpr_1.8,q_60,w_210,c_limit,fl_progressive/assets/images/13234938/2021/1/18/6397c4f9-29b0-45a4-9df9-8c53c2e1334d1610942609680-FitSpark-Unisex-Rosegold--Pink-Eclipse-Super-Retina-Display--1.jpg" style="width:60%">
+                    <br>
+                    <h3>FitSpark</h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;">BRADSHAW Women Gold Analogue</p>
+                    <p>
+                        Rs. 2815
+                    </p>
+                    <button class="add-to-cart" type="button">
+                        <a class="color" href="page7watch.html">  ADD TO CART </a>
+</button>
+                </div>
+                <div class="column">
+                    <img src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/1554764/2021/6/23/f8d3213a-23f6-429b-8d4e-0a62303d689d1624429272334-Michael-Kors-DARCI-Women-Rose-Analogue-Watch-MK3399-41916244-11.jpg" style="width:60%">
+                    <br>
+                    <h3>Michael kors</h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;"> Women Rose Gold Analogue Watch</p>
+                    <p>
+                        Rs. 9997
+                    </p>
+                    <button class="add-to-cart" type="button">
+                        <a class="color" href="page8watch.html">  ADD TO CART </a>
+
+</button>
+                </div>
+
+            </div>
+            <div class="row">
+                <div class="column">
+                    <img src="https://assets.myntassets.com/f_webp,dpr_1.8,q_60,w_210,c_limit,fl_progressive/assets/images/7837267/2018/12/26/215857ac-2fa0-49e8-add9-7cd976e443b01545827452157-Daniel-Klein-Premium-Women-Off-White-Analogue-Watch-DK11914--1.jpg" style="width:60%">
+                    <br>
+                    <h3>Daniel Klein</h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;"> Women Rosegold & Pink Eclipse</p>
+                    <p>
+                        Rs. 1999
+                    </p>
+                    <button class="add-to-cart" type="button">
+                        <a class="color" href="page9watch.html">  ADD TO CART </a>
+</button>
+                </div>
+                <div class="column">
+                    <img src="https://assets.myntassets.com/f_webp,dpr_1.8,q_60,w_210,c_limit,fl_progressive/assets/images/6741413/2021/5/11/07606ca1-0511-4eb3-9dbd-3db9933e2ff31620704147837-Fossil-JACQUELINE-Women-White-Analogue-Watch-ES3795-13162070-1.jpg" style="width:60%">
+                    <br>
+                    <h3>Fossil</h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;">Blue Brass Dial & Silver Toned Stainless Steel</p>
+                    <p>
+                        Rs. 4499
+                    </p>
+                    <button class="add-to-cart" type="button">
+                        <a class="color" href="page10watch.html">  ADD TO CART </a>
+</button>
+                </div>
+                <div class="column">
+                    <img src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/7645634/2021/5/24/e2ff81ac-0882-4936-9563-f14651f5ce2a1621830570883-Michael-Kors-MINI-SLIM-Women-Rose-Gold-Analogue-Watch-MK3650-15.jpg" style="width:60%">
+                    <br>
+                    <h3>Micheal Kors</h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;"> Black Dial ColorFit Pro 3 1.55 Inch</p>
+                    <p>
+                        Rs. 8497
+                    </p>
+                    <button class="add-to-cart" type="button">
+                        <a class="color" href="page11watch.html"> ADD TO CART </a>
+</button>
+                </div>
+                <div class="column">
+                    <img src="https://assets.myntassets.com/f_webp,dpr_1.8,q_60,w_210,c_limit,fl_progressive/assets/images/10844636/2021/5/11/b4272099-04df-4e3a-aefc-cc2425dd469a1620704308125-Fossil-Women-Nude-Coloured-Analogue-Leather-Watch-3441620704-1.jpg" style="width:60%">
+                    <br>
+                    <h3>Fossil</h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;"> Styled Analogue Pink Watch </p>
+                    <p>
+                        Rs. 5697
+                    </p>
+                    <button class="add-to-cart" type="button">
+                        <a class="color" href="page12watch.html">  ADD TO CART </a>
+</button>
+                </div>
+
+            </div>
+            <div class="row">
+                <div class="column">
+                    <img src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/8481615/2020/1/30/7a5b4069-a5a7-4083-8207-0ec72a03133f1580384763087-French-Connection-Women-Black-Analogue-Watch-FCN0001D-157158-1.jpg" style="width:60%">
+                    <br>
+                    <h3>French Connection</h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;">Bracelet Style Straps Analogue Watch</p>
+                    <p>
+                        Rs. 2432
+                    </p>
+                    <button class="add-to-cart" type="button">
+                        <a class="color" href="page13watch.html"> ADD TO CART </a>
+</button>
+                </div>
+                <div class="column">
+                    <img src="https://assets.myntassets.com/f_webp,dpr_1.8,q_60,w_210,c_limit,fl_progressive/assets/images/13215432/2021/1/5/f7e4f37c-08cc-49f5-b07f-3eac9c91fc881609836042551-Fossil-Sport-Pink-Smartwatch-FTW6058-9221609836040066-1.jpg" style="width:60%">
+                    <br>
+                    <h3>Fossil</h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;">DARCI Women Rose Analogue </p>
+                    <p>
+                        Rs. 7995
+                    </p>
+                    <button class="add-to-cart" type="button">
+                        <a class="color" href="page14watch.html">  ADD TO CART </a>
+</button>
+                </div>
+                <div class="column">
+                    <img src="https://assets.myntassets.com/f_webp,dpr_1.8,q_60,w_210,c_limit,fl_progressive/assets/images/10898050/2021/5/5/cc82e668-1eba-4c34-862c-c43edf5dbeb91620189928884-Lacoste-1212-Women-Black-Analogue-Watch-2001064-391162018992-1.jpg" style="width:60%">
+                    <br>
+                    <h3>Lacoste</h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;">Silver-Toned Brass Dial & Gold Toned </p>
+                    <p>
+                        Rs. 3577
+                    </p>
+                    <button class="add-to-cart" type="button">
+                        <a class="color" href="page15watch.html">  ADD TO CART </a>
+</button>
+                </div>
+                <div class="column">
+                    <img src="https://assets.myntassets.com/f_webp,dpr_1.8,q_60,w_210,c_limit,fl_progressive/assets/images/5972136/2019/2/5/031987c9-c666-4e46-964d-7a3e8e2472bb1549349251939-Daniel-Klein-Premium-Women-Silver-Toned-Analogue-Watch-DK116-1.jpg" style="width:60%">
+                    <br>
+                    <h3>Daniel Klein</h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;"> Gold Brass Dial Toned Watch</p>
+                    <p>
+                        Rs. 2999
+                    </p>
+                    <button class="add-to-cart" type="button">
+                        <a class="color" href="page16watch.html"> ADD TO CART </a>
+</button>
+                </div>
+
+            </div>
+
+
+        </nav>
+    </header>
+
+    <!-----End Header----->
+    <!-----Main----->
+    <!-----End Main----->
+    <!-----Footer----->
+    <!-----End Footer----->
+    <!-----Glidejs----->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/glide.min.js"></script>
+
+    <!-----Scripts----->
+    <script src="./js/index.js"></script>
+    <script src="./js/product.js"></script>
+    <script src="./js/slider.js"></script>
+</body>
+</html>

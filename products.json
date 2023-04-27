@@ -1,0 +1,378 @@
+{
+    "products": [
+        {
+            "title":"Partywear Dress",
+            "price":"599",
+            "image":"trendy.jpg",
+            "category":"trend"
+            },
+        {
+            "title":"Partywear Saree",
+            "price":"1200",
+            "image":"trendysaree.jpg",
+            "category":"trend"
+        },
+        {
+            "title":"Men Kurtas",
+            "price":"1500",
+            "image":"kurtas.jpg",
+            "category":"trend"
+            },
+        {
+            "title":"Sesonal Dress",
+            "price":"799",
+            "image":"party.jpg",
+            "category":"trend"
+        },
+        {
+            "title":"Stylish Saree",
+            "price":"1500",
+            "image":"besttrendy.jpg",
+            "category":"trend"
+        }, 
+        {
+            "title":"Sweaters",
+            "price":"999",
+            "image":"swetear.jpg",
+            "category":"trend"
+        },
+        {
+            "title":"Nehru Jacket",
+            "price":"1999",
+            "image":"nehrujack.jpg",
+            "category":"trend"
+        },
+        {
+            "title":"Sweatshirt",
+            "price":"890",
+            "image":"sweatshirt.jpg",
+            "category":"trend"
+        },
+        {
+            "title":"Western Dress",
+            "price":"1200",
+            "image":"western.jpg",
+            "category":"trend"
+        }, 
+        {
+            "title":"Kurtas & Suits",
+            "price":"500",
+            "image":"bestsuits.jpg",
+            "category":"trend"
+        },
+        {
+            "title":"Partwear jacket",
+            "price":"3500",
+            "image":"mentrend.jpg",
+            "category":"trend"
+        },
+        {
+            "title":"Tops",
+            "price":"490.99",
+            "image":"tops.jpg",
+            "category":"trend"
+        },
+
+
+        {
+            "title":"Printed Saree",
+            "price":"1350",
+            "image":"printed-saree.jpg",
+            "category":"special"
+        },
+        {
+            "title":"Partywear Serwani",
+            "price":"2100",
+            "image":"bestserwani.jpg",
+            "category":"special"
+        }, 
+        {
+            "title":"Designer Saree",
+            "price":"1450",
+            "image":"bestsaree.jpg",
+            "category":"special"
+            },
+        {
+            "title":"Gown",
+            "price":"5000",
+            "image":"gown.jpg",
+            "category":"special"
+        },
+        {
+            "title":"Stylish Lehanga",
+            "price":"2500",
+            "image":"partylehanga.jpg",
+            "category":"special"
+        },
+        {
+            "title":"Men suit",
+            "price":"4500",
+            "image":"mensuits.jpg",
+            "category":"special"
+        }, 
+        {
+            "title":"Lehanga Suit",
+            "price":"1999",
+            "image":"lehangasuit.jpg",
+            "category":"special"
+        }, 
+        {
+            "title":"Sherwani",
+            "price":"1599",
+            "image":"serwani.jpg",
+            "category":"special"
+        },
+        {
+            "title":"Bestever Partywear",
+            "price":"590",
+            "image":"dress.jpg",
+            "category":"special"
+            },
+        {
+            "title":"Blazer",
+            "price":"4000",
+            "image":"blazer.jpg",
+            "category":"special"
+        },
+        {
+            "title":"Long suit",
+            "price":"2999",
+            "image":"special.jpg",
+            "category":"special"
+            }, 
+        {
+            "title":"Lehanga",
+            "price":"2500",
+            "image":"lehanga.jpg",
+            "category":"special"
+        },
+        
+        
+        {
+            "title":"Suits",
+            "price":"999",
+            "image":"suit.jpeg",
+            "category":"featured"
+        },
+        {
+            "title":"T-Shirt",
+            "price":"290",
+            "image":"t-shirt.jpg",
+            "category":"featured"
+        },
+        {
+            "title":"Salwar Suits",
+            "price":"480",
+            "image":"salwarsuit.jpg",
+            "category":"featured"
+        },
+        {
+            "title":"Active Shirt",
+            "price":"499",
+            "image":"activeshirt.jpg",
+            "category":"featured"
+        },
+        {
+            "title":"Skirts",
+            "price":"350",
+            "image":"skirt.jpg",
+            "category":"featured"
+        },
+        {
+            "title":"Jacket",
+            "price":"2000",
+            "image":"jacket.jpg",
+            "category":"featured"
+        },
+        {
+            "title":"Jumpsuit",
+            "price":"1200",
+            "image":"jumpsuits.jpg",
+            "category":"featured"
+        },
+        {
+            "title":"Dupatta",
+            "price":"400",
+            "image":"dupatta.jpg",
+            "category":"featured"
+        }, 
+        {
+            "title":"Shrugs",
+            "price":"259",
+            "image":"shrugs.jpg",
+            "category":"featured"
+        }, 
+        {
+            "title":"Jeans",
+            "price":"1250",
+            "image":"jeans.jpg",
+            "category":"featured"
+        }, 
+        {
+            "title":"Light Lehanga",
+            "price":"4000",
+            "image":"bluelehanga.jpg",
+            "category":"featured"
+        }, 
+        {
+            "title":"Ethnic Top",
+            "price":"299",
+            "image":"ethnictop.jpg",
+            "category":"featured"
+        }, 
+
+        {
+            "title":"Casual Shirt",
+            "price":"800",
+            "image":"capshirts.jpg",
+            "category":"latest"
+        },
+          
+        {
+            "title":"Girls Jacket",
+            "price":"2800",
+            "image":"coats.jpg",
+            "category":"latest"
+        },
+        {
+            "title":"Men Jacket",
+            "price":"5000",
+            "image":"menjacket.jpg",
+            "category":"latest"
+        },
+
+        {
+            "title":"Unique Dress",
+            "price":"2000",
+            "image":"dressnew.jpg",
+            "category":"latest"
+        },
+          
+        {
+            "title":"Crop Jackets",
+            "price":"1599",
+            "image":"arrivals.jpg",
+            "category":"latest"
+        },
+          
+        {
+            "title":"Summer Shirt",
+            "price":"570",
+            "image":"newshirt.jpg",
+            "category":"latest"
+        },
+        {
+            "title":"Fancy Saree",
+            "price":"2590",
+            "image":"sareenew.jpg",
+            "category":"latest"
+        },
+   
+        {
+            "title":"Stylish Men Kurta",
+            "price":"999",
+            "image":"newkurta.jpg",
+            "category":"latest"
+        },
+        {
+            "title":"Silky Saree",
+            "price":"2000",
+            "image":"newsaree.jpg",
+            "category":"latest"
+        },
+          
+        {
+            "title":"Fancy dress",
+            "price":"1199",
+            "image":"coatsuit.jpg",
+            "category":"latest"
+        },
+        {
+            "title":"Designer Suits",
+            "price":"1999",
+            "image":"newsuit.jpg",
+            "category":"latest"
+        },
+        {
+            "title":"Blazer",
+            "price":"5000",
+            "image":"blazer&.jpg",
+            "category":"latest"
+        },
+          
+        
+        {
+            "title":"Trousers",
+            "price":"450",
+            "image":"trousers.jpg",
+            "category":"recent"
+        }, 
+        {
+            "title":"Daily wear",
+            "price":"890",
+            "image":"nightwear.jpg",
+            "category":"recent"
+        },
+        {
+            "title":"Body Lotion",
+            "price":"150",
+            "image":"bodylotion.jpg",
+            "category":"recent"
+        },
+        {
+            "title":"Men Jeans",
+            "price":"1599",
+            "image":"jeans.jpg",
+            "category":"recent"
+        },
+        {
+            "title":"Tracksuits",
+            "price":"2099",
+            "image":"tractsuits.jpg",
+            "category":"recent"
+        },
+        {
+            "title":"Bedsheet",
+            "price":"999",
+            "image":"bedsheetimg.jpg",
+            "category":"recent"
+        },
+        {
+            "title":"Girls Jeans",
+            "price":"1200",
+            "image":"girljeans.jpg",
+            "category":"recent"
+        },
+        {
+            "title":"Perfumes",
+            "price":"200",
+            "image":"perfume&.jpg",
+            "category":"recent"
+        },
+        {
+            "title":"Watch",
+            "price":"599",
+            "image":"watchnew.jpg",
+            "category":"recent"
+        },
+        {
+            "title":"Baby Ethnic Wear",
+            "price":"2000",
+            "image":"babycloths.jpg",
+            "category":"recent"
+        },
+        {
+            "title":"Lipsticks",
+            "price":"200",
+            "image":"lipsticks.jpg",
+            "category":"recent"
+        },
+        {
+            "title":"Mirror",
+            "price":"5000",
+            "image":"mirror.jpg",
+            "category":"recent"
+        }
+         
+    ]
+  }

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Thank you</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Kristi", cursive;
+      }
+
+      html {
+        font-size: 62.5%;
+      }
+
+      .main_header {
+        width: 100vw;
+        height: 100vh;
+        display: grid;
+        place-items: center;
+        background-color: #d1e2e9;
+      }
+
+      .center_div {
+        min-width: 50vw;
+        height: 40vh;
+        color: #000;
+        text-shadow: 0 0 2rem rgba(0, 0, 0, 0.5);
+        font-size: 5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: bold;
+        text-align:center;
+      }
+     
+
+ @media (max-width: 768px) {
+        html {
+          font-size: 35%;
+        }
+      }
+    </style>
+</head>
+<body>
+    <div class="main_header">
+        <div class="center_div">
+            <p> <i style="color: red;" class="far fa-grin-hearts"></i>
+                Thank you for sign up 
+                <i style="color: red;" class="far fa-grin-hearts"></i>
+                <br> payletter </p>
+        </div>
+    </div>
+    <script src="confetti.js"></script>
+       
+    <script>
+
+        const startit = () => {
+          setTimeout(function () {
+            console.log("start");
+            confetti.start();
+          }, 1000);
+        };
+  
+        const stopit = () => {
+          setTimeout(function () {
+            console.log("stop");
+            confetti.stop();
+          }, 6000);
+        };
+  
+        startit();
+        stopit();
+      </script>
+</body>
+</html>

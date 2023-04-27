@@ -1,0 +1,313 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-----Favicon----->
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
+
+    <!-----Google Fonts----->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;900&display=swap" rel="stylesheet">
+
+    <!-----Font Awesome----->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!-----Glidejs----->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/css/glide.core.css">
+
+    <!-----Animate Css----->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+    <!-----Custom Css----->
+    <link rel="stylesheet" href="HOME.css">
+
+    <title>SuvidhaKart</title>
+    <style>
+             * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        .row {
+            display: block;
+            margin: 20px 0;
+            display: flex;
+        }
+
+        .column {
+            background-color: white;
+            float: left;
+            margin: 0 10px 10px 0;
+            width: 205px;
+            padding: 10px;
+        }
+
+        h3 {
+            font-size: 1.8rem;
+            font-weight: 900;
+            display: block;
+            border: 1p solid #ccc;
+        }
+  
+        button {
+            padding: 4px 14px;
+            background-color: #f60091;
+            color: rgb(255, 255, 255);
+            text-transform: uppercase;
+            flex: right;
+            margin: 5px 0;
+            font-weight: 400;
+            cursor: pointer;
+            font-family: Tahoma;
+            border-radius: 50px;
+        }
+        .column img{
+        height: 25rem;
+        width: 100%;
+        transition: all 500ms linear;
+        }
+
+        .column:hover img{
+        transform: scale(1.1);
+        }
+        /* Create three equal columns that sits next to each other */
+        .column {
+            flex: 33.33%;
+            padding: 5px;
+        }
+        .color {
+            color: white;
+        }
+
+    </style>
+</head>
+<body class="">
+    <!-----Header----->
+    <header class="header" id="header">
+        <nav class="navigation">
+            <div class="nav-center container">
+                <a href="#home" class="logo">
+                    <h1>SUVIDHA<span>K</span>ART</h1>
+                </a>
+
+                <div class="nav-menu-show">
+                    <div class="nav-top">
+                        <div class="logo">
+                            <h1>SUVIDHA<span>K</span>ART</h1>
+                        </div>
+                        <div class="close">
+                            <i class="fas fa-times"></i>
+
+                        </div>
+                    </div>
+
+                    <ul class="nav-list">
+                        <li class="nav-item">
+                            <a href="#home" class="nav-link scroll-link">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#shop" class="nav-link scroll-link">Products</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#new" class="nav-link scroll-link">New</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#recent" class="nav-link scroll-link">Recent</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#blog" class="nav-link scroll-link">Blog</a>
+                        </li>
+
+                    </ul>
+                </div>
+                <div class="nav-icons">
+                    <a style="color: #f60091;" href="login.html"><span><i class="fas fa-user"></i></span></a>
+                    <span  style="color: #f60091;"><i class="fas fa-search"></i></span>
+                    <span  style="color: #f60091;"><i class="fas fa-shopping-cart"></i></span>
+                </div>
+                <div class="hamburger">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="column">
+                    <img src="https://assets.myntassets.com/f_webp,dpr_1.8,q_60,w_210,c_limit,fl_progressive/assets/images/13803670/2021/6/3/23f574a3-6559-4333-9bce-5602b529c2c31622693713777BedsheetsAuraUnisexBedsheetsAuraUnisexBedsheetsAuraUnisexBed1.jpg" style="width:60%">
+                    <br>
+                    <h3>Aura</h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;"> Printed Dark Blue Cotton Curtain</p>
+                    <p>
+                        Rs. 759
+                    </p>
+                    <button class="add-to-cart" typr="button">
+                        <a class="color" href="page1cur.html">  ADD TO CART </a>
+                    </button>
+
+
+                </div>
+                <div class="column">
+                    <img src="https://assets.myntassets.com/f_webp,dpr_1.8,q_60,w_210,c_limit,fl_progressive/assets/images/productimage/2020/2/25/fd0cc8af-e804-4bbc-97a6-a7a4a30bf90f1582581217835-1.jpg" style="width:60%">
+                    <br>
+                    <h3>Home Sizzler</h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;"> White & Blue Cotton Curtain</p>
+                    <p>
+                        Rs. 599
+                    </p>
+                    <button class="add-to-cart" typr="button">
+                        <a class="color" href="page2cur.html">  ADD TO CART </a>
+                    </button>
+                </div>
+                <div class="column">
+                    <img src="https://assets.myntassets.com/f_webp,dpr_1.8,q_60,w_210,c_limit,fl_progressive/assets/images/productimage/2021/6/1/1dc4e7e8-a0e5-4fb0-9be3-2c15a050a4601622541698433-1.jpg" style="width:60%">
+                    <br>
+                    <h3>Story@home
+                    </h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;"> Velvet Purple Soft & Shiny Curtain</p>
+                    <p>
+                        Rs. 1887
+                    </p>
+                    <button class="add-to-cart" typr="button">
+                        <a class="color" href="page3cur.html"> ADD TO CART </a>
+                    </button>
+                </div>
+                <div class="column">
+                    <img src="https://assets.myntassets.com/f_webp,dpr_1.8,q_60,w_210,c_limit,fl_progressive/assets/images/productimage/2019/12/31/c1137806-35d6-400c-b5ad-79e8f8372e0d1577741796079-1.jpg" style="width:60%">
+                    <br>
+                    <h3>Home sizzler</h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;"> White & Green Cotton Curtain</p>
+                    <p>
+                        Rs. 599
+                    </p>
+                    <button class="add-to-cart" typr="button">
+                        <a class="color" href="page4cur.html">ADD TO CART </a>
+                    </button>
+                </div>
+            </div>
+            <div class="row">
+                <div class="column">
+                    <img src="https://assets.myntassets.com/f_webp,dpr_1.8,q_60,w_210,c_limit,fl_progressive/assets/images/6849042/2018/7/4/16c9c771-64ce-4bc4-9b85-a4b7e36e4ce51530698473095-na-41530698472936-1.jpg" style="width:60%">
+                    <br>
+                    <h3>Story@home</h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;"> Printed Bubbled White Cotton</p>
+                    <p>
+                        Rs. 899
+                    </p>
+                    <button class="add-to-cart" typr="button">
+                        <a class="color" href="page5cur.html"> ADD TO CART </a>
+                    </button>
+                </div>
+                <div class="column">
+                    <img src="https://assets.myntassets.com/f_webp,dpr_1.8,q_60,w_210,c_limit,fl_progressive/assets/images/productimage/2021/6/1/a592b668-6e2b-410c-b208-76433fc865311622558844953-1.jpg" style="width:60%">
+                    <br>
+                    <h3>URBAN SPACE</h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;"> Multicolor Printed Cotton Curtain</p>
+                    <p>
+                        Rs. 1600
+                    </p>
+                    <button class="add-to-cart" typr="button">
+                        <a class="color" href="page6cur.html"> ADD TO CART </a>
+                    </button>
+                </div>
+                <div class="column">
+                    <img src="https://assets.myntassets.com/f_webp,dpr_1.8,q_60,w_210,c_limit,fl_progressive/assets/images/productimage/2021/5/24/d349e516-1d8e-4dab-bea2-dc57dbc6d9e51621855651322-1.jpg" style="width:60%">
+                    <br>
+                    <h3>Story@home</h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;"> White Styled Cotton Curtains</p>
+                    <p>
+                        Rs. 2878
+                    </p>
+                    <button class="add-to-cart" typr="button">
+                        <a class="color" href="page7cur.html"> ADD TO CART </a>
+                    </button>
+                </div>
+                <div class="column">
+                    <img src="https://assets.myntassets.com/f_webp,dpr_1.8,q_60,w_210,c_limit,fl_progressive/assets/images/productimage/2020/2/26/547b9b3f-9962-4e34-852a-1b31d34135d71582672631512-1.jpg" style="width:60%">
+                    <br>
+                    <h3>Home Sizzler</h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;"> Printed Bubbled Blue Cotton Curtains</p>
+                    <p>
+                        Rs. 479
+                    </p>
+                    <button class="add-to-cart" typr="button">
+                        <a class="color" href="page8cur.html">   ADD TO CART </a>
+                    </button>
+                </div>
+
+            </div>
+            <div class="row">
+                <div class="column">
+                    <img src="https://assets.myntassets.com/f_webp,dpr_1.8,q_60,w_210,c_limit,fl_progressive/assets/images/1306841/2016/4/27/11461747818477-SWAYAM-Unisex-Curtains--Sheers-1881461747818183-1.jpg" style="width:60%">
+                    <br>
+                    <h3>SWAYAM</h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;"> Navy Blue & Grey Geometric Print</p>
+                    <p>
+                        Rs. 1124
+                    </p>
+                    <button class="add-to-cart" typr="button">
+                        <a class="color" href="page9cur.html">  ADD TO CART </a>
+                    </button>
+                </div>
+                <div class="column">
+                    <img src="https://assets.myntassets.com/f_webp,dpr_1.8,q_60,w_210,c_limit,fl_progressive/assets/images/productimage/2019/12/29/afe1d782-59ac-4f05-866a-c211503f4a9a1577572896214-1.jpg" style="width:60%">
+                    <br>
+                    <h3>Home Sizzler</h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;"> Geometric Print Double Window Curtain</p>
+                    <p>
+                        Rs. 479
+                    </p>
+                    <button class="add-to-cart" typr="button">
+                        <a class="color" href="page10cur.html"> ADD TO CART </a>
+                    </button>
+                </div>
+                <div class="column">
+                    <img src="https://assets.myntassets.com/f_webp,dpr_1.8,q_60,w_210,c_limit,fl_progressive/assets/images/productimage/2020/11/7/acdc3635-21d7-463a-8b68-7cf6569bdc751604690941707-1.jpg" style="width:60%">
+                    <br>
+                    <h3>URBAN SPACE</h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;">White Print Double Window Curtain</p>
+                    <p>
+                        Rs. 1399
+                    </p>
+                    <button class="add-to-cart" typr="button">
+                        <a class="color" href="page11cur.html">  ADD TO CART </a>
+                    </button>
+                </div>
+                <div class="column">
+                    <img src="https://assets.myntassets.com/f_webp,dpr_1.8,q_60,w_210,c_limit,fl_progressive/assets/images/13803774/2021/6/14/fdef3c5f-d552-4894-b2ca-c4519e8db9eb1623680748959CurtainsandSheersAuraUnisexCurtainsandSheersAuraUnisexCurtai1.jpg" style="width:60%">
+                    <br>
+                    <h3>Aura</h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;"> Brown Print Single Window Curtain</p>
+                    <p>
+                        Rs. 759
+                    </p>
+                    <button class="add-to-cart" typr="button">
+                        <a class="color" href="page12cur.html">  ADD TO CART </a>
+                    </button>
+                </div>
+
+            </div>
+          
+
+
+        </nav>
+    </header>
+
+    <!-----End Header----->
+    <!-----Main----->
+    <!-----End Main----->
+    <!-----Footer----->
+    <!-----End Footer----->
+    <!-----Glidejs----->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/glide.min.js"></script>
+
+    <!-----Scripts----->
+    <script src="./js/index.js"></script>
+    <script src="./js/product.js"></script>
+    <script src="./js/slider.js"></script>
+</body>
+</html>

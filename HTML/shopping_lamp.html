@@ -1,0 +1,313 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-----Favicon----->
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
+
+    <!-----Google Fonts----->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;900&display=swap" rel="stylesheet">
+
+    <!-----Font Awesome----->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!-----Glidejs----->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/css/glide.core.css">
+
+    <!-----Animate Css----->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+    <!-----Custom Css----->
+    <link rel="stylesheet" href="HOME.css">
+
+    <title>SuvidhaKart</title>
+    <style>
+            * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        .row {
+            display: block;
+            margin: 20px 0;
+            display: flex;
+        }
+
+        .column {
+            background-color: white;
+            float: left;
+            margin: 0 10px 10px 0;
+            width: 205px;
+            padding: 10px;
+        }
+
+        h3 {
+            font-size: 1.8rem;
+            font-weight: 900;
+            display: block;
+            border: 1p solid #ccc;
+        }
+  
+        button {
+            padding: 4px 14px;
+            background-color: #f60091;
+            color: rgb(255, 255, 255);
+            text-transform: uppercase;
+            flex: right;
+            margin: 5px 0;
+            font-weight: 400;
+            cursor: pointer;
+            font-family: Tahoma;
+            border-radius: 50px;
+        }
+        .column img{
+        height: 25rem;
+        width: 100%;
+        transition: all 500ms linear;
+        }
+
+        .column:hover img{
+        transform: scale(1.1);
+        }
+        /* Create three equal columns that sits next to each other */
+        .column {
+            flex: 33.33%;
+            padding: 5px;
+        }
+        .color {
+            color: white;
+        }
+
+    </style>
+</head>
+<body class="">
+    <!-----Header----->
+    <header class="header" id="header">
+        <nav class="navigation">
+            <div class="nav-center container">
+                <a href="#home" class="logo">
+                    <h1>SUVIDHA<span>K</span>ART</h1>
+                </a>
+
+                <div class="nav-menu-show">
+                    <div class="nav-top">
+                        <div class="logo">
+                            <h1>SUVIDHA<span>K</span>ART</h1>
+                        </div>
+                        <div class="close">
+                            <i class="fas fa-times"></i>
+
+                        </div>
+                    </div>
+
+                    <ul class="nav-list">
+                        <li class="nav-item">
+                            <a href="#home" class="nav-link scroll-link">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#shop" class="nav-link scroll-link">Products</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#new" class="nav-link scroll-link">New</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#recent" class="nav-link scroll-link">Recent</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#blog" class="nav-link scroll-link">Blog</a>
+                        </li>
+
+                    </ul>
+                </div>
+                <div class="nav-icons">
+                    <a style="color: #f60091;" href="login.html"><span><i class="fas fa-user"></i></span></a>
+                    <span  style="color: #f60091;"><i class="fas fa-search"></i></span>
+                    <span  style="color: #f60091;"><i class="fas fa-shopping-cart"></i></span>
+                </div>
+                <div class="hamburger">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="column">
+                    <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/7673449/2018/10/24/396c8cf6-8751-4256-a9c7-c4ea2708b7a91540363481436-na-7541540363481277-1.jpg" style="width:60%">
+                    <br>
+                    <h3>Fos lightning</h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;">Solid Handcrafted Table Lamp </p>
+                    <p>
+                        Rs. 8175
+                    </p>
+                    <button class="add-to-cart" typr="button">
+                        <a class="color" href="page1lamp.html">  ADD TO CART </a>
+                    </button>
+
+
+                </div>
+                <div class="column">
+                    <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/productimage/2021/3/1/8a73daa8-2983-4b5a-b611-ee95bb89cb6a1614601848636-1.jpg" style="width:60%">
+                    <br>
+                    <h3>Amoliconcepts</h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;"> Blue & Beige Solid Handcrafted</p>
+                    <p>
+                        Rs. 1040
+                    </p>
+                    <button class="add-to-cart" typr="button">
+                        <a class="color" href="page2lamp.html">  ADD TO CART </a>
+                    </button>
+                </div>
+                <div class="column">
+                    <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/productimage/2020/3/13/7d5baf7e-7ab8-4f5c-9bc2-b884173a46781584049161251-1.jpg" style="width:60%">
+                    <br>
+                    <h3>Homesake
+                    </h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;">Bronze-Toned Self Design Classic </p>
+                    <p>
+                        Rs. 4250
+                    </p>
+                    <button class="add-to-cart" typr="button">
+                        <a class="color" href="page3lamp.html"> ADD TO CART </a>
+                    </button>
+                </div>
+                <div class="column">
+                    <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/productimage/2019/7/15/77be2c15-3bc5-4b7d-a269-0e96c70157f81563190488942-1.jpg" style="width:60%">
+                    <br>
+                    <h3>Fos lightning</h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;">Brown & Black Textured Handcrafted</p>
+                    <p>
+                        Rs. 2775
+                    </p>
+                    <button class="add-to-cart" typr="button">
+                        <a class="color" href="page4lamp.html">ADD TO CART </a>
+                    </button>
+                </div>
+            </div>
+            <div class="row">
+                <div class="column">
+                    <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/productimage/2019/9/30/16fc3cf4-1bc9-48d0-bb74-c16c728506e11569837370085-1.jpg" style="width:60%">
+                    <br>
+                    <h3>Homesake</h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;"> Beige Solid Traditional Wall Lamp </p>
+                    <p>
+                        Rs. 900
+                    </p>
+                    <button class="add-to-cart" typr="button">
+                        <a class="color" href="page5lamp.html"> ADD TO CART </a>
+                    </button>
+                </div>
+                <div class="column">
+                    <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/productimage/2021/1/10/15ba51f8-3153-41e2-b1c3-4e524fafa08d1610238917180-1.jpg" style="width:60%">
+                    <br>
+                    <h3>TAYHAA</h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;"> Copper-Toned Solid Desk Lamp</p>
+                    <p>
+                        Rs. 980
+                    </p>
+                    <button class="add-to-cart" typr="button">
+                        <a class="color" href="page6lamp.html"> ADD TO CART </a>
+                    </button>
+                </div>
+                <div class="column">
+                    <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/productimage/2020/10/25/f4de2942-bbcf-4b8a-895c-6d746bc4094c1603578271592-2.jpg" style="width:60%">
+                    <br>
+                    <h3>Green girgit</h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;">Yellow Solid Hanging Wall Lamp</p>
+                    <p>
+                        Rs. 1250
+                    </p>
+                    <button class="add-to-cart" typr="button">
+                        <a class="color" href="page7lamp.html"> ADD TO CART </a>
+                    </button>
+                </div>
+                <div class="column">
+                    <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/9301219/2019/4/13/29ed0c56-ce65-4b72-bf6a-4715718123161555150745873-Fos-Lighting-Branching-8-Light-Antique-Copper-Chandelier-255-1.jpg" style="width:60%">
+                    <br>
+                    <h3>Fos lightning</h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;"> Black & White Solid Desk Lamps</p>
+                    <p>
+                        Rs. 20775
+                    </p>
+                    <button class="add-to-cart" typr="button">
+                        <a class="color" href="page8lamp.html">   ADD TO CART </a>
+                    </button>
+                </div>
+
+            </div>
+            <div class="row">
+                <div class="column">
+                    <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/productimage/2021/2/25/ccb17fa7-d8ea-4391-bbeb-9b70fd89be951614257191057-1.jpg" style="width:60%">
+                    <br>
+                    <h3>Homesake</h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;">Black & White Solid Wall Lamps</p>
+                    <p>
+                        Rs. 986
+                    </p>
+                    <button class="add-to-cart" typr="button">
+                        <a class="color" href="page9lamp.html">  ADD TO CART </a>
+                    </button>
+                </div>
+                <div class="column">
+                    <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/productimage/2021/1/8/4d4ed29a-0cbe-45c6-8544-7f7a34ae8d7a1610100788849-1.jpg" style="width:60%">
+                    <br>
+                    <h3>Devansh</h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;"> Grey Solid Table Lamp</p>
+                    <p>
+                        Rs. 2799
+                    </p>
+                    <button class="add-to-cart" typr="button">
+                        <a class="color" href="page10lamp.html"> ADD TO CART </a>
+                    </button>
+                </div>
+                <div class="column">
+                    <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/productimage/2019/6/11/16ab41f6-4cf4-42b2-a005-8edd82bb151d1560255725450-1.jpg" style="width:60%">
+                    <br>
+                    <h3>Tayhaa</h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;"> Black Solid Contemporary Table Lantern</p>
+                    <p>
+                        Rs. 1020
+                    </p>
+                    <button class="add-to-cart" typr="button">
+                        <a class="color" href="page11lamp.html">  ADD TO CART </a>
+                    </button>
+                </div>
+                <div class="column">
+                    <img src="https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/productimage/2021/2/24/3ad882b1-84f0-4b7a-94ac-47d509d95a771614151029349-1.jpg" style="width:60%">
+                    <br>
+                    <h3>Homesake</h3>
+                    <p style="font-weight: 300; font-size: 1.2rem;"> Bronze-Toned Solid Classic Country</p>
+                    <p>
+                        Rs. 972
+                    </p>
+                    <button class="add-to-cart" typr="button">
+                        <a class="color" href="page12lamp.html">  ADD TO CART </a>
+                    </button>
+                </div>
+
+            </div>
+            
+
+
+        </nav>
+    </header>
+
+    <!-----End Header----->
+    <!-----Main----->
+    <!-----End Main----->
+    <!-----Footer----->
+    <!-----End Footer----->
+    <!-----Glidejs----->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/glide.min.js"></script>
+
+    <!-----Scripts----->
+    <script src="./js/index.js"></script>
+    <script src="./js/product.js"></script>
+    <script src="./js/slider.js"></script>
+</body>
+</html>
